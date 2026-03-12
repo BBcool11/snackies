@@ -1,0 +1,23 @@
+2026-03-11 19:15:26,530 - INFO - ====== WebDriver manager ======
+2026-03-11 19:15:26,881 - INFO - Get LATEST chromedriver version for google-chrome
+2026-03-11 19:15:27,412 - INFO - Get LATEST chromedriver version for google-chrome
+2026-03-11 19:15:27,840 - INFO - Driver [/Users/zoe/.wdm/drivers/chromedriver/mac64/146.0.7680.72/chromedriver-mac-arm64/chromedriver] found in cache
+2026-03-11 19:15:28,866 - INFO - ✅ Chrome浏览器初始化成功
+2026-03-11 19:15:28,868 - INFO - 🔍 访问: https://image.baidu.com/search/index?tn=baiduimage&word=%E5%8D%AB%E9%BE%99%E8%BE...
+2026-03-11 19:15:36,917 - INFO - 📸 找到 576 个图片元素
+2026-03-11 19:15:36,962 - INFO - ✅ 提取到 5 个有效图片URL
+2026-03-11 19:15:37,211 - INFO - 💾 已保存: output/辣条/卫龙辣条/卫龙辣条_01.jpg (500x667)
+2026-03-11 19:15:37,369 - INFO - 💾 已保存: output/辣条/卫龙辣条/卫龙辣条_02.jpg (500x667)
+2026-03-11 19:15:37,450 - INFO - 💾 已保存: output/辣条/卫龙辣条/卫龙辣条_03.jpg (500x500)
+2026-03-11 19:15:40,124 - INFO - 🔍 访问: https://image.baidu.com/search/index?tn=baiduimage&word=%E5%A4%A7%E7%99%BD%E5%85...
+2026-03-11 19:15:51,677 - INFO - 📸 找到 534 个图片元素
+2026-03-11 19:15:51,708 - INFO - ✅ 提取到 5 个有效图片URL
+2026-03-11 19:15:52,046 - INFO - 💾 已保存: output/糖果/大白兔奶糖/大白兔奶糖_01.jpg (500x653)
+2026-03-11 19:15:52,249 - INFO - 💾 已保存: output/糖果/大白兔奶糖/大白兔奶糖_02.jpg (630x500)
+2026-03-11 19:15:52,357 - INFO - 💾 已保存: output/糖果/大白兔奶糖/大白兔奶糖_03.jpg (686x500)
+2026-03-11 19:15:55,993 - INFO - 🔍 访问: https://image.baidu.com/search/index?tn=baiduimage&word=%E4%B9%90%E4%BA%8B%E8%96...
+2026-03-11 19:16:03,391 - INFO - 📸 找到 639 个图片元素
+2026-03-11 19:16:03,424 - INFO - ✅ 提取到 5 个有效图片URL
+2026-03-11 19:16:03,671 - INFO - 💾 已保存: output/膨化食品/乐事薯片/乐事薯片_01.jpg (500x667)
+2026-03-11 19:16:03,753 - INFO - 💾 已保存: output/膨化食品/乐事薯片/乐事薯片_02.jpg (500x667)
+2026-03-11 19:16:03,856 - INFO - 💾 已保存: output/膨化食品/乐事薯片/乐事薯片_03.jpg (500x635)

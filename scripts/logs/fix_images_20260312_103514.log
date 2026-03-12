@@ -1,0 +1,12 @@
+2026-03-12 10:35:14,569 - INFO - ====== WebDriver manager ======
+2026-03-12 10:35:15,077 - INFO - Get LATEST chromedriver version for google-chrome
+2026-03-12 10:35:15,716 - INFO - Get LATEST chromedriver version for google-chrome
+2026-03-12 10:35:16,147 - INFO - Get LATEST chromedriver version for google-chrome
+2026-03-12 10:35:17,310 - INFO - WebDriver version 146.0.7680.72 selected
+2026-03-12 10:35:17,313 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/146.0.7680.72/mac-arm64/chromedriver-mac-arm64.zip
+2026-03-12 10:35:17,314 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/146.0.7680.72/mac-arm64/chromedriver-mac-arm64.zip
+2026-03-12 10:35:17,547 - INFO - Driver downloading response is 200
+2026-03-12 10:35:18,411 - INFO - Get LATEST chromedriver version for google-chrome
+2026-03-12 10:35:18,959 - INFO - Driver has been saved in cache [/Users/zoe/.wdm/drivers/chromedriver/mac64/146.0.7680.72]
+2026-03-12 10:35:18,962 - ERROR - 浏览器初始化失败: Message: Service /Users/zoe/.wdm/drivers/chromedriver/mac64/146.0.7680.72/chromedriver-mac-arm64/chromedriver unexpectedly exited. Status code was: -9
+

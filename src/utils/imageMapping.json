@@ -1,0 +1,28 @@
+{
+  "mapping": {
+    "002": "001",
+    "1": "002",
+    "010": "032"
+  },
+  "specialImages": {
+    "arctic-ocean": "091",
+    "bazooka": null,
+    "bazooka-roll": null,
+    "bibaboo": null,
+    "fig-strips": null,
+    "jianlibao": "092",
+    "little-master": null,
+    "little-raccoon": "050",
+    "lollipop": null,
+    "lonely-god": "037",
+    "mimi": "040",
+    "mylikes": null,
+    "pop-rocks": "058",
+    "wahaha-ad": "093",
+    "want-want-senbei": "038",
+    "wei-long-latiao": "001",
+    "white-rabbit": "051",
+    "wowo": null
+  },
+  "notes": "基于图片内容手动建立，需要逐一核对"
+}

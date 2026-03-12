@@ -1,0 +1,16 @@
+{
+  "provider": "baidu",
+  "baidu": {
+    "appId": "YOUR_APP_ID",
+    "apiKey": "YOUR_API_KEY",
+    "secretKey": "YOUR_SECRET_KEY"
+  },
+  "tencent": {
+    "secretId": "YOUR_SECRET_ID",
+    "secretKey": "YOUR_SECRET_KEY"
+  },
+  "aliyun": {
+    "accessKeyId": "YOUR_ACCESS_KEY_ID",
+    "accessKeySecret": "YOUR_ACCESS_KEY_SECRET"
+  }
+}

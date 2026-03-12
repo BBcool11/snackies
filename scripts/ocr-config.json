@@ -1,0 +1,7 @@
+{
+  "provider": "baidu",
+  "baidu": {
+    "apiKey": "zXHfU6p7XuWlq5vvL9t7aGTi",
+    "secretKey": "0p6XWEgKRK6RMxjThbrZj4t4FfQG8nAy"
+  }
+}

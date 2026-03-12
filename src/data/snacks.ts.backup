@@ -1,0 +1,1708 @@
+import type { Snack } from '@/types';
+
+// 300+种中国零食数据
+export const snacks: Snack[] = [
+  // ===== 一、辣条 & 素肉 (30种) =====
+  {
+    id: '001', name: '卫龙大面筋', nameEn: 'Weilong Big Gluten', category: '辣条', categoryEn: 'Spicy Strips',
+    era: '90后', eraEn: 'Post-90s', flavor: ['辣', '甜', '香'], flavorEn: ['Spicy', 'Sweet', 'Fragrant'],
+    description: '辣条界的扛把子，甜辣适中，口感筋道，是无数90后童年的味道记忆。', descriptionEn: 'The king of spicy strips, with balanced sweet and spicy flavor.',
+    memory: '小学门口小卖部五毛钱一包的奢侈享受，和小伙伴分着吃最香。', memoryEn: 'A luxury treat at the school gate store, best shared with friends.',
+    image: '/images/snacks/001.jpg', origin: '河南漯河', originEn: 'Luohe, Henan',
+    manufacturer: '卫龙食品', manufacturerEn: 'Weilong Food', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '002', name: '卫龙小面筋', nameEn: 'Weilong Small Gluten', category: '辣条', categoryEn: 'Spicy Strips',
+    era: '90后', eraEn: 'Post-90s', flavor: ['辣', '甜'], flavorEn: ['Spicy', 'Sweet'],
+    description: '小巧玲珑的辣条，一口一个，方便分享，味道浓郁。', descriptionEn: 'Bite-sized spicy strips, easy to share with intense flavor.',
+    memory: '课间十分钟的最佳伴侣，藏在书包里偷偷吃。', memoryEn: 'The perfect companion during breaks, secretly eaten from school bags.',
+    image: '/images/snacks/002.jpg', origin: '河南漯河', originEn: 'Luohe, Henan',
+    manufacturer: '卫龙食品', manufacturerEn: 'Weilong Food', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '003', name: '亲嘴烧', nameEn: 'Kiss Burn', category: '辣条', categoryEn: 'Spicy Strips',
+    era: '00后', eraEn: 'Post-00s', flavor: ['辣', '麻', '香'], flavorEn: ['Spicy', 'Numbing', 'Fragrant'],
+    description: '卫龙经典产品，方形小块，麻辣鲜香，口感独特。', descriptionEn: 'Weilong classic product, square pieces with unique numbing spicy flavor.',
+    memory: '高中晚自习后和同桌一起吃的快乐时光。', memoryEn: 'Happy moments eating with desk mates after evening study.',
+    image: '/images/snacks/003.jpg', origin: '河南漯河', originEn: 'Luohe, Henan',
+    manufacturer: '卫龙食品', manufacturerEn: 'Weilong Food', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '004', name: '麻辣王子', nameEn: 'Spicy Prince', category: '辣条', categoryEn: 'Spicy Strips',
+    era: '00后', eraEn: 'Post-00s', flavor: ['辣', '麻', '香'], flavorEn: ['Spicy', 'Numbing', 'Fragrant'],
+    description: '湖南特色辣条，正宗麻辣味，辣而不燥，麻而不苦。', descriptionEn: 'Hunan specialty with authentic numbing spicy flavor.',
+    memory: '大学同学从老家带来的特产，第一次吃就被辣哭了。', memoryEn: 'Brought by college classmates from hometown, cried from the spiciness.',
+    image: '/images/snacks/004.jpg', origin: '湖南长沙', originEn: 'Changsha, Hunan',
+    manufacturer: '麻辣王子', manufacturerEn: 'Spicy Prince', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '005', name: '翻天娃', nameEn: 'Fantianwa', category: '辣条', categoryEn: 'Spicy Strips',
+    era: '90后', eraEn: 'Post-90s', flavor: ['辣', '甜'], flavorEn: ['Spicy', 'Sweet'],
+    description: '湖南老牌辣条，口感软糯，甜辣适中，性价比高。', descriptionEn: 'Classic Hunan brand with soft texture and balanced sweet-spicy flavor.',
+    memory: '放学路上和小伙伴比赛谁更能吃辣。', memoryEn: 'Competing with friends on who could eat more spicy food after school.',
+    image: '/images/snacks/005.jpg', origin: '湖南长沙', originEn: 'Changsha, Hunan',
+    manufacturer: '翻天娃食品', manufacturerEn: 'Fantianwa Food', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '006', name: '唐僧肉', nameEn: 'Tang Monk Meat', category: '辣条', categoryEn: 'Spicy Strips',
+    era: '80后', eraEn: 'Post-80s', flavor: ['辣', '甜'], flavorEn: ['Spicy', 'Sweet'],
+    description: '经典怀旧辣条，名字有趣，味道经典，是80后的童年回忆。', descriptionEn: 'Classic nostalgic snack with an interesting name and classic taste.',
+    memory: '小时候以为吃了真的能长生不老，和小伙伴们抢着买。', memoryEn: 'Childhood belief that eating it would grant immortality.',
+    image: '/images/snacks/006.jpg', origin: '河南', originEn: 'Henan',
+    manufacturer: '地方小厂', manufacturerEn: 'Local Factory', status: '停产', statusEn: 'Discontinued'
+  },
+  {
+    id: '007', name: '香菇肥牛', nameEn: 'Mushroom Beef', category: '素肉', categoryEn: 'Vegetarian Meat',
+    era: '90后', eraEn: 'Post-90s', flavor: ['甜', '咸', '香'], flavorEn: ['Sweet', 'Salty', 'Fragrant'],
+    description: '豆制品素肉，口感似肉非肉，甜咸适中，有嚼劲。', descriptionEn: 'Soy-based vegetarian meat with meat-like texture and balanced flavor.',
+    memory: '初中时每天下午必买一包，配着汽水吃。', memoryEn: 'Daily afternoon purchase in middle school, eaten with soda.',
+    image: '/images/snacks/007.jpg', origin: '广东', originEn: 'Guangdong',
+    manufacturer: '金喜旺', manufacturerEn: 'Jinxiwang', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '008', name: '北京烤鸭', nameEn: 'Beijing Roast Duck', category: '素肉', categoryEn: 'Vegetarian Meat',
+    era: '90后', eraEn: 'Post-90s', flavor: ['甜', '咸', '辣'], flavorEn: ['Sweet', 'Salty', 'Spicy'],
+    description: '豆制品仿烤鸭味，甜辣口感，是校园小卖部的常客。', descriptionEn: 'Soy-based snack imitating roast duck flavor, sweet and spicy.',
+    memory: '小学时春游必带零食，和同学们分享的快乐。', memoryEn: 'Must-have for spring outings in elementary school.',
+    image: '/images/snacks/008.jpg', origin: '河南', originEn: 'Henan',
+    manufacturer: '金喜旺', manufacturerEn: 'Jinxiwang', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '009', name: '留香展翅', nameEn: 'Lasting Wings', category: '素肉', categoryEn: 'Vegetarian Meat',
+    era: '90后', eraEn: 'Post-90s', flavor: ['辣', '香'], flavorEn: ['Spicy', 'Fragrant'],
+    description: '豆制品仿鸡翅形状，香辣味浓，口感有层次。', descriptionEn: 'Wing-shaped soy snack with rich spicy flavor and layered texture.',
+    memory: '初中课间和同学一起分着吃，满教室都是香味。', memoryEn: 'Sharing with classmates during breaks, filling the room with aroma.',
+    image: '/images/snacks/009.jpg', origin: '广东', originEn: 'Guangdong',
+    manufacturer: '金喜旺', manufacturerEn: 'Jinxiwang', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '010', name: '牛仔骨', nameEn: 'Cowboy Bones', category: '素肉', categoryEn: 'Vegetarian Meat',
+    era: '90后', eraEn: 'Post-90s', flavor: ['甜', '辣', '香'], flavorEn: ['Sweet', 'Spicy', 'Fragrant'],
+    description: '豆制品仿牛仔骨形状，甜辣味，口感筋道。', descriptionEn: 'Bone-shaped soy snack with sweet and spicy chewy texture.',
+    memory: '高中时晚自习的提神零食，辣得清醒。', memoryEn: 'Stay-awake snack during evening study in high school.',
+    image: '/images/snacks/010.jpg', origin: '广东', originEn: 'Guangdong',
+    manufacturer: '金喜旺', manufacturerEn: 'Jinxiwang', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '011', name: '火爆鸡筋', nameEn: 'Spicy Chicken Tendon', category: '辣条', categoryEn: 'Spicy Strips',
+    era: '90后', eraEn: 'Post-90s', flavor: ['辣', '香'], flavorEn: ['Spicy', 'Fragrant'],
+    description: '口感类似鸡筋的辣条，辣味十足，嚼劲十足。', descriptionEn: 'Tendon-like spicy strips with intense heat and chewy texture.',
+    memory: '和小伙伴比赛谁吃得多，结果辣得直喝水。', memoryEn: 'Competing with friends on quantity, ended up drinking lots of water.',
+    image: '/images/snacks/011.jpg', origin: '湖南', originEn: 'Hunan',
+    manufacturer: '火爆鸡筋', manufacturerEn: 'Spicy Chicken Tendon', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '012', name: '臭干子', nameEn: 'Stinky Tofu', category: '辣条', categoryEn: 'Spicy Strips',
+    era: '90后', eraEn: 'Post-90s', flavor: ['辣', '咸', '香'], flavorEn: ['Spicy', 'Salty', 'Fragrant'],
+    description: '模仿长沙臭豆腐风味的辣条，闻起来臭吃起来香。', descriptionEn: 'Snack imitating stinky tofu flavor, smells bad but tastes good.',
+    memory: '偷偷在教室吃被老师发现，全班都笑了。', memoryEn: 'Caught by teacher eating secretly in class, the whole class laughed.',
+    image: '/images/snacks/012.jpg', origin: '湖南长沙', originEn: 'Changsha, Hunan',
+    manufacturer: '臭干子', manufacturerEn: 'Stinky Tofu', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '013', name: '素牛筋', nameEn: 'Vegetarian Beef Tendon', category: '素肉', categoryEn: 'Vegetarian Meat',
+    era: '90后', eraEn: 'Post-90s', flavor: ['辣', '香'], flavorEn: ['Spicy', 'Fragrant'],
+    description: '超有嚼劲的素肉零食，一根能吃很久，越嚼越香。', descriptionEn: 'Super chewy vegetarian meat snack, one piece lasts long.',
+    memory: '上课偷吃，一根嚼了一节课都没吃完。', memoryEn: 'Secretly eating in class, one piece lasted the entire period.',
+    image: '/images/snacks/013.jpg', origin: '湖南', originEn: 'Hunan',
+    manufacturer: '素牛筋', manufacturerEn: 'Vegetarian Tendon', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '014', name: '霸王丝', nameEn: 'Overlord Shreds', category: '辣条', categoryEn: 'Spicy Strips',
+    era: '00后', eraEn: 'Post-00s', flavor: ['辣', '麻', '香'], flavorEn: ['Spicy', 'Numbing', 'Fragrant'],
+    description: '细丝状辣条，麻辣味浓，入口即化又劲道。', descriptionEn: 'Fine shreds of spicy strips with intense numbing spicy flavor.',
+    memory: '大学宿舍必备，追剧时不知不觉就吃完一包。', memoryEn: 'Dorm essential, finished a pack unknowingly while binge-watching.',
+    image: '/images/snacks/014.jpg', origin: '湖南', originEn: 'Hunan',
+    manufacturer: '霸王丝', manufacturerEn: 'Overlord Shreds', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '015', name: '飞旺八宝里青丝', nameEn: 'Feiwang Eight Treasures', category: '辣条', categoryEn: 'Spicy Strips',
+    era: '90后', eraEn: 'Post-90s', flavor: ['辣', '甜'], flavorEn: ['Spicy', 'Sweet'],
+    description: '湖南特色辣条，八种香料调配，味道层次丰富。', descriptionEn: 'Hunan specialty with eight spices, rich layered flavor.',
+    memory: '放学后和小伙伴一起分享的快乐时光。', memoryEn: 'Happy times sharing with friends after school.',
+    image: '/images/snacks/015.jpg', origin: '湖南', originEn: 'Hunan',
+    manufacturer: '飞旺', manufacturerEn: 'Feiwang', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '016', name: '君仔火爆鸡筋', nameEn: 'Junzai Spicy Chicken', category: '辣条', categoryEn: 'Spicy Strips',
+    era: '90后', eraEn: 'Post-90s', flavor: ['辣', '香'], flavorEn: ['Spicy', 'Fragrant'],
+    description: '经典鸡筋辣条，口感Q弹，辣味适中。', descriptionEn: 'Classic chicken tendon spicy strips, bouncy texture.',
+    memory: '小学时最喜欢的辣条品牌之一。', memoryEn: 'One of my favorite spicy strip brands in elementary school.',
+    image: '/images/snacks/016.jpg', origin: '湖南', originEn: 'Hunan',
+    manufacturer: '君仔', manufacturerEn: 'Junzai', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '017', name: '宇仔大刀肉', nameEn: 'Yuzai Big Blade Meat', category: '辣条', categoryEn: 'Spicy Strips',
+    era: '90后', eraEn: 'Post-90s', flavor: ['辣', '甜'], flavorEn: ['Spicy', 'Sweet'],
+    description: '大块辣条，一口满足，甜辣口味。', descriptionEn: 'Large spicy strips, satisfying in one bite, sweet and spicy.',
+    memory: '一大包里面有好多小块，可以分给大家。', memoryEn: 'A big pack with many small pieces to share.',
+    image: '/images/snacks/017.jpg', origin: '湖南', originEn: 'Hunan',
+    manufacturer: '宇仔', manufacturerEn: 'Yuzai', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '018', name: '鸽鸽豆角干', nameEn: 'Gege Bean Strip', category: '辣条', categoryEn: 'Spicy Strips',
+    era: '00后', eraEn: 'Post-00s', flavor: ['辣', '蒜', '香'], flavorEn: ['Spicy', 'Garlic', 'Fragrant'],
+    description: '江西特色辣条，蒜香味浓，口感独特。', descriptionEn: 'Jiangxi specialty with strong garlic flavor, unique texture.',
+    memory: '第一次吃蒜香味的辣条，觉得很特别。', memoryEn: 'First time eating garlic-flavored spicy strips, very special.',
+    image: '/images/snacks/018.jpg', origin: '江西', originEn: 'Jiangxi',
+    manufacturer: '鸽鸽', manufacturerEn: 'Gege', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '019', name: '花蝴蝶辣片', nameEn: 'Flower Butterfly', category: '辣条', categoryEn: 'Spicy Strips',
+    era: '90后', eraEn: 'Post-90s', flavor: ['辣', '香'], flavorEn: ['Spicy', 'Fragrant'],
+    description: '萍乡特色大辣片，豆香浓郁，辣味十足。', descriptionEn: 'Pingxiang specialty large spicy slice, rich bean aroma.',
+    memory: '一大张可以撕着吃，能吃很久。', memoryEn: 'A large piece that can be torn and eaten for a long time.',
+    image: '/images/snacks/019.jpg', origin: '江西萍乡', originEn: 'Pingxiang, Jiangxi',
+    manufacturer: '花蝴蝶', manufacturerEn: 'Flower Butterfly', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '020', name: '鞋底辣片', nameEn: 'Sole Spicy Slice', category: '辣条', categoryEn: 'Spicy Strips',
+    era: '00后', eraEn: 'Post-00s', flavor: ['辣', '变态辣'], flavorEn: ['Spicy', 'Extreme Spicy'],
+    description: '江西特色变态辣辣片，挑战味蕾极限。', descriptionEn: 'Jiangxi specialty extreme spicy slice, challenges taste buds.',
+    memory: '吃了一口就辣得受不了，但是停不下来。', memoryEn: 'Couldn\'t handle the spiciness after one bite, but couldn\'t stop.',
+    image: '/images/snacks/020.jpg', origin: '江西', originEn: 'Jiangxi',
+    manufacturer: '鞋底', manufacturerEn: 'Sole', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '021', name: '五毛辣条', nameEn: 'Five-cent Spicy Strip', category: '辣条', categoryEn: 'Spicy Strips',
+    era: '80后', eraEn: 'Post-80s', flavor: ['辣', '甜'], flavorEn: ['Spicy', 'Sweet'],
+    description: '最经典的五毛钱辣条，童年记忆的代表。', descriptionEn: 'The classic five-cent spicy strip, representative of childhood memories.',
+    memory: '口袋里只有五毛钱时的最佳选择。', memoryEn: 'The best choice when you only had five cents in your pocket.',
+    image: '/images/snacks/021.jpg', origin: '河南', originEn: 'Henan',
+    manufacturer: '地方小厂', manufacturerEn: 'Local Factory', status: '停产', statusEn: 'Discontinued'
+  },
+  {
+    id: '022', name: '神雕侠侣辣片', nameEn: 'Condor Heroes', category: '辣条', categoryEn: 'Spicy Strips',
+    era: '90后', eraEn: 'Post-90s', flavor: ['辣', '甜'], flavorEn: ['Spicy', 'Sweet'],
+    description: '双片装辣片，一黑一白，创意十足。', descriptionEn: 'Double slice pack, one black one white, very creative.',
+    memory: '和好朋友一人一片，象征着友谊。', memoryEn: 'One piece each with a good friend, symbolizing friendship.',
+    image: '/images/snacks/022.jpg', origin: '湖南', originEn: 'Hunan',
+    manufacturer: '神雕侠侣', manufacturerEn: 'Condor Heroes', status: '绝版', statusEn: 'Rare'
+  },
+  {
+    id: '023', name: '小滑头辣片', nameEn: 'Little Rascal', category: '辣条', categoryEn: 'Spicy Strips',
+    era: '90后', eraEn: 'Post-90s', flavor: ['辣', '甜'], flavorEn: ['Spicy', 'Sweet'],
+    description: '薄如纸片的辣片，口感柔软，甜辣味。', descriptionEn: 'Paper-thin spicy slice, soft texture, sweet and spicy.',
+    memory: '夹在馒头里吃，是最美味的搭配。', memoryEn: 'Eaten in a steamed bun, the most delicious combination.',
+    image: '/images/snacks/023.jpg', origin: '湖南', originEn: 'Hunan',
+    manufacturer: '小滑头', manufacturerEn: 'Little Rascal', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '024', name: '绿爽辣片', nameEn: 'Green Cool', category: '辣条', categoryEn: 'Spicy Strips',
+    era: '90后', eraEn: 'Post-90s', flavor: ['辣', '甜'], flavorEn: ['Spicy', 'Sweet'],
+    description: '绿色包装的辣片，口感清爽不油腻。', descriptionEn: 'Green packaged spicy slice, refreshing and not greasy.',
+    memory: '夏天吃也不会觉得腻的辣条。', memoryEn: 'A spicy strip that doesn\'t feel greasy even in summer.',
+    image: '/images/snacks/024.jpg', origin: '湖南', originEn: 'Hunan',
+    manufacturer: '绿爽', manufacturerEn: 'Green Cool', status: '绝版', statusEn: 'Rare'
+  },
+  {
+    id: '025', name: '嘴巴香', nameEn: 'Mouth Fragrance', category: '辣条', categoryEn: 'Spicy Strips',
+    era: '90后', eraEn: 'Post-90s', flavor: ['辣', '香'], flavorEn: ['Spicy', 'Fragrant'],
+    description: '小颗粒辣条，一口一把，香味浓郁。', descriptionEn: 'Small grain spicy strips, handful at a time, rich aroma.',
+    memory: '和小伙伴比赛谁一把吃得多。', memoryEn: 'Competing with friends on who could eat more at once.',
+    image: '/images/snacks/025.jpg', origin: '河南', originEn: 'Henan',
+    manufacturer: '嘴巴香', manufacturerEn: 'Mouth Fragrance', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '026', name: 'kk星辣条', nameEn: 'KK Star', category: '辣条', categoryEn: 'Spicy Strips',
+    era: '00后', eraEn: 'Post-00s', flavor: ['辣', '甜'], flavorEn: ['Spicy', 'Sweet'],
+    description: '星星形状的辣条，可爱又好吃。', descriptionEn: 'Star-shaped spicy strips, cute and delicious.',
+    memory: '因为形状可爱才买，没想到味道也不错。', memoryEn: 'Bought because of the cute shape, didn\'t expect good taste too.',
+    image: '/images/snacks/026.jpg', origin: '湖南', originEn: 'Hunan',
+    manufacturer: 'kk星', manufacturerEn: 'KK Star', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '027', name: '猪宝贝', nameEn: 'Pig Baby', category: '辣条', categoryEn: 'Spicy Strips',
+    era: '90后', eraEn: 'Post-90s', flavor: ['辣', '甜'], flavorEn: ['Spicy', 'Sweet'],
+    description: '小圆柱形辣条，口感软糯，甜辣味。', descriptionEn: 'Small cylindrical spicy strips, soft texture, sweet and spicy.',
+    memory: '形状像小香肠，很可爱。', memoryEn: 'Shaped like small sausages, very cute.',
+    image: '/images/snacks/027.jpg', origin: '湖南', originEn: 'Hunan',
+    manufacturer: '猪宝贝', manufacturerEn: 'Pig Baby', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '028', name: '牛板筋', nameEn: 'Beef Tendon', category: '辣条', categoryEn: 'Spicy Strips',
+    era: '90后', eraEn: 'Post-90s', flavor: ['辣', '香'], flavorEn: ['Spicy', 'Fragrant'],
+    description: '仿牛板筋口感的辣条，嚼劲十足。', descriptionEn: 'Spicy strip imitating beef tendon texture, very chewy.',
+    memory: '咬起来很有韧性，越嚼越香。', memoryEn: 'Very resilient when bitten, more fragrant the more you chew.',
+    image: '/images/snacks/028.jpg', origin: '四川', originEn: 'Sichuan',
+    manufacturer: '牛板筋', manufacturerEn: 'Beef Tendon', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '029', name: '泡椒牛板筋', nameEn: 'Pickled Pepper Beef', category: '辣条', categoryEn: 'Spicy Strips',
+    era: '00后', eraEn: 'Post-00s', flavor: ['辣', '酸', '香'], flavorEn: ['Spicy', 'Sour', 'Fragrant'],
+    description: '泡椒味牛板筋，酸辣开胃，口感独特。', descriptionEn: 'Pickled pepper beef tendon, sour and spicy appetizer.',
+    memory: '第一次吃泡椒味的辣条，很惊艳。', memoryEn: 'First time eating pickled pepper flavored spicy strips, amazing.',
+    image: '/images/snacks/029.jpg', origin: '四川', originEn: 'Sichuan',
+    manufacturer: '泡椒牛板筋', manufacturerEn: 'Pickled Pepper Beef', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '030', name: '酒鬼辣条', nameEn: 'Drunkard Spicy Strip', category: '辣条', categoryEn: 'Spicy Strips',
+    era: '90后', eraEn: 'Post-90s', flavor: ['辣', '香'], flavorEn: ['Spicy', 'Fragrant'],
+    description: '麻辣味十足的辣条，配酒最佳。', descriptionEn: 'Full of numbing spicy flavor, best with alcohol.',
+    memory: '大人喝酒时的下酒菜，小孩也爱吃。', memoryEn: 'Adults\' drinking snack, kids love it too.',
+    image: '/images/snacks/030.jpg', origin: '四川', originEn: 'Sichuan',
+    manufacturer: '酒鬼', manufacturerEn: 'Drunkard', status: '在售', statusEn: 'Available'
+  },
+
+  // ===== 二、膨化食品 (40种) =====
+  {
+    id: '031', name: '乐事原味薯片', nameEn: 'Lay\'s Original', category: '膨化', categoryEn: 'Puffed Snacks',
+    era: '90后', eraEn: 'Post-90s', flavor: ['咸', '香'], flavorEn: ['Salty', 'Fragrant'],
+    description: '经典原味薯片，薄脆可口，土豆香气浓郁。', descriptionEn: 'Classic original potato chips, thin and crispy.',
+    memory: '周末在家看电影的标配，一吃就停不下来。', memoryEn: 'Weekend movie essential, can\'t stop eating once started.',
+    image: '/images/snacks/031.jpg', origin: '美国', originEn: 'USA',
+    manufacturer: '百事食品', manufacturerEn: 'PepsiCo', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '032', name: '乐事黄瓜味薯片', nameEn: 'Lay\'s Cucumber', category: '膨化', categoryEn: 'Puffed Snacks',
+    era: '00后', eraEn: 'Post-00s', flavor: ['清新', '咸'], flavorEn: ['Fresh', 'Salty'],
+    description: '清爽黄瓜味薯片，口感清新不油腻，夏日首选。', descriptionEn: 'Refreshing cucumber chips, light and not greasy.',
+    memory: '夏天空调房里追剧的最佳伴侣，清爽解腻。', memoryEn: 'Perfect companion for binge-watching in air-conditioned rooms.',
+    image: '/images/snacks/032.jpg', origin: '中国', originEn: 'China',
+    manufacturer: '百事食品', manufacturerEn: 'PepsiCo', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '033', name: '乐事青柠味薯片', nameEn: 'Lay\'s Lime', category: '膨化', categoryEn: 'Puffed Snacks',
+    era: '00后', eraEn: 'Post-00s', flavor: ['酸', '清新'], flavorEn: ['Sour', 'Fresh'],
+    description: '青柠口味薯片，酸甜清爽，口感独特。', descriptionEn: 'Lime-flavored chips with unique sweet and sour taste.',
+    memory: '和朋友聚会时最受欢迎的口味，总是最先被抢完。', memoryEn: 'Most popular flavor at gatherings, always first to run out.',
+    image: '/images/snacks/033.jpg', origin: '中国', originEn: 'China',
+    manufacturer: '百事食品', manufacturerEn: 'PepsiCo', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '034', name: '可比克原味薯片', nameEn: 'Copico Original', category: '膨化', categoryEn: 'Puffed Snacks',
+    era: '90后', eraEn: 'Post-90s', flavor: ['咸', '香'], flavorEn: ['Salty', 'Fragrant'],
+    description: '国产经典薯片品牌，厚切工艺，口感扎实。', descriptionEn: 'Classic domestic chip brand with thick-cut process.',
+    memory: '小时候过年才能吃到的奢侈品，现在随时都能买。', memoryEn: 'A luxury only for New Year as a child, now available anytime.',
+    image: '/images/snacks/034.jpg', origin: '中国', originEn: 'China',
+    manufacturer: '达利食品', manufacturerEn: 'Dali Food', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '035', name: '上好佳鲜虾片', nameEn: 'Oishi Shrimp Chips', category: '膨化', categoryEn: 'Puffed Snacks',
+    era: '90后', eraEn: 'Post-90s', flavor: ['鲜', '咸', '香'], flavorEn: ['Fresh', 'Salty', 'Fragrant'],
+    description: '经典虾片零食，虾味浓郁，口感蓬松酥脆。', descriptionEn: 'Classic shrimp chips with rich shrimp flavor.',
+    memory: '过年时家里必备的年货，一打开就被抢光。', memoryEn: 'Essential New Year snack, gone as soon as opened.',
+    image: '/images/snacks/035.jpg', origin: '菲律宾', originEn: 'Philippines',
+    manufacturer: '上好佳', manufacturerEn: 'Oishi', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '036', name: '上好佳洋葱圈', nameEn: 'Oishi Onion Rings', category: '膨化', categoryEn: 'Puffed Snacks',
+    era: '90后', eraEn: 'Post-90s', flavor: ['咸', '香'], flavorEn: ['Salty', 'Fragrant'],
+    description: '洋葱味膨化零食，圆环形状，口感轻盈。', descriptionEn: 'Onion-flavored puffed snacks in ring shape.',
+    memory: '套在手指上一个个吃，是童年最有趣的游戏。', memoryEn: 'Putting on fingers and eating one by one, childhood\'s fun game.',
+    image: '/images/snacks/036.jpg', origin: '菲律宾', originEn: 'Philippines',
+    manufacturer: '上好佳', manufacturerEn: 'Oishi', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '037', name: '浪味仙', nameEn: 'Lonely God', category: '膨化', categoryEn: 'Puffed Snacks',
+    era: '90后', eraEn: 'Post-90s', flavor: ['甜', '咸'], flavorEn: ['Sweet', 'Salty'],
+    description: '旺旺经典产品，螺旋形状，蔬菜口味，口感独特。', descriptionEn: 'Want Want classic product, spiral shape with vegetable flavor.',
+    memory: '小时候觉得名字很特别，吃起来停不下来。', memoryEn: 'Thought the name was special as a child, couldn\'t stop eating.',
+    image: '/images/snacks/037.jpg', origin: '中国台湾', originEn: 'Taiwan, China',
+    manufacturer: '旺旺集团', manufacturerEn: 'Want Want', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '038', name: '旺旺仙贝', nameEn: 'Want Want Senbei', category: '膨化', categoryEn: 'Puffed Snacks',
+    era: '80后', eraEn: 'Post-80s', flavor: ['咸', '甜'], flavorEn: ['Salty', 'Sweet'],
+    description: '经典日式米果，外层有酱油调味粉，咸甜适中。', descriptionEn: 'Classic Japanese-style rice cracker with soy sauce seasoning.',
+    memory: '过年拜年收到的最常见礼物，一吃就停不下来。', memoryEn: 'Most common gift during New Year visits, addictive once started.',
+    image: '/images/snacks/038.jpg', origin: '中国台湾', originEn: 'Taiwan, China',
+    manufacturer: '旺旺集团', manufacturerEn: 'Want Want', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '039', name: '旺旺雪饼', nameEn: 'Want Want Snow', category: '膨化', categoryEn: 'Puffed Snacks',
+    era: '80后', eraEn: 'Post-80s', flavor: ['甜'], flavorEn: ['Sweet'],
+    description: '圆形米果表面有白色糖霜，口感酥脆香甜。', descriptionEn: 'Round rice crackers with white sugar coating, crispy and sweet.',
+    memory: '小时候最喜欢舔上面的糖霜，甜甜的特别好吃。', memoryEn: 'Loved licking the sugar coating as a child, sweet and delicious.',
+    image: '/images/snacks/039.jpg', origin: '中国台湾', originEn: 'Taiwan, China',
+    manufacturer: '旺旺集团', manufacturerEn: 'Want Want', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '040', name: '咪咪虾条', nameEn: 'Mimi Shrimp Sticks', category: '膨化', categoryEn: 'Puffed Snacks',
+    era: '90后', eraEn: 'Post-90s', flavor: ['咸', '香'], flavorEn: ['Salty', 'Fragrant'],
+    description: '马来西亚经典虾条，小包装，虾味浓郁。', descriptionEn: 'Malaysian classic shrimp sticks in small packages.',
+    memory: '五毛钱一包的快乐，和小伙伴分着吃最香。', memoryEn: 'Five-cent happiness, best when shared with friends.',
+    image: '/images/snacks/040.jpg', origin: '马来西亚', originEn: 'Malaysia',
+    manufacturer: '咪咪', manufacturerEn: 'Mimi', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '041', name: '蟹味粒', nameEn: 'Crab Flavor Pellets', category: '膨化', categoryEn: 'Puffed Snacks',
+    era: '90后', eraEn: 'Post-90s', flavor: ['鲜', '咸'], flavorEn: ['Fresh', 'Salty'],
+    description: '小方块膨化零食，蟹味浓郁，口感酥脆。', descriptionEn: 'Small cube puffed snacks with rich crab flavor.',
+    memory: '和咪咪虾条一起买，两种口味换着吃。', memoryEn: 'Bought together with Mimi shrimp sticks, alternating flavors.',
+    image: '/images/snacks/041.jpg', origin: '马来西亚', originEn: 'Malaysia',
+    manufacturer: '咪咪', manufacturerEn: 'Mimi', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '042', name: '妙脆角', nameEn: 'Bugles', category: '膨化', categoryEn: 'Puffed Snacks',
+    era: '90后', eraEn: 'Post-90s', flavor: ['咸', '香'], flavorEn: ['Salty', 'Fragrant'],
+    description: '三角锥形膨化零食，玉米口味，口感酥脆。', descriptionEn: 'Triangular cone-shaped puffed snacks with corn flavor.',
+    memory: '套在手指上假装是巫婆的指甲，边吃边玩。', memoryEn: 'Putting on fingers pretending to be witch nails, eating while playing.',
+    image: '/images/snacks/042.jpg', origin: '美国', originEn: 'USA',
+    manufacturer: '通用磨坊', manufacturerEn: 'General Mills', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '043', name: '奇多', nameEn: 'Cheetos', category: '膨化', categoryEn: 'Puffed Snacks',
+    era: '90后', eraEn: 'Post-90s', flavor: ['咸', '香', '芝士'], flavorEn: ['Salty', 'Fragrant', 'Cheese'],
+    description: '芝士味玉米条，口感蓬松，吃完手指会染成橙色。', descriptionEn: 'Cheese-flavored corn puffs, fingers turn orange after eating.',
+    memory: '吃完舔手指是标准动作，橙色的手指很有成就感。', memoryEn: 'Licking fingers after eating was standard, orange fingers felt accomplished.',
+    image: '/images/snacks/043.jpg', origin: '美国', originEn: 'USA',
+    manufacturer: '百事食品', manufacturerEn: 'PepsiCo', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '044', name: '呀!土豆', nameEn: 'Ya! Potato', category: '膨化', categoryEn: 'Puffed Snacks',
+    era: '00后', eraEn: 'Post-00s', flavor: ['咸', '香', '番茄'], flavorEn: ['Salty', 'Fragrant', 'Tomato'],
+    description: '空心薯条零食，番茄酱口味，口感酥脆。', descriptionEn: 'Hollow French fry snacks with ketchup flavor.',
+    memory: '高中课间和同学分享，一根根吃很有仪式感。', memoryEn: 'Sharing with classmates during breaks, eating one by one felt ceremonial.',
+    image: '/images/snacks/044.jpg', origin: '中国', originEn: 'China',
+    manufacturer: '好丽友', manufacturerEn: 'Orion', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '045', name: '薯愿', nameEn: 'Shu Yuan', category: '膨化', categoryEn: 'Puffed Snacks',
+    era: '00后', eraEn: 'Post-00s', flavor: ['咸', '香'], flavorEn: ['Salty', 'Fragrant'],
+    description: '非油炸薯片，口感更清爽，健康选择。', descriptionEn: 'Non-fried potato chips with lighter texture, healthier choice.',
+    memory: '妈妈允许吃的"健康"零食，比普通薯片安心。', memoryEn: 'Mom-approved "healthy" snack, more reassuring than regular chips.',
+    image: '/images/snacks/045.jpg', origin: '中国', originEn: 'China',
+    manufacturer: '好丽友', manufacturerEn: 'Orion', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '046', name: '好友趣', nameEn: 'Hao You Qu', category: '膨化', categoryEn: 'Puffed Snacks',
+    era: '00后', eraEn: 'Post-00s', flavor: ['咸', '香', '蜂蜜'], flavorEn: ['Salty', 'Fragrant', 'Honey'],
+    description: '厚切薯片，蜂蜜黄油口味，甜咸结合。', descriptionEn: 'Thick-cut chips with honey butter flavor, sweet and salty.',
+    memory: '第一次吃蜂蜜味薯片就被惊艳到了，从此爱上。', memoryEn: 'Amazed by honey-flavored chips on first try, fell in love since.',
+    image: '/images/snacks/046.jpg', origin: '中国', originEn: 'China',
+    manufacturer: '好丽友', manufacturerEn: 'Orion', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '047', name: '多力多滋', nameEn: 'Doritos', category: '膨化', categoryEn: 'Puffed Snacks',
+    era: '90后', eraEn: 'Post-90s', flavor: ['咸', '香', '芝士'], flavorEn: ['Salty', 'Fragrant', 'Cheese'],
+    description: '三角玉米片，芝士味浓郁，口感酥脆有嚼劲。', descriptionEn: 'Triangular tortilla chips with rich cheese flavor.',
+    memory: '看美剧时必备零食，感觉自己很国际化。', memoryEn: 'Essential for watching American TV shows, felt international.',
+    image: '/images/snacks/047.jpg', origin: '美国', originEn: 'USA',
+    manufacturer: '百事食品', manufacturerEn: 'PepsiCo', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '048', name: '粟米条', nameEn: 'Corn Sticks', category: '膨化', categoryEn: 'Puffed Snacks',
+    era: '90后', eraEn: 'Post-90s', flavor: ['甜', '奶油'], flavorEn: ['Sweet', 'Cream'],
+    description: '上好佳经典产品，玉米条裹奶油，香甜可口。', descriptionEn: 'Oishi classic product, corn sticks coated with cream.',
+    memory: '小时候觉得这是最高级的零食，奶香味很诱人。', memoryEn: 'Thought this was the most premium snack as a child, creamy aroma tempting.',
+    image: '/images/snacks/048.jpg', origin: '菲律宾', originEn: 'Philippines',
+    manufacturer: '上好佳', manufacturerEn: 'Oishi', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '049', name: '爆米花', nameEn: 'Popcorn', category: '膨化', categoryEn: 'Puffed Snacks',
+    era: '80后', eraEn: 'Post-80s', flavor: ['甜', '奶油'], flavorEn: ['Sweet', 'Cream'],
+    description: '电影院标配零食，奶油香味浓郁，口感酥脆。', descriptionEn: 'Cinema essential snack with rich butter aroma.',
+    memory: '看电影时抱着一大桶，和喜欢的人分享最甜蜜。', memoryEn: 'Holding a big bucket during movies, sweetest when shared with someone liked.',
+    image: '/images/snacks/049.jpg', origin: '美国', originEn: 'USA',
+    manufacturer: '各品牌', manufacturerEn: 'Various Brands', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '050', name: '旺旺小小酥', nameEn: 'Want Want Mini Crisp', category: '膨化', categoryEn: 'Puffed Snacks',
+    era: '90后', eraEn: 'Post-90s', flavor: ['咸', '香'], flavorEn: ['Salty', 'Fragrant'],
+    description: '小巧酥脆的米制零食，一口一个，香脆可口。', descriptionEn: 'Small crispy rice snacks, one bite at a time.',
+    memory: '看动画片时的最佳零食，咔嚓咔嚓很过瘾。', memoryEn: 'Best snack for watching cartoons, crunchy and satisfying.',
+    image: '/images/snacks/050.jpg', origin: '中国台湾', originEn: 'Taiwan, China',
+    manufacturer: '旺旺集团', manufacturerEn: 'Want Want', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '051', name: '旺旺大米饼', nameEn: 'Want Want Rice Cake', category: '膨化', categoryEn: 'Puffed Snacks',
+    era: '90后', eraEn: 'Post-90s', flavor: ['咸', '甜'], flavorEn: ['Salty', 'Sweet'],
+    description: '大米制成的圆形饼，口感酥脆，米香浓郁。', descriptionEn: 'Round rice cake, crispy texture with rich rice aroma.',
+    memory: '过年时亲戚送来的大礼包里总有这个。', memoryEn: 'Always in the gift pack from relatives during New Year.',
+    image: '/images/snacks/051.jpg', origin: '中国台湾', originEn: 'Taiwan, China',
+    manufacturer: '旺旺集团', manufacturerEn: 'Want Want', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '052', name: '旺旺黑皮冰爆', nameEn: 'Want Want Black Ice', category: '膨化', categoryEn: 'Puffed Snacks',
+    era: '00后', eraEn: 'Post-00s', flavor: ['甜', '清凉'], flavorEn: ['Sweet', 'Cool'],
+    description: '夏日清凉零食，口感冰爽，解暑神器。', descriptionEn: 'Summer cool snack, refreshing taste, heat relief.',
+    memory: '夏天放学回家必买的清凉零食。', memoryEn: 'Must-buy cool snack after school in summer.',
+    image: '/images/snacks/052.jpg', origin: '中国台湾', originEn: 'Taiwan, China',
+    manufacturer: '旺旺集团', manufacturerEn: 'Want Want', status: '停产', statusEn: 'Discontinued'
+  },
+  {
+    id: '053', name: '卡迪那空心脆', nameEn: 'Cadina Hollow Crisp', category: '膨化', categoryEn: 'Puffed Snacks',
+    era: '90后', eraEn: 'Post-90s', flavor: ['咸', '香'], flavorEn: ['Salty', 'Fragrant'],
+    description: '螺旋形状的空心脆，口感轻盈酥脆。', descriptionEn: 'Spiral-shaped hollow crisp, light and crispy.',
+    memory: '小时候觉得螺旋形状很神奇，吃起来很有趣。', memoryEn: 'Thought the spiral shape was magical as a child, fun to eat.',
+    image: '/images/snacks/053.jpg', origin: '中国', originEn: 'China',
+    manufacturer: '卡迪那', manufacturerEn: 'Cadina', status: '绝版', statusEn: 'Rare'
+  },
+  {
+    id: '054', name: '卡迪那通心脆', nameEn: 'Cadina Tube Crisp', category: '膨化', categoryEn: 'Puffed Snacks',
+    era: '90后', eraEn: 'Post-90s', flavor: ['咸', '香', '番茄'], flavorEn: ['Salty', 'Fragrant', 'Tomato'],
+    description: '通心粉形状的膨化零食，番茄味浓郁。', descriptionEn: 'Macaroni-shaped puffed snacks with rich tomato flavor.',
+    memory: '可以套在手指上吃，边吃边玩。', memoryEn: 'Can put on fingers to eat, eating while playing.',
+    image: '/images/snacks/054.jpg', origin: '中国', originEn: 'China',
+    manufacturer: '卡迪那', manufacturerEn: 'Cadina', status: '绝版', statusEn: 'Rare'
+  },
+  {
+    id: '055', name: '乖乖脆果', nameEn: 'Kuai Kuai Crisp', category: '膨化', categoryEn: 'Puffed Snacks',
+    era: '80后', eraEn: 'Post-80s', flavor: ['甜', '奶油'], flavorEn: ['Sweet', 'Cream'],
+    description: '台湾经典膨化零食，奶油玉米口味，口感酥脆。', descriptionEn: 'Taiwan classic puffed snack, cream corn flavor.',
+    memory: '过年时才能吃到的进口零食，很珍贵。', memoryEn: 'Imported snack only for New Year, very precious.',
+    image: '/images/snacks/055.jpg', origin: '中国台湾', originEn: 'Taiwan, China',
+    manufacturer: '乖乖', manufacturerEn: 'Kuai Kuai', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '056', name: '品客薯片', nameEn: 'Pringles', category: '膨化', categoryEn: 'Puffed Snacks',
+    era: '90后', eraEn: 'Post-90s', flavor: ['咸', '香'], flavorEn: ['Salty', 'Fragrant'],
+    description: '罐装薯片，薯片形状规整，口感酥脆。', descriptionEn: 'Canned potato chips, uniform shape, crispy texture.',
+    memory: '第一次吃罐装薯片，觉得很高级。', memoryEn: 'First time eating canned chips, felt very premium.',
+    image: '/images/snacks/056.jpg', origin: '美国', originEn: 'USA',
+    manufacturer: '品客', manufacturerEn: 'Pringles', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '057', name: '品客酸乳酪洋葱味', nameEn: 'Pringles Sour Cream', category: '膨化', categoryEn: 'Puffed Snacks',
+    era: '00后', eraEn: 'Post-00s', flavor: ['酸', '咸', '香'], flavorEn: ['Sour', 'Salty', 'Fragrant'],
+    description: '酸乳酪洋葱口味，口感丰富，回味无穷。', descriptionEn: 'Sour cream and onion flavor, rich taste, lasting aftertaste.',
+    memory: '第一次吃这个口味觉得怪怪的，后来越吃越上瘾。', memoryEn: 'First time thought the taste was weird, then got addicted.',
+    image: '/images/snacks/057.jpg', origin: '美国', originEn: 'USA',
+    manufacturer: '品客', manufacturerEn: 'Pringles', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '058', name: '乐事意大利香浓红烩味', nameEn: 'Lay\'s Italian Red', category: '膨化', categoryEn: 'Puffed Snacks',
+    era: '00后', eraEn: 'Post-00s', flavor: ['咸', '香', '番茄'], flavorEn: ['Salty', 'Fragrant', 'Tomato'],
+    description: '意式红烩口味，番茄香浓，口感丰富。', descriptionEn: 'Italian red stew flavor, rich tomato taste.',
+    memory: '这个口味一出来就成为我的最爱。', memoryEn: 'This flavor became my favorite as soon as it came out.',
+    image: '/images/snacks/058.jpg', origin: '中国', originEn: 'China',
+    manufacturer: '百事食品', manufacturerEn: 'PepsiCo', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '059', name: '乐事墨西哥鸡汁番茄味', nameEn: 'Lay\'s Mexican Chicken', category: '膨化', categoryEn: 'Puffed Snacks',
+    era: '00后', eraEn: 'Post-00s', flavor: ['咸', '香', '番茄'], flavorEn: ['Salty', 'Fragrant', 'Tomato'],
+    description: '墨西哥风味，鸡汁番茄口味，微辣开胃。', descriptionEn: 'Mexican flavor, chicken tomato taste, slightly spicy appetizer.',
+    memory: '微辣的口感很适合不太能吃辣的人。', memoryEn: 'Slightly spicy taste perfect for those who can\'t handle heat.',
+    image: '/images/snacks/059.jpg', origin: '中国', originEn: 'China',
+    manufacturer: '百事食品', manufacturerEn: 'PepsiCo', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '060', name: '上好佳芝士条', nameEn: 'Oishi Cheese Sticks', category: '膨化', categoryEn: 'Puffed Snacks',
+    era: '90后', eraEn: 'Post-90s', flavor: ['咸', '香', '芝士'], flavorEn: ['Salty', 'Fragrant', 'Cheese'],
+    description: '芝士味膨化条，口感酥脆，芝士香浓。', descriptionEn: 'Cheese-flavored puffed sticks, crispy texture, rich cheese.',
+    memory: '芝士控的最爱，每次都要买大包。', memoryEn: 'Cheese lover\'s favorite, always buy the big pack.',
+    image: '/images/snacks/060.jpg', origin: '菲律宾', originEn: 'Philippines',
+    manufacturer: '上好佳', manufacturerEn: 'Oishi', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '061', name: '上好佳棉花糖', nameEn: 'Oishi Marshmallow', category: '膨化', categoryEn: 'Puffed Snacks',
+    era: '90后', eraEn: 'Post-90s', flavor: ['甜'], flavorEn: ['Sweet'],
+    description: '彩色棉花糖，口感柔软，甜而不腻。', descriptionEn: 'Colorful marshmallows, soft texture, sweet but not greasy.',
+    memory: '烤着吃或者干吃都很好吃。', memoryEn: 'Delicious whether roasted or eaten dry.',
+    image: '/images/snacks/061.jpg', origin: '菲律宾', originEn: 'Philippines',
+    manufacturer: '上好佳', manufacturerEn: 'Oishi', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '062', name: '上好佳可可甜心', nameEn: 'Oishi Cocoa Heart', category: '膨化', categoryEn: 'Puffed Snacks',
+    era: '90后', eraEn: 'Post-90s', flavor: ['甜', '巧克力'], flavorEn: ['Sweet', 'Chocolate'],
+    description: '心形巧克力味膨化零食，可爱又好吃。', descriptionEn: 'Heart-shaped chocolate puffed snacks, cute and delicious.',
+    memory: '情人节时送给喜欢的人，很有心意。', memoryEn: 'Gave to someone liked on Valentine\'s Day, very thoughtful.',
+    image: '/images/snacks/062.jpg', origin: '菲律宾', originEn: 'Philippines',
+    manufacturer: '上好佳', manufacturerEn: 'Oishi', status: '绝版', statusEn: 'Rare'
+  },
+  {
+    id: '063', name: '上好佳汉堡球', nameEn: 'Oishi Burger Balls', category: '膨化', categoryEn: 'Puffed Snacks',
+    era: '90后', eraEn: 'Post-90s', flavor: ['咸', '香'], flavorEn: ['Salty', 'Fragrant'],
+    description: '汉堡形状的膨化零食，造型可爱。', descriptionEn: 'Burger-shaped puffed snacks, cute design.',
+    memory: '形状很有趣，吃起来像在吃迷你汉堡。', memoryEn: 'Interesting shape, feels like eating mini burgers.',
+    image: '/images/snacks/063.jpg', origin: '菲律宾', originEn: 'Philippines',
+    manufacturer: '上好佳', manufacturerEn: 'Oishi', status: '绝版', statusEn: 'Rare'
+  },
+  {
+    id: '064', name: '上好佳蟹味逸族', nameEn: 'Oishi Crab Family', category: '膨化', categoryEn: 'Puffed Snacks',
+    era: '00后', eraEn: 'Post-00s', flavor: ['鲜', '咸'], flavorEn: ['Fresh', 'Salty'],
+    description: '蟹味膨化零食，口感酥脆，海鲜味浓。', descriptionEn: 'Crab-flavored puffed snacks, crispy texture, rich seafood taste.',
+    memory: '海鲜爱好者的最爱，蟹味很正宗。', memoryEn: 'Seafood lover\'s favorite, authentic crab flavor.',
+    image: '/images/snacks/064.jpg', origin: '菲律宾', originEn: 'Philippines',
+    manufacturer: '上好佳', manufacturerEn: 'Oishi', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '065', name: '旺旺泡芙', nameEn: 'Want Want Puff', category: '膨化', categoryEn: 'Puffed Snacks',
+    era: '90后', eraEn: 'Post-90s', flavor: ['甜', '奶油'], flavorEn: ['Sweet', 'Cream'],
+    description: '奶油夹心泡芙，外层酥脆，内馅香甜。', descriptionEn: 'Cream-filled puff, crispy outer layer, sweet filling.',
+    memory: '一口咬下去奶油爆浆的感觉很满足。', memoryEn: 'Satisfying feeling of cream bursting when bitten.',
+    image: '/images/snacks/065.jpg', origin: '中国台湾', originEn: 'Taiwan, China',
+    manufacturer: '旺旺集团', manufacturerEn: 'Want Want', status: '绝版', statusEn: 'Rare'
+  },
+  {
+    id: '066', name: '旺旺夹心米果卷', nameEn: 'Want Want Rice Roll', category: '膨化', categoryEn: 'Puffed Snacks',
+    era: '00后', eraEn: 'Post-00s', flavor: ['甜', '咸'], flavorEn: ['Sweet', 'Salty'],
+    description: '米果卷夹心，口感丰富，层次分明。', descriptionEn: 'Rice roll with filling, rich texture, distinct layers.',
+    memory: '当早餐吃，配牛奶很营养。', memoryEn: 'Eaten as breakfast, nutritious with milk.',
+    image: '/images/snacks/066.jpg', origin: '中国台湾', originEn: 'Taiwan, China',
+    manufacturer: '旺旺集团', manufacturerEn: 'Want Want', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '067', name: '旺旺挑豆', nameEn: 'Want Want Pick Beans', category: '膨化', categoryEn: 'Puffed Snacks',
+    era: '00后', eraEn: 'Post-00s', flavor: ['咸', '香'], flavorEn: ['Salty', 'Fragrant'],
+    description: '花生裹衣零食，口感酥脆，花生香浓郁。', descriptionEn: 'Peanut-coated snacks, crispy texture, rich peanut aroma.',
+    memory: '下酒或者当零食都很好吃。', memoryEn: 'Great as drinking snack or regular snack.',
+    image: '/images/snacks/067.jpg', origin: '中国台湾', originEn: 'Taiwan, China',
+    manufacturer: '旺旺集团', manufacturerEn: 'Want Want', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '068', name: '旺旺巧星饼', nameEn: 'Want Want Star Cookie', category: '膨化', categoryEn: 'Puffed Snacks',
+    era: '90后', eraEn: 'Post-90s', flavor: ['甜', '巧克力'], flavorEn: ['Sweet', 'Chocolate'],
+    description: '星星形状的巧克力饼干，可爱又好吃。', descriptionEn: 'Star-shaped chocolate cookies, cute and delicious.',
+    memory: '星星形状很可爱，吃起来心情很好。', memoryEn: 'Cute star shape, feels good to eat.',
+    image: '/images/snacks/068.jpg', origin: '中国台湾', originEn: 'Taiwan, China',
+    manufacturer: '旺旺集团', manufacturerEn: 'Want Want', status: '绝版', statusEn: 'Rare'
+  },
+  {
+    id: '069', name: '旺旺嫩布丁', nameEn: 'Want Want Pudding', category: '膨化', categoryEn: 'Puffed Snacks',
+    era: '00后', eraEn: 'Post-00s', flavor: ['甜', '奶香'], flavorEn: ['Sweet', 'Milky'],
+    description: '嫩滑布丁，口感细腻，奶香浓郁。', descriptionEn: 'Smooth pudding, delicate texture, rich milk aroma.',
+    memory: '下午茶时的甜点，很治愈。', memoryEn: 'Afternoon tea dessert, very healing.',
+    image: '/images/snacks/069.jpg', origin: '中国台湾', originEn: 'Taiwan, China',
+    manufacturer: '旺旺集团', manufacturerEn: 'Want Want', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '070', name: '旺旺摇滚冻', nameEn: 'Want Want Rock Jelly', category: '膨化', categoryEn: 'Puffed Snacks',
+    era: '90后', eraEn: 'Post-90s', flavor: ['甜', '水果'], flavorEn: ['Sweet', 'Fruity'],
+    description: '摇摇冻零食，吃法有趣，口感Q弹。', descriptionEn: 'Shake jelly snack, fun to eat, bouncy texture.',
+    memory: '摇一摇沾粉吃的过程很有趣。', memoryEn: 'The process of shaking and dipping in powder is fun.',
+    image: '/images/snacks/070.jpg', origin: '中国台湾', originEn: 'Taiwan, China',
+    manufacturer: '旺旺集团', manufacturerEn: 'Want Want', status: '在售', statusEn: 'Available'
+  },
+];
+
+export default snacks;
+
+// 继续添加更多零食数据
+export const moreSnacks: Snack[] = [
+  // ===== 三、饼干糕点 (50种) =====
+  {
+    id: '071', name: '奥利奥原味', nameEn: 'Oreo Original', category: '饼干', categoryEn: 'Cookies',
+    era: '90后', eraEn: 'Post-90s', flavor: ['甜', '巧克力'], flavorEn: ['Sweet', 'Chocolate'],
+    description: '经典黑白夹心饼干，扭一扭、舔一舔、泡一泡。', descriptionEn: 'Classic black and white sandwich cookie, twist, lick, dunk.',
+    memory: '小时候最期待的零食，吃之前一定要扭开。', memoryEn: 'Most anticipated snack as a child, must twist open before eating.',
+    image: '/images/snacks/071.jpg', origin: '美国', originEn: 'USA',
+    manufacturer: '亿滋', manufacturerEn: 'Mondelez', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '072', name: '奥利奥草莓味', nameEn: 'Oreo Strawberry', category: '饼干', categoryEn: 'Cookies',
+    era: '00后', eraEn: 'Post-00s', flavor: ['甜', '草莓'], flavorEn: ['Sweet', 'Strawberry'],
+    description: '粉色草莓夹心，少女心爆棚的奥利奥。', descriptionEn: 'Pink strawberry filling, girly Oreo variant.',
+    memory: '粉色的夹心很好看，味道也很特别。', memoryEn: 'Pink filling looks beautiful, taste is also special.',
+    image: '/images/snacks/072.jpg', origin: '美国', originEn: 'USA',
+    manufacturer: '亿滋', manufacturerEn: 'Mondelez', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '073', name: '奥利奥抹茶味', nameEn: 'Oreo Matcha', category: '饼干', categoryEn: 'Cookies',
+    era: '00后', eraEn: 'Post-00s', flavor: ['甜', '抹茶'], flavorEn: ['Sweet', 'Matcha'],
+    description: '日式抹茶夹心，清新茶香与巧克力的完美融合。', descriptionEn: 'Japanese matcha filling, perfect fusion of tea and chocolate.',
+    memory: '抹茶控必试，茶香味很正宗。', memoryEn: 'Must-try for matcha lovers, authentic tea aroma.',
+    image: '/images/snacks/073.jpg', origin: '美国', originEn: 'USA',
+    manufacturer: '亿滋', manufacturerEn: 'Mondelez', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '074', name: '趣多多', nameEn: 'Chips Ahoy', category: '饼干', categoryEn: 'Cookies',
+    era: '90后', eraEn: 'Post-90s', flavor: ['甜', '巧克力'], flavorEn: ['Sweet', 'Chocolate'],
+    description: '巧克力豆饼干，酥脆可口，巧克力味浓郁。', descriptionEn: 'Chocolate chip cookies, crispy and rich in chocolate flavor.',
+    memory: '和牛奶是绝配，泡着吃更香。', memoryEn: 'Perfect with milk, even better when dunked.',
+    image: '/images/snacks/074.jpg', origin: '美国', originEn: 'USA',
+    manufacturer: '亿滋', manufacturerEn: 'Mondelez', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '075', name: '3+2苏打夹心', nameEn: '3+2 Soda Sandwich', category: '饼干', categoryEn: 'Cookies',
+    era: '90后', eraEn: 'Post-90s', flavor: ['甜', '奶油'], flavorEn: ['Sweet', 'Cream'],
+    description: '三层苏打饼干夹两层奶油，口感层次丰富。', descriptionEn: 'Three layers of soda crackers with two cream layers.',
+    memory: '苏打饼干的酥脆和奶油的香甜完美结合。', memoryEn: 'Perfect combination of crispy crackers and sweet cream.',
+    image: '/images/snacks/075.jpg', origin: '中国', originEn: 'China',
+    manufacturer: '康师傅', manufacturerEn: 'Master Kong', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '076', name: '好吃点高纤煎麸饼', nameEn: 'Haochidian Fiber Biscuit', category: '饼干', categoryEn: 'Cookies',
+    era: '00后', eraEn: 'Post-00s', flavor: ['甜', '谷物'], flavorEn: ['Sweet', 'Grain'],
+    description: '粗粮饼干，健康营养，口感酥脆。', descriptionEn: 'Whole grain biscuits, healthy and nutritious, crispy texture.',
+    memory: '妈妈买的"健康"饼干，吃起来没有负担。', memoryEn: 'Mom\'s "healthy" biscuits, guilt-free snacking.',
+    image: '/images/snacks/076.jpg', origin: '中国', originEn: 'China',
+    manufacturer: '达利食品', manufacturerEn: 'Dali Food', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '077', name: '好吃点香脆腰果饼', nameEn: 'Haochidian Cashew Biscuit', category: '饼干', categoryEn: 'Cookies',
+    era: '90后', eraEn: 'Post-90s', flavor: ['甜', '坚果'], flavorEn: ['Sweet', 'Nutty'],
+    description: '腰果饼干，坚果香浓郁，口感酥脆。', descriptionEn: 'Cashew biscuits with rich nut aroma, crispy texture.',
+    memory: '上面有真的腰果碎，吃起来很香。', memoryEn: 'Has real cashew pieces on top, very fragrant.',
+    image: '/images/snacks/077.jpg', origin: '中国', originEn: 'China',
+    manufacturer: '达利食品', manufacturerEn: 'Dali Food', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '078', name: '好吃点香脆核桃饼', nameEn: 'Haochidian Walnut Biscuit', category: '饼干', categoryEn: 'Cookies',
+    era: '90后', eraEn: 'Post-90s', flavor: ['甜', '坚果'], flavorEn: ['Sweet', 'Nutty'],
+    description: '核桃饼干，补脑又美味，老少皆宜。', descriptionEn: 'Walnut biscuits, brain-boosting and delicious for all ages.',
+    memory: '考试前妈妈总会买，说是补脑。', memoryEn: 'Mom always bought before exams, said it boosts brain power.',
+    image: '/images/snacks/078.jpg', origin: '中国', originEn: 'China',
+    manufacturer: '达利食品', manufacturerEn: 'Dali Food', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '079', name: '嘉士利果乐果香', nameEn: 'Jiashili Fruit Jam', category: '饼干', categoryEn: 'Cookies',
+    era: '90后', eraEn: 'Post-90s', flavor: ['甜', '果酱'], flavorEn: ['Sweet', 'Jam'],
+    description: '果酱夹心饼干，水果味浓郁，口感Q弹。', descriptionEn: 'Jam-filled biscuits with rich fruit flavor, bouncy texture.',
+    memory: '草莓味和蓝莓味都好吃，果酱会拉丝。', memoryEn: 'Both strawberry and blueberry are delicious, jam stretches.',
+    image: '/images/snacks/079.jpg', origin: '中国', originEn: 'China',
+    manufacturer: '嘉士利', manufacturerEn: 'Jiashili', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '080', name: '嘉顿威化饼', nameEn: 'Garden Wafer', category: '饼干', categoryEn: 'Cookies',
+    era: '80后', eraEn: 'Post-80s', flavor: ['甜', '奶油'], flavorEn: ['Sweet', 'Cream'],
+    description: '经典威化饼干，层层酥脆，奶油夹心香甜。', descriptionEn: 'Classic wafer biscuits, layered and crispy with sweet cream filling.',
+    memory: '过年时亲戚送礼的标配，一大盒能吃很久。', memoryEn: 'Standard New Year gift from relatives, a big box lasts long.',
+    image: '/images/snacks/080.jpg', origin: '中国香港', originEn: 'Hong Kong, China',
+    manufacturer: '嘉顿', manufacturerEn: 'Garden', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '081', name: '嘉顿香葱薄饼', nameEn: 'Garden Onion Cracker', category: '饼干', categoryEn: 'Cookies',
+    era: '90后', eraEn: 'Post-90s', flavor: ['咸', '葱香'], flavorEn: ['Salty', 'Onion'],
+    description: '香葱味薄脆饼干，咸香可口，不油腻。', descriptionEn: 'Onion-flavored thin crackers, salty and fragrant, not greasy.',
+    memory: '咸饼干里的经典，葱香味很诱人。', memoryEn: 'Classic among salty crackers, onion aroma is tempting.',
+    image: '/images/snacks/081.jpg', origin: '中国香港', originEn: 'Hong Kong, China',
+    manufacturer: '嘉顿', manufacturerEn: 'Garden', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '082', name: '太平苏打饼干', nameEn: 'Pacific Soda Cracker', category: '饼干', categoryEn: 'Cookies',
+    era: '80后', eraEn: 'Post-80s', flavor: ['咸'], flavorEn: ['Salty'],
+    description: '经典苏打饼干，养胃又解馋，口感酥脆。', descriptionEn: 'Classic soda crackers, stomach-friendly and satisfying, crispy texture.',
+    memory: '胃不舒服时妈妈会买，说是养胃。', memoryEn: 'Mom bought when stomach was upset, said it\'s good for digestion.',
+    image: '/images/snacks/082.jpg', origin: '中国', originEn: 'China',
+    manufacturer: '亿滋', manufacturerEn: 'Mondelez', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '083', name: '闲趣清咸饼干', nameEn: 'Tuc Light Salt', category: '饼干', categoryEn: 'Cookies',
+    era: '90后', eraEn: 'Post-90s', flavor: ['咸'], flavorEn: ['Salty'],
+    description: '清咸口味饼干，口感清爽不油腻。', descriptionEn: 'Light salty biscuits, refreshing and not greasy.',
+    memory: '下午茶配茶的绝佳选择。', memoryEn: 'Perfect choice for afternoon tea pairing.',
+    image: '/images/snacks/083.jpg', origin: '中国', originEn: 'China',
+    manufacturer: '亿滋', manufacturerEn: 'Mondelez', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '084', name: '王子夹心饼干', nameEn: 'Prince Sandwich', category: '饼干', categoryEn: 'Cookies',
+    era: '90后', eraEn: 'Post-90s', flavor: ['甜', '巧克力'], flavorEn: ['Sweet', 'Chocolate'],
+    description: '巧克力夹心饼干，口感酥脆，夹心浓郁。', descriptionEn: 'Chocolate sandwich biscuits, crispy with rich filling.',
+    memory: '小时候觉得包装上的王子很帅气。', memoryEn: 'Thought the prince on the package was handsome as a child.',
+    image: '/images/snacks/084.jpg', origin: '中国', originEn: 'China',
+    manufacturer: '亿滋', manufacturerEn: 'Mondelez', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '085', name: '优冠牛奶特浓', nameEn: 'Uguan Milk Rich', category: '饼干', categoryEn: 'Cookies',
+    era: '90后', eraEn: 'Post-90s', flavor: ['甜', '奶香'], flavorEn: ['Sweet', 'Milky'],
+    description: '牛奶味饼干，奶香浓郁，口感酥脆。', descriptionEn: 'Milk-flavored biscuits with rich milk aroma, crispy texture.',
+    memory: '牛奶味很浓，泡牛奶吃更好吃。', memoryEn: 'Strong milk flavor, even better when dunked in milk.',
+    image: '/images/snacks/085.jpg', origin: '中国', originEn: 'China',
+    manufacturer: '亿滋', manufacturerEn: 'Mondelez', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '086', name: '好吃点熊字饼', nameEn: 'Haochidian Bear Cookie', category: '饼干', categoryEn: 'Cookies',
+    era: '00后', eraEn: 'Post-00s', flavor: ['甜', '奶香'], flavorEn: ['Sweet', 'Milky'],
+    description: '小熊形状饼干，可爱造型，奶香浓郁。', descriptionEn: 'Bear-shaped cookies, cute design with rich milk aroma.',
+    memory: '小朋友的最爱，形状很可爱。', memoryEn: 'Children\'s favorite, very cute shape.',
+    image: '/images/snacks/086.jpg', origin: '中国', originEn: 'China',
+    manufacturer: '达利食品', manufacturerEn: 'Dali Food', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '087', name: '好吃点手指饼', nameEn: 'Haochidian Finger Cookie', category: '饼干', categoryEn: 'Cookies',
+    era: '90后', eraEn: 'Post-90s', flavor: ['甜', '蛋香'], flavorEn: ['Sweet', 'Egg'],
+    description: '长条手指饼干，蛋香浓郁，口感酥脆。', descriptionEn: 'Long finger-shaped cookies with rich egg aroma, crispy texture.',
+    memory: '一根根吃很有仪式感，也可以当磨牙棒。', memoryEn: 'Eating one by one feels ceremonial, can also be a teething stick.',
+    image: '/images/snacks/087.jpg', origin: '中国', originEn: 'China',
+    manufacturer: '达利食品', manufacturerEn: 'Dali Food', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '088', name: '好吃点蛋卷', nameEn: 'Haochidian Egg Roll', category: '饼干', categoryEn: 'Cookies',
+    era: '90后', eraEn: 'Post-90s', flavor: ['甜', '蛋香'], flavorEn: ['Sweet', 'Egg'],
+    description: '蛋卷饼干，层层酥脆，蛋香四溢。', descriptionEn: 'Egg roll cookies, layered and crispy with egg aroma.',
+    memory: '过年时家里必备，一大盒很快就被吃完。', memoryEn: 'Essential for New Year at home, a big box gets finished quickly.',
+    image: '/images/snacks/088.jpg', origin: '中国', originEn: 'China',
+    manufacturer: '达利食品', manufacturerEn: 'Dali Food', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '089', name: '徐福记沙琪玛', nameEn: 'Hsu Fu Chi Sachima', category: '糕点', categoryEn: 'Pastry',
+    era: '80后', eraEn: 'Post-80s', flavor: ['甜', '蛋香'], flavorEn: ['Sweet', 'Egg'],
+    description: '传统中式糕点，松软香甜，蛋香浓郁。', descriptionEn: 'Traditional Chinese pastry, soft and sweet with rich egg aroma.',
+    memory: '过年时最常见的零食，甜而不腻。', memoryEn: 'Most common snack during New Year, sweet but not greasy.',
+    image: '/images/snacks/089.jpg', origin: '中国台湾', originEn: 'Taiwan, China',
+    manufacturer: '徐福记', manufacturerEn: 'Hsu Fu Chi', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '090', name: '徐福记凤梨酥', nameEn: 'Hsu Fu Chi Pineapple Cake', category: '糕点', categoryEn: 'Pastry',
+    era: '90后', eraEn: 'Post-90s', flavor: ['甜', '凤梨'], flavorEn: ['Sweet', 'Pineapple'],
+    description: '台湾特色糕点，凤梨馅香甜，外皮酥软。', descriptionEn: 'Taiwan specialty pastry with sweet pineapple filling and soft crust.',
+    memory: '去台湾旅游必买的伴手礼。', memoryEn: 'Must-buy souvenir when traveling to Taiwan.',
+    image: '/images/snacks/090.jpg', origin: '中国台湾', originEn: 'Taiwan, China',
+    manufacturer: '徐福记', manufacturerEn: 'Hsu Fu Chi', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '091', name: '好丽友派', nameEn: 'Orion Choco Pie', category: '糕点', categoryEn: 'Pastry',
+    era: '90后', eraEn: 'Post-90s', flavor: ['甜', '巧克力'], flavorEn: ['Sweet', 'Chocolate'],
+    description: '巧克力涂层蛋糕派，夹心软糯，口感丰富。', descriptionEn: 'Chocolate-coated cake pie with soft filling and rich texture.',
+    memory: '好丽友好朋友，广告词深入人心。', memoryEn: 'Orion good friend, the slogan is deeply rooted in hearts.',
+    image: '/images/snacks/091.jpg', origin: '韩国', originEn: 'Korea',
+    manufacturer: '好丽友', manufacturerEn: 'Orion', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '092', name: '好丽友Q蒂', nameEn: 'Orion QD', category: '糕点', categoryEn: 'Pastry',
+    era: '00后', eraEn: 'Post-00s', flavor: ['甜', '巧克力', '摩卡'], flavorEn: ['Sweet', 'Chocolate', 'Mocha'],
+    description: '摩卡巧克力派，咖啡香与巧克力的完美结合。', descriptionEn: 'Mocha chocolate pie, perfect combination of coffee and chocolate.',
+    memory: '喜欢咖啡味的人一定会爱上的口味。', memoryEn: 'Coffee lovers will definitely fall in love with this flavor.',
+    image: '/images/snacks/092.jpg', origin: '韩国', originEn: 'Korea',
+    manufacturer: '好丽友', manufacturerEn: 'Orion', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '093', name: '蛋黄派', nameEn: 'Egg Yolk Pie', category: '糕点', categoryEn: 'Pastry',
+    era: '90后', eraEn: 'Post-90s', flavor: ['甜', '蛋黄'], flavorEn: ['Sweet', 'Egg Yolk'],
+    description: '蛋黄夹心蛋糕，松软香甜，蛋黄味浓郁。', descriptionEn: 'Egg yolk-filled cake, soft and sweet with rich yolk flavor.',
+    memory: '早餐首选，一个就能吃饱。', memoryEn: 'Breakfast first choice, one is enough to fill up.',
+    image: '/images/snacks/093.jpg', origin: '中国', originEn: 'China',
+    manufacturer: '达利园', manufacturerEn: 'Daliyuan', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '094', name: '瑞士卷', nameEn: 'Swiss Roll', category: '糕点', categoryEn: 'Pastry',
+    era: '90后', eraEn: 'Post-90s', flavor: ['甜', '奶油'], flavorEn: ['Sweet', 'Cream'],
+    description: '卷状蛋糕，奶油夹心，口感绵软。', descriptionEn: 'Rolled cake with cream filling, soft texture.',
+    memory: '下午茶时的经典选择，配咖啡很赞。', memoryEn: 'Classic choice for afternoon tea, great with coffee.',
+    image: '/images/snacks/094.jpg', origin: '中国', originEn: 'China',
+    manufacturer: '达利园', manufacturerEn: 'Daliyuan', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '095', name: '法式小面包', nameEn: 'French Bread', category: '糕点', categoryEn: 'Pastry',
+    era: '00后', eraEn: 'Post-00s', flavor: ['甜', '奶香'], flavorEn: ['Sweet', 'Milky'],
+    description: '软式小面包，奶香浓郁，口感松软。', descriptionEn: 'Soft small bread with rich milk aroma, fluffy texture.',
+    memory: '早餐或下午茶都很合适，方便携带。', memoryEn: 'Suitable for breakfast or afternoon tea, easy to carry.',
+    image: '/images/snacks/095.jpg', origin: '中国', originEn: 'China',
+    manufacturer: '盼盼', manufacturerEn: 'Panpan', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '096', name: '手撕面包', nameEn: 'Hand-torn Bread', category: '糕点', categoryEn: 'Pastry',
+    era: '00后', eraEn: 'Post-00s', flavor: ['甜', '奶香'], flavorEn: ['Sweet', 'Milky'],
+    description: '可手撕的软面包，层层分明，奶香浓郁。', descriptionEn: 'Tearable soft bread with distinct layers and rich milk aroma.',
+    memory: '一层层撕着吃很有趣，口感很好。', memoryEn: 'Tearing layer by layer is fun, great texture.',
+    image: '/images/snacks/096.jpg', origin: '中国', originEn: 'China',
+    manufacturer: '盼盼', manufacturerEn: 'Panpan', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '097', name: '铜锣烧', nameEn: 'Dorayaki', category: '糕点', categoryEn: 'Pastry',
+    era: '90后', eraEn: 'Post-90s', flavor: ['甜', '红豆'], flavorEn: ['Sweet', 'Red Bean'],
+    description: '日式铜锣烧，红豆夹心，口感松软。', descriptionEn: 'Japanese dorayaki with red bean filling, soft texture.',
+    memory: '哆啦A梦最爱的食物，小时候很向往。', memoryEn: 'Doraemon\'s favorite food, longed for it as a child.',
+    image: '/images/snacks/097.jpg', origin: '日本', originEn: 'Japan',
+    manufacturer: '盼盼', manufacturerEn: 'Panpan', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '098', name: '蒸蛋糕', nameEn: 'Steamed Cake', category: '糕点', categoryEn: 'Pastry',
+    era: '00后', eraEn: 'Post-00s', flavor: ['甜', '奶香'], flavorEn: ['Sweet', 'Milky'],
+    description: '蒸制蛋糕，不上火，口感绵软。', descriptionEn: 'Steamed cake, not heaty, soft and fluffy texture.',
+    memory: '妈妈喜欢买的"健康"蛋糕，不上火。', memoryEn: 'Mom\'s favorite "healthy" cake, not heaty.',
+    image: '/images/snacks/098.jpg', origin: '中国', originEn: 'China',
+    manufacturer: '港荣', manufacturerEn: 'Gangrong', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '099', name: '绿豆糕', nameEn: 'Mung Bean Cake', category: '糕点', categoryEn: 'Pastry',
+    era: '80后', eraEn: 'Post-80s', flavor: ['甜', '绿豆'], flavorEn: ['Sweet', 'Mung Bean'],
+    description: '传统中式糕点，绿豆清香，口感细腻。', descriptionEn: 'Traditional Chinese pastry with mung bean fragrance, delicate texture.',
+    memory: '端午节时必吃的传统糕点。', memoryEn: 'Traditional pastry eaten during Dragon Boat Festival.',
+    image: '/images/snacks/099.jpg', origin: '中国', originEn: 'China',
+    manufacturer: '各品牌', manufacturerEn: 'Various Brands', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '100', name: '老婆饼', nameEn: 'Wife Cake', category: '糕点', categoryEn: 'Pastry',
+    era: '80后', eraEn: 'Post-80s', flavor: ['甜', '冬瓜'], flavorEn: ['Sweet', 'Winter Melon'],
+    description: '传统广式糕点，冬瓜蓉馅，外皮酥软。', descriptionEn: 'Traditional Cantonese pastry with winter melon filling, soft crust.',
+    memory: '广东人最爱的传统糕点之一。', memoryEn: 'One of Cantonese people\'s favorite traditional pastries.',
+    image: '/images/snacks/100.jpg', origin: '广东', originEn: 'Guangdong',
+    manufacturer: '各品牌', manufacturerEn: 'Various Brands', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '101', name: '蛋黄酥', nameEn: 'Egg Yolk Pastry', category: '糕点', categoryEn: 'Pastry',
+    era: '90后', eraEn: 'Post-90s', flavor: ['甜', '咸', '蛋黄'], flavorEn: ['Sweet', 'Salty', 'Egg Yolk'],
+    description: '酥皮包裹豆沙和咸蛋黄，层次丰富。', descriptionEn: 'Flaky pastry wrapped around bean paste and salted egg yolk, rich layers.',
+    memory: '中秋节时的网红糕点，排队才能买到。', memoryEn: 'Viral pastry during Mid-Autumn Festival, had to queue to buy.',
+    image: '/images/snacks/101.jpg', origin: '中国', originEn: 'China',
+    manufacturer: '各品牌', manufacturerEn: 'Various Brands', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '102', name: '鲜花饼', nameEn: 'Flower Cake', category: '糕点', categoryEn: 'Pastry',
+    era: '00后', eraEn: 'Post-00s', flavor: ['甜', '花香'], flavorEn: ['Sweet', 'Floral'],
+    description: '云南特色糕点，玫瑰花瓣馅，花香四溢。', descriptionEn: 'Yunnan specialty pastry with rose petal filling, floral aroma.',
+    memory: '去云南旅游必买的特产，花香很浓郁。', memoryEn: 'Must-buy specialty when traveling to Yunnan, strong floral aroma.',
+    image: '/images/snacks/102.jpg', origin: '云南', originEn: 'Yunnan',
+    manufacturer: '各品牌', manufacturerEn: 'Various Brands', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '103', name: '云片糕', nameEn: 'Cloud Slice Cake', category: '糕点', categoryEn: 'Pastry',
+    era: '80后', eraEn: 'Post-80s', flavor: ['甜', '米香'], flavorEn: ['Sweet', 'Rice'],
+    description: '传统中式糕点，薄片状，米香浓郁。', descriptionEn: 'Traditional Chinese pastry, thin slices with rich rice aroma.',
+    memory: '爷爷奶奶辈最爱的传统糕点。', memoryEn: 'Grandparents\' favorite traditional pastry.',
+    image: '/images/snacks/103.jpg', origin: '中国', originEn: 'China',
+    manufacturer: '各品牌', manufacturerEn: 'Various Brands', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '104', name: '桃酥', nameEn: 'Walnut Cookie', category: '糕点', categoryEn: 'Pastry',
+    era: '80后', eraEn: 'Post-80s', flavor: ['甜', '核桃'], flavorEn: ['Sweet', 'Walnut'],
+    description: '传统中式酥饼，核桃香浓郁，口感酥脆。', descriptionEn: 'Traditional Chinese flaky cookie with rich walnut aroma, crispy texture.',
+    memory: '过年时家里必备的传统糕点。', memoryEn: 'Essential traditional pastry during New Year at home.',
+    image: '/images/snacks/104.jpg', origin: '中国', originEn: 'China',
+    manufacturer: '各品牌', manufacturerEn: 'Various Brands', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '105', name: '麻花', nameEn: 'Fried Dough Twist', category: '糕点', categoryEn: 'Pastry',
+    era: '80后', eraEn: 'Post-80s', flavor: ['甜', '酥脆'], flavorEn: ['Sweet', 'Crispy'],
+    description: '传统中式小吃，酥脆香甜，造型独特。', descriptionEn: 'Traditional Chinese snack, crispy and sweet with unique shape.',
+    memory: '天津大麻花很有名，又香又脆。', memoryEn: 'Tianjin\'s big fried dough twists are famous, fragrant and crispy.',
+    image: '/images/snacks/105.jpg', origin: '天津', originEn: 'Tianjin',
+    manufacturer: '各品牌', manufacturerEn: 'Various Brands', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '106', name: '江米条', nameEn: 'Glutinous Rice Stick', category: '糕点', categoryEn: 'Pastry',
+    era: '80后', eraEn: 'Post-80s', flavor: ['甜', '酥脆'], flavorEn: ['Sweet', 'Crispy'],
+    description: '传统中式糕点，糯米制成，外裹糖霜。', descriptionEn: 'Traditional Chinese pastry made from glutinous rice, coated with sugar.',
+    memory: '过年时常见的传统零食，甜甜的。', memoryEn: 'Common traditional snack during New Year, sweet.',
+    image: '/images/snacks/106.jpg', origin: '中国', originEn: 'China',
+    manufacturer: '各品牌', manufacturerEn: 'Various Brands', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '107', name: '萨其马', nameEn: 'Sachima', category: '糕点', categoryEn: 'Pastry',
+    era: '80后', eraEn: 'Post-80s', flavor: ['甜', '蛋香'], flavorEn: ['Sweet', 'Egg'],
+    description: '满族传统糕点，松软香甜，蛋香浓郁。', descriptionEn: 'Manchu traditional pastry, soft and sweet with rich egg aroma.',
+    memory: '北方过年时必备的传统糕点。', memoryEn: 'Essential traditional pastry during New Year in the north.',
+    image: '/images/snacks/107.jpg', origin: '中国', originEn: 'China',
+    manufacturer: '各品牌', manufacturerEn: 'Various Brands', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '108', name: '茯苓饼', nameEn: 'Poria Cake', category: '糕点', categoryEn: 'Pastry',
+    era: '80后', eraEn: 'Post-80s', flavor: ['甜', '清淡'], flavorEn: ['Sweet', 'Light'],
+    description: '北京传统糕点，茯苓制成，口感软糯。', descriptionEn: 'Beijing traditional pastry made from poria, soft texture.',
+    memory: '北京特产，口感很特别，有淡淡的药香。', memoryEn: 'Beijing specialty, unique texture with faint herbal aroma.',
+    image: '/images/snacks/108.jpg', origin: '北京', originEn: 'Beijing',
+    manufacturer: '各品牌', manufacturerEn: 'Various Brands', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '109', name: '驴打滚', nameEn: 'Donkey Roll', category: '糕点', categoryEn: 'Pastry',
+    era: '80后', eraEn: 'Post-80s', flavor: ['甜', '豆香'], flavorEn: ['Sweet', 'Bean'],
+    description: '北京传统小吃，糯米卷豆沙，外裹黄豆粉。', descriptionEn: 'Beijing traditional snack, glutinous rice roll with bean paste, coated with soybean powder.',
+    memory: '老北京特色，名字很有趣，味道很好。', memoryEn: 'Old Beijing specialty, interesting name, great taste.',
+    image: '/images/snacks/109.jpg', origin: '北京', originEn: 'Beijing',
+    manufacturer: '各品牌', manufacturerEn: 'Various Brands', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '110', name: '艾窝窝', nameEn: 'Ai Wo Wo', category: '糕点', categoryEn: 'Pastry',
+    era: '80后', eraEn: 'Post-80s', flavor: ['甜', '软糯'], flavorEn: ['Sweet', 'Soft'],
+    description: '北京传统小吃，糯米制成，内馅香甜。', descriptionEn: 'Beijing traditional snack made from glutinous rice with sweet filling.',
+    memory: '北京传统小吃的代表之一，口感软糯。', memoryEn: 'One of the representatives of Beijing traditional snacks, soft texture.',
+    image: '/images/snacks/110.jpg', origin: '北京', originEn: 'Beijing',
+    manufacturer: '各品牌', manufacturerEn: 'Various Brands', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '111', name: '豌豆黄', nameEn: 'Pea Yellow', category: '糕点', categoryEn: 'Pastry',
+    era: '80后', eraEn: 'Post-80s', flavor: ['甜', '豆香'], flavorEn: ['Sweet', 'Bean'],
+    description: '北京传统糕点，豌豆制成，口感细腻。', descriptionEn: 'Beijing traditional pastry made from peas, delicate texture.',
+    memory: '北京传统糕点，口感细腻，豆香浓郁。', memoryEn: 'Beijing traditional pastry, delicate texture with rich bean aroma.',
+    image: '/images/snacks/111.jpg', origin: '北京', originEn: 'Beijing',
+    manufacturer: '各品牌', manufacturerEn: 'Various Brands', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '112', name: '山楂糕', nameEn: 'Hawthorn Cake', category: '糕点', categoryEn: 'Pastry',
+    era: '80后', eraEn: 'Post-80s', flavor: ['酸', '甜'], flavorEn: ['Sour', 'Sweet'],
+    description: '山楂制成，酸甜开胃，口感软糯。', descriptionEn: 'Made from hawthorn, sour and sweet appetizer, soft texture.',
+    memory: '小时候胃口不好时妈妈会买，很开胃。', memoryEn: 'Mom bought when appetite was poor as a child, very appetizing.',
+    image: '/images/snacks/112.jpg', origin: '中国', originEn: 'China',
+    manufacturer: '各品牌', manufacturerEn: 'Various Brands', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '113', name: '山楂片', nameEn: 'Hawthorn Slice', category: '糕点', categoryEn: 'Pastry',
+    era: '80后', eraEn: 'Post-80s', flavor: ['酸', '甜'], flavorEn: ['Sour', 'Sweet'],
+    description: '山楂制成的薄片，酸甜可口，开胃消食。', descriptionEn: 'Thin slices made from hawthorn, sour and sweet, aids digestion.',
+    memory: '圆圆的像硬币一样，一片一片吃很有仪式感。', memoryEn: 'Round like coins, eating slice by slice feels ceremonial.',
+    image: '/images/snacks/113.jpg', origin: '中国', originEn: 'China',
+    manufacturer: '各品牌', manufacturerEn: 'Various Brands', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '114', name: '果丹皮', nameEn: 'Fruit Leather', category: '糕点', categoryEn: 'Pastry',
+    era: '80后', eraEn: 'Post-80s', flavor: ['酸', '甜'], flavorEn: ['Sour', 'Sweet'],
+    description: '山楂制成的卷状零食，酸甜开胃。', descriptionEn: 'Rolled snack made from hawthorn, sour and sweet appetizer.',
+    memory: '长长的一条可以卷着吃，也可以展开吃。', memoryEn: 'Long strip can be eaten rolled up or unfolded.',
+    image: '/images/snacks/114.jpg', origin: '中国', originEn: 'China',
+    manufacturer: '各品牌', manufacturerEn: 'Various Brands', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '115', name: '麦丽素', nameEn: 'Maltesers', category: '糖果', categoryEn: 'Candy',
+    era: '90后', eraEn: 'Post-90s', flavor: ['甜', '巧克力'], flavorEn: ['Sweet', 'Chocolate'],
+    description: '巧克力球内含麦芽脆心，口感丰富。', descriptionEn: 'Chocolate balls with malt crispy center, rich texture.',
+    memory: '电视剧里的"仙丹"，小时候觉得很高大上。', memoryEn: '"Immortal pill" in TV dramas, felt premium as a child.',
+    image: '/images/snacks/115.jpg', origin: '英国', originEn: 'UK',
+    manufacturer: '玛氏', manufacturerEn: 'Mars', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '116', name: '麦提莎', nameEn: 'Maltesers', category: '糖果', categoryEn: 'Candy',
+    era: '90后', eraEn: 'Post-90s', flavor: ['甜', '巧克力'], flavorEn: ['Sweet', 'Chocolate'],
+    description: '进口麦丽素，巧克力更浓郁，口感更好。', descriptionEn: 'Imported Maltesers with richer chocolate and better texture.',
+    memory: '进口版本更贵，过年时才能吃到。', memoryEn: 'Imported version more expensive, only ate during New Year.',
+    image: '/images/snacks/116.jpg', origin: '英国', originEn: 'UK',
+    manufacturer: '玛氏', manufacturerEn: 'Mars', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '117', name: '士力架', nameEn: 'Snickers', category: '糖果', categoryEn: 'Candy',
+    era: '90后', eraEn: 'Post-90s', flavor: ['甜', '咸', '花生'], flavorEn: ['Sweet', 'Salty', 'Peanut'],
+    description: '花生夹心巧克力棒，能量满满。', descriptionEn: 'Peanut-filled chocolate bar, full of energy.',
+    memory: '饿了就吃士力架，横扫饥饿做回自己。', memoryEn: 'Eat Snickers when hungry, sweep away hunger and be yourself.',
+    image: '/images/snacks/117.jpg', origin: '美国', originEn: 'USA',
+    manufacturer: '玛氏', manufacturerEn: 'Mars', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '118', name: '德芙巧克力', nameEn: 'Dove Chocolate', category: '糖果', categoryEn: 'Candy',
+    era: '90后', eraEn: 'Post-90s', flavor: ['甜', '丝滑'], flavorEn: ['Sweet', 'Smooth'],
+    description: '丝滑牛奶巧克力，入口即化，口感细腻。', descriptionEn: 'Silky milk chocolate, melts in mouth, delicate texture.',
+    memory: '德芙纵享丝滑，广告词深入人心。', memoryEn: 'Dove silky smooth, the slogan is deeply rooted in hearts.',
+    image: '/images/snacks/118.jpg', origin: '美国', originEn: 'USA',
+    manufacturer: '玛氏', manufacturerEn: 'Mars', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '119', name: '德芙黑巧克力', nameEn: 'Dove Dark Chocolate', category: '糖果', categoryEn: 'Candy',
+    era: '00后', eraEn: 'Post-00s', flavor: ['苦', '甜'], flavorEn: ['Bitter', 'Sweet'],
+    description: '黑巧克力，可可含量高，口感微苦回甘。', descriptionEn: 'Dark chocolate with high cocoa content, slightly bitter with sweet aftertaste.',
+    memory: '减肥时也能吃的巧克力，苦中带甜。', memoryEn: 'Chocolate that can be eaten while dieting, bitter with sweetness.',
+    image: '/images/snacks/119.jpg', origin: '美国', originEn: 'USA',
+    manufacturer: '玛氏', manufacturerEn: 'Mars', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '120', name: '费列罗', nameEn: 'Ferrero Rocher', category: '糖果', categoryEn: 'Candy',
+    era: '90后', eraEn: 'Post-90s', flavor: ['甜', '坚果', '巧克力'], flavorEn: ['Sweet', 'Nutty', 'Chocolate'],
+    description: '金莎巧克力，外层坚果碎，内含威化和榛子。', descriptionEn: 'Golden chocolate with nut coating, wafer and hazelnut inside.',
+    memory: '过年时最高级的巧克力，一颗一颗慢慢吃。', memoryEn: 'Most premium chocolate during New Year, ate one by one slowly.',
+    image: '/images/snacks/120.jpg', origin: '意大利', originEn: 'Italy',
+    manufacturer: '费列罗', manufacturerEn: 'Ferrero', status: '在售', statusEn: 'Available'
+  },
+];
+
+// 继续添加糖果、果冻、肉干、坚果类零食
+export const moreSnacks2: Snack[] = [
+  // ===== 四、糖果巧克力 (50种) =====
+  {
+    id: '121', name: '大白兔奶糖', nameEn: 'White Rabbit Candy', category: '糖果', categoryEn: 'Candy',
+    era: '80后', eraEn: 'Post-80s', flavor: ['甜', '奶香'], flavorEn: ['Sweet', 'Milky'],
+    description: '国民奶糖，糯米纸包裹，奶香浓郁，入口即化。', descriptionEn: 'National milk candy wrapped in rice paper, rich milk aroma, melts in mouth.',
+    memory: '七颗大白兔等于一杯奶，童年最甜的记忆。', memoryEn: 'Seven White Rabbits equal a cup of milk, sweetest childhood memory.',
+    image: '/images/snacks/121.jpg', origin: '上海', originEn: 'Shanghai',
+    manufacturer: '冠生园', manufacturerEn: 'Guanshengyuan', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '122', name: '金丝猴奶糖', nameEn: 'Golden Monkey Candy', category: '糖果', categoryEn: 'Candy',
+    era: '90后', eraEn: 'Post-90s', flavor: ['甜', '奶香'], flavorEn: ['Sweet', 'Milky'],
+    description: '圆柱形奶糖，奶香浓郁，口感软糯。', descriptionEn: 'Cylindrical milk candy with rich milk aroma, soft texture.',
+    memory: '大白兔的竞争对手，味道也很棒。', memoryEn: 'White Rabbit\'s competitor, taste is also great.',
+    image: '/images/snacks/122.jpg', origin: '中国', originEn: 'China',
+    manufacturer: '金丝猴', manufacturerEn: 'Golden Monkey', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '123', name: '喔喔奶糖', nameEn: 'Wowo Candy', category: '糖果', categoryEn: 'Candy',
+    era: '90后', eraEn: 'Post-90s', flavor: ['甜', '奶香'], flavorEn: ['Sweet', 'Milky'],
+    description: '大公鸡包装的奶糖，童年经典。', descriptionEn: 'Milk candy with rooster packaging, childhood classic.',
+    memory: '喔喔佳佳，小时候很喜欢的奶糖。', memoryEn: 'Wowo Jiajia, loved this milk candy as a child.',
+    image: '/images/snacks/123.jpg', origin: '中国', originEn: 'China',
+    manufacturer: '喔喔', manufacturerEn: 'Wowo', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '124', name: '佳佳奶糖', nameEn: 'Jiajia Candy', category: '糖果', categoryEn: 'Candy',
+    era: '90后', eraEn: 'Post-90s', flavor: ['甜', '奶香'], flavorEn: ['Sweet', 'Milky'],
+    description: '喔喔的姐妹品牌，口感相似，包装不同。', descriptionEn: 'Sister brand of Wowo, similar taste, different packaging.',
+    memory: '喔喔佳佳一起吃，味道差不多。', memoryEn: 'Eating Wowo and Jiajia together, taste is similar.',
+    image: '/images/snacks/124.jpg', origin: '中国', originEn: 'China',
+    manufacturer: '喔喔', manufacturerEn: 'Wowo', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '125', name: '旺仔牛奶糖', nameEn: 'Want Want Milk Candy', category: '糖果', categoryEn: 'Candy',
+    era: '90后', eraEn: 'Post-90s', flavor: ['甜', '奶香'], flavorEn: ['Sweet', 'Milky'],
+    description: '旺仔品牌奶糖，红色包装，喜庆可爱。', descriptionEn: 'Want Want brand milk candy, red packaging, festive and cute.',
+    memory: '过年时常见的喜糖，包装很喜庆。', memoryEn: 'Common wedding candy during New Year, festive packaging.',
+    image: '/images/snacks/125.jpg', origin: '中国台湾', originEn: 'Taiwan, China',
+    manufacturer: '旺旺集团', manufacturerEn: 'Want Want', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '126', name: '阿尔卑斯糖', nameEn: 'Alpenliebe', category: '糖果', categoryEn: 'Candy',
+    era: '90后', eraEn: 'Post-90s', flavor: ['甜', '奶香'], flavorEn: ['Sweet', 'Milky'],
+    description: '进口牛奶糖，多种口味，包装精美。', descriptionEn: 'Imported milk candy, various flavors, exquisite packaging.',
+    memory: '比国产奶糖更贵，是高档糖果的代表。', memoryEn: 'More expensive than domestic milk candy, representative of premium candy.',
+    image: '/images/snacks/126.jpg', origin: '意大利', originEn: 'Italy',
+    manufacturer: '不凡帝范梅勒', manufacturerEn: 'Perfetti Van Melle', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '127', name: '真知棒', nameEn: 'Chupa Chups', category: '糖果', categoryEn: 'Candy',
+    era: '90后', eraEn: 'Post-90s', flavor: ['甜', '水果'], flavorEn: ['Sweet', 'Fruity'],
+    description: '圆形棒棒糖，多种水果口味，包装可爱。', descriptionEn: 'Round lollipops, various fruit flavors, cute packaging.',
+    memory: '五毛钱一个，可以舔很久，很划算。', memoryEn: 'Five cents each, can lick for a long time, great value.',
+    image: '/images/snacks/127.jpg', origin: '西班牙', originEn: 'Spain',
+    manufacturer: '珍宝珠', manufacturerEn: 'Chupa Chups', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '128', name: '不二家棒棒糖', nameEn: 'Fujiya Lollipop', category: '糖果', categoryEn: 'Candy',
+    era: '00后', eraEn: 'Post-00s', flavor: ['甜', '水果'], flavorEn: ['Sweet', 'Fruity'],
+    description: '日本棒棒糖，纸棒设计，安全健康。', descriptionEn: 'Japanese lollipop with paper stick design, safe and healthy.',
+    memory: '纸棒设计很贴心，不用担心戳到。', memoryEn: 'Paper stick design is thoughtful, no worry about poking.',
+    image: '/images/snacks/128.jpg', origin: '日本', originEn: 'Japan',
+    manufacturer: '不二家', manufacturerEn: 'Fujiya', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '129', name: '口哨糖', nameEn: 'Whistle Candy', category: '糖果', categoryEn: 'Candy',
+    era: '90后', eraEn: 'Post-90s', flavor: ['甜'], flavorEn: ['Sweet'],
+    description: '中间有孔的糖，可以吹口哨，边吃边玩。', descriptionEn: 'Candy with hole in center, can whistle while eating and playing.',
+    memory: '可以吹口哨的糖，很有趣，上课偷偷吹。', memoryEn: 'Candy that can whistle, very interesting, secretly blew in class.',
+    image: '/images/snacks/129.jpg', origin: '中国', originEn: 'China',
+    manufacturer: '各品牌', manufacturerEn: 'Various Brands', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '130', name: '跳跳糖', nameEn: 'Pop Rocks', category: '糖果', categoryEn: 'Candy',
+    era: '90后', eraEn: 'Post-90s', flavor: ['甜'], flavorEn: ['Sweet'],
+    description: '含在嘴里会跳的糖，口感新奇有趣。', descriptionEn: 'Candy that pops in mouth, novel and interesting texture.',
+    memory: '在嘴里噼里啪啦跳的感觉很神奇。', memoryEn: 'The popping sensation in mouth is magical.',
+    image: '/images/snacks/130.jpg', origin: '美国', originEn: 'USA',
+    manufacturer: '各品牌', manufacturerEn: 'Various Brands', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '131', name: '泡泡糖', nameEn: 'Bubble Gum', category: '糖果', categoryEn: 'Candy',
+    era: '80后', eraEn: 'Post-80s', flavor: ['甜'], flavorEn: ['Sweet'],
+    description: '可以吹泡泡的口香糖，童年必备。', descriptionEn: 'Chewing gum that can blow bubbles, childhood essential.',
+    memory: '比赛谁吹的泡泡大，粘到脸上很尴尬。', memoryEn: 'Competing on who can blow bigger bubbles, sticky on face was embarrassing.',
+    image: '/images/snacks/131.jpg', origin: '美国', originEn: 'USA',
+    manufacturer: '各品牌', manufacturerEn: 'Various Brands', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '132', name: '大大泡泡糖', nameEn: 'Big Big Bubble Gum', category: '糖果', categoryEn: 'Candy',
+    era: '90后', eraEn: 'Post-90s', flavor: ['甜'], flavorEn: ['Sweet'],
+    description: '经典泡泡糖品牌，卷状设计，可以吹大泡泡。', descriptionEn: 'Classic bubble gum brand, roll design, can blow big bubbles.',
+    memory: '大大超人，小时候很喜欢的广告。', memoryEn: 'Big Big Superman, loved the ad as a child.',
+    image: '/images/snacks/132.jpg', origin: '美国', originEn: 'USA',
+    manufacturer: '箭牌', manufacturerEn: 'Wrigley', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '133', name: '比巴卜', nameEn: 'Bazooka', category: '糖果', categoryEn: 'Candy',
+    era: '90后', eraEn: 'Post-90s', flavor: ['甜'], flavorEn: ['Sweet'],
+    description: '进口泡泡糖，包装内有漫画，趣味十足。', descriptionEn: 'Imported bubble gum with comics in packaging, full of fun.',
+    memory: '包装里的漫画很有趣，收集了好多。', memoryEn: 'Comics in packaging were interesting, collected many.',
+    image: '/images/snacks/133.jpg', origin: '美国', originEn: 'USA',
+    manufacturer: '不凡帝范梅勒', manufacturerEn: 'Perfetti Van Melle', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '134', name: '瑞士糖', nameEn: 'Sugus', category: '糖果', categoryEn: 'Candy',
+    era: '90后', eraEn: 'Post-90s', flavor: ['甜', '水果'], flavorEn: ['Sweet', 'Fruity'],
+    description: '方形软糖，多种水果口味，包装精美。', descriptionEn: 'Square soft candy, various fruit flavors, exquisite packaging.',
+    memory: '过年时常见的糖果，各种颜色很好看。', memoryEn: 'Common candy during New Year, various colors look beautiful.',
+    image: '/images/snacks/134.jpg', origin: '瑞士', originEn: 'Switzerland',
+    manufacturer: '箭牌', manufacturerEn: 'Wrigley', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '135', name: '彩虹糖', nameEn: 'Skittles', category: '糖果', categoryEn: 'Candy',
+    era: '90后', eraEn: 'Post-90s', flavor: ['甜', '酸', '水果'], flavorEn: ['Sweet', 'Sour', 'Fruity'],
+    description: '彩色糖豆，多种水果口味，酸甜可口。', descriptionEn: 'Colorful candy beans, various fruit flavors, sweet and sour.',
+    memory: '遇见彩虹，吃定彩虹，广告词很有趣。', memoryEn: 'Meet the rainbow, taste the rainbow, interesting slogan.',
+    image: '/images/snacks/135.jpg', origin: '美国', originEn: 'USA',
+    manufacturer: '箭牌', manufacturerEn: 'Wrigley', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '136', name: 'M&M\'s巧克力豆', nameEn: 'M&M\'s', category: '糖果', categoryEn: 'Candy',
+    era: '90后', eraEn: 'Post-90s', flavor: ['甜', '巧克力'], flavorEn: ['Sweet', 'Chocolate'],
+    description: '彩色糖衣巧克力豆，只溶在口不溶在手。', descriptionEn: 'Colorful candy-coated chocolate, melts in mouth not in hands.',
+    memory: '快到碗里来，广告词很经典。', memoryEn: 'Get in the bowl, classic ad slogan.',
+    image: '/images/snacks/136.jpg', origin: '美国', originEn: 'USA',
+    manufacturer: '玛氏', manufacturerEn: 'Mars', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '137', name: '吉百利巧克力', nameEn: 'Cadbury Chocolate', category: '糖果', categoryEn: 'Candy',
+    era: '90后', eraEn: 'Post-90s', flavor: ['甜', '巧克力'], flavorEn: ['Sweet', 'Chocolate'],
+    description: '英国经典巧克力，口感丝滑，甜度适中。', descriptionEn: 'British classic chocolate, silky texture, moderate sweetness.',
+    memory: '进口巧克力，过年时才能吃到。', memoryEn: 'Imported chocolate, only ate during New Year.',
+    image: '/images/snacks/137.jpg', origin: '英国', originEn: 'UK',
+    manufacturer: '吉百利', manufacturerEn: 'Cadbury', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '138', name: '好时巧克力', nameEn: 'Hershey\'s Chocolate', category: '糖果', categoryEn: 'Candy',
+    era: '90后', eraEn: 'Post-90s', flavor: ['甜', '巧克力'], flavorEn: ['Sweet', 'Chocolate'],
+    description: '美国经典巧克力，水滴形状，口感浓郁。', descriptionEn: 'American classic chocolate, teardrop shape, rich taste.',
+    memory: '好时之吻，名字很浪漫。', memoryEn: 'Hershey\'s Kisses, romantic name.',
+    image: '/images/snacks/138.jpg', origin: '美国', originEn: 'USA',
+    manufacturer: '好时', manufacturerEn: 'Hershey', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '139', name: '金帝巧克力', nameEn: 'Leconte Chocolate', category: '糖果', categoryEn: 'Candy',
+    era: '90后', eraEn: 'Post-90s', flavor: ['甜', '巧克力'], flavorEn: ['Sweet', 'Chocolate'],
+    description: '国产巧克力品牌，口感丝滑，价格亲民。', descriptionEn: 'Domestic chocolate brand, silky texture, affordable price.',
+    memory: '国产巧克力里最好吃的品牌之一。', memoryEn: 'One of the best-tasting domestic chocolate brands.',
+    image: '/images/snacks/139.jpg', origin: '中国', originEn: 'China',
+    manufacturer: '金帝', manufacturerEn: 'Leconte', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '140', name: '怡口莲', nameEn: 'Eclairs', category: '糖果', categoryEn: 'Candy',
+    era: '90后', eraEn: 'Post-90s', flavor: ['甜', '太妃'], flavorEn: ['Sweet', 'Toffee'],
+    description: '太妃糖，外层巧克力，内层焦糖，口感丰富。', descriptionEn: 'Toffee with chocolate coating and caramel filling, rich texture.',
+    memory: '咬下去会流心的太妃糖，很好吃。', memoryEn: 'Toffee that flows when bitten, very delicious.',
+    image: '/images/snacks/140.jpg', origin: '英国', originEn: 'UK',
+    manufacturer: '吉百利', manufacturerEn: 'Cadbury', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '141', name: '椰子糖', nameEn: 'Coconut Candy', category: '糖果', categoryEn: 'Candy',
+    era: '90后', eraEn: 'Post-90s', flavor: ['甜', '椰香'], flavorEn: ['Sweet', 'Coconut'],
+    description: '越南椰子糖，椰香浓郁，口感软糯。', descriptionEn: 'Vietnamese coconut candy, rich coconut aroma, soft texture.',
+    memory: '去越南旅游必买的特产，椰香味很浓。', memoryEn: 'Must-buy souvenir when traveling to Vietnam, strong coconut aroma.',
+    image: '/images/snacks/141.jpg', origin: '越南', originEn: 'Vietnam',
+    manufacturer: '各品牌', manufacturerEn: 'Various Brands', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '142', name: '榴莲糖', nameEn: 'Durian Candy', category: '糖果', categoryEn: 'Candy',
+    era: '00后', eraEn: 'Post-00s', flavor: ['甜', '榴莲'], flavorEn: ['Sweet', 'Durian'],
+    description: '榴莲味糖果，爱者极爱，恶者极恶。', descriptionEn: 'Durian-flavored candy, loved by some, hated by others.',
+    memory: '榴莲控的最爱，味道很正宗。', memoryEn: 'Durian lover\'s favorite, authentic taste.',
+    image: '/images/snacks/142.jpg', origin: '泰国', originEn: 'Thailand',
+    manufacturer: '各品牌', manufacturerEn: 'Various Brands', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '143', name: '话梅糖', nameEn: 'Preserved Plum Candy', category: '糖果', categoryEn: 'Candy',
+    era: '80后', eraEn: 'Post-80s', flavor: ['酸', '甜'], flavorEn: ['Sour', 'Sweet'],
+    description: '话梅味硬糖，酸甜开胃，口感独特。', descriptionEn: 'Preserved plum hard candy, sour and sweet appetizer, unique taste.',
+    memory: '晕车时的救星，含一颗就不晕了。', memoryEn: 'Savior for motion sickness, one piece stops the dizziness.',
+    image: '/images/snacks/143.jpg', origin: '中国', originEn: 'China',
+    manufacturer: '各品牌', manufacturerEn: 'Various Brands', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '144', name: '陈皮糖', nameEn: 'Dried Tangerine Candy', category: '糖果', categoryEn: 'Candy',
+    era: '80后', eraEn: 'Post-80s', flavor: ['酸', '甜'], flavorEn: ['Sour', 'Sweet'],
+    description: '陈皮味硬糖，酸甜开胃，有助消化。', descriptionEn: 'Dried tangerine hard candy, sour and sweet appetizer, aids digestion.',
+    memory: '饭后吃一颗，有助于消化。', memoryEn: 'Eat one after meals, helps with digestion.',
+    image: '/images/snacks/144.jpg', origin: '广东', originEn: 'Guangdong',
+    manufacturer: '各品牌', manufacturerEn: 'Various Brands', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '145', name: '薄荷糖', nameEn: 'Mint Candy', category: '糖果', categoryEn: 'Candy',
+    era: '80后', eraEn: 'Post-80s', flavor: ['清凉', '薄荷'], flavorEn: ['Cool', 'Mint'],
+    description: '清凉薄荷糖，提神醒脑，口气清新。', descriptionEn: 'Cool mint candy, refreshing and breath-freshening.',
+    memory: '上课困了含一颗，瞬间清醒。', memoryEn: 'Put one in mouth when sleepy in class, instantly awake.',
+    image: '/images/snacks/145.jpg', origin: '中国', originEn: 'China',
+    manufacturer: '各品牌', manufacturerEn: 'Various Brands', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '146', name: '荷氏薄荷糖', nameEn: 'Halls Mint', category: '糖果', categoryEn: 'Candy',
+    era: '90后', eraEn: 'Post-90s', flavor: ['清凉', '薄荷'], flavorEn: ['Cool', 'Mint'],
+    description: '进口薄荷糖，清凉度更高，提神效果更好。', descriptionEn: 'Imported mint candy, higher coolness, better refreshing effect.',
+    memory: '午夜风暴，最清凉的薄荷糖。', memoryEn: 'Midnight Storm, the coolest mint candy.',
+    image: '/images/snacks/146.jpg', origin: '美国', originEn: 'USA',
+    manufacturer: '荷氏', manufacturerEn: 'Halls', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '147', name: '曼妥思', nameEn: 'Mentos', category: '糖果', categoryEn: 'Candy',
+    era: '90后', eraEn: 'Post-90s', flavor: ['甜', '薄荷'], flavorEn: ['Sweet', 'Mint'],
+    description: '圆形薄荷糖，多种口味，口感独特。', descriptionEn: 'Round mint candy, various flavors, unique texture.',
+    memory: '和可乐一起吃的网红吃法，会喷出来。', memoryEn: 'Viral way to eat with cola, will spray out.',
+    image: '/images/snacks/147.jpg', origin: '荷兰', originEn: 'Netherlands',
+    manufacturer: '不凡帝范梅勒', manufacturerEn: 'Perfetti Van Melle', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '148', name: '雅客V9', nameEn: 'Yake V9', category: '糖果', categoryEn: 'Candy',
+    era: '00后', eraEn: 'Post-00s', flavor: ['甜', '维生素'], flavorEn: ['Sweet', 'Vitamin'],
+    description: '维生素糖果，补充维生素，健康零食。', descriptionEn: 'Vitamin candy, supplements vitamins, healthy snack.',
+    memory: '妈妈允许吃的糖果，说是补充维生素。', memoryEn: 'Mom-approved candy, said to supplement vitamins.',
+    image: '/images/snacks/148.jpg', origin: '中国', originEn: 'China',
+    manufacturer: '雅客', manufacturerEn: 'Yake', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '149', name: '徐福记酥心糖', nameEn: 'Hsu Fu Chi Crisp Candy', category: '糖果', categoryEn: 'Candy',
+    era: '90后', eraEn: 'Post-90s', flavor: ['甜', '花生'], flavorEn: ['Sweet', 'Peanut'],
+    description: '酥心糖，外层酥脆，内层香甜。', descriptionEn: 'Crisp candy with crispy outer layer and sweet filling.',
+    memory: '过年时最常见的糖果，各种口味都有。', memoryEn: 'Most common candy during New Year, various flavors available.',
+    image: '/images/snacks/149.jpg', origin: '中国台湾', originEn: 'Taiwan, China',
+    manufacturer: '徐福记', manufacturerEn: 'Hsu Fu Chi', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '150', name: '牛轧糖', nameEn: 'Nougat', category: '糖果', categoryEn: 'Candy',
+    era: '80后', eraEn: 'Post-80s', flavor: ['甜', '奶香', '坚果'], flavorEn: ['Sweet', 'Milky', 'Nutty'],
+    description: '传统糖果，奶香浓郁，内含花生或坚果。', descriptionEn: 'Traditional candy, rich milk aroma with peanuts or nuts inside.',
+    memory: '过年时必备的传统糖果，很有嚼劲。', memoryEn: 'Essential traditional candy during New Year, very chewy.',
+    image: '/images/snacks/150.jpg', origin: '中国台湾', originEn: 'Taiwan, China',
+    manufacturer: '各品牌', manufacturerEn: 'Various Brands', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '151', name: '花生牛轧糖', nameEn: 'Peanut Nougat', category: '糖果', categoryEn: 'Candy',
+    era: '80后', eraEn: 'Post-80s', flavor: ['甜', '奶香', '花生'], flavorEn: ['Sweet', 'Milky', 'Peanut'],
+    description: '花生夹心牛轧糖，香脆可口，奶香浓郁。', descriptionEn: 'Peanut-filled nougat, crispy and delicious with rich milk aroma.',
+    memory: '最经典的牛轧糖口味，花生很香。', memoryEn: 'Most classic nougat flavor, peanuts are fragrant.',
+    image: '/images/snacks/151.jpg', origin: '中国台湾', originEn: 'Taiwan, China',
+    manufacturer: '各品牌', manufacturerEn: 'Various Brands', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '152', name: '蔓越莓牛轧糖', nameEn: 'Cranberry Nougat', category: '糖果', categoryEn: 'Candy',
+    era: '00后', eraEn: 'Post-00s', flavor: ['甜', '奶香', '果香'], flavorEn: ['Sweet', 'Milky', 'Fruity'],
+    description: '蔓越莓夹心牛轧糖，酸甜可口，口感丰富。', descriptionEn: 'Cranberry-filled nougat, sour and sweet with rich texture.',
+    memory: '新口味牛轧糖，蔓越莓的酸甜很解腻。', memoryEn: 'New nougat flavor, cranberry\'s sourness cuts the sweetness.',
+    image: '/images/snacks/152.jpg', origin: '中国台湾', originEn: 'Taiwan, China',
+    manufacturer: '各品牌', manufacturerEn: 'Various Brands', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '153', name: '雪花酥', nameEn: 'Snowflake Crisp', category: '糖果', categoryEn: 'Candy',
+    era: '00后', eraEn: 'Post-00s', flavor: ['甜', '奶香', '坚果'], flavorEn: ['Sweet', 'Milky', 'Nutty'],
+    description: '网红零食，奶香浓郁，口感酥脆，内含坚果和果干。', descriptionEn: 'Viral snack with rich milk aroma, crispy texture with nuts and dried fruits.',
+    memory: '网红零食，自己做也很简单。', memoryEn: 'Viral snack, also easy to make at home.',
+    image: '/images/snacks/153.jpg', origin: '中国台湾', originEn: 'Taiwan, China',
+    manufacturer: '各品牌', manufacturerEn: 'Various Brands', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '154', name: '牛轧饼', nameEn: 'Nougat Cookie', category: '饼干', categoryEn: 'Cookies',
+    era: '00后', eraEn: 'Post-00s', flavor: ['甜', '咸', '奶香'], flavorEn: ['Sweet', 'Salty', 'Milky'],
+    description: '饼干夹牛轧糖，咸甜结合，口感丰富。', descriptionEn: 'Cookie with nougat filling, sweet and salty combination, rich texture.',
+    memory: '咸甜结合的口感很独特，越吃越上瘾。', memoryEn: 'Unique sweet and salty combination, addictive.',
+    image: '/images/snacks/154.jpg', origin: '中国台湾', originEn: 'Taiwan, China',
+    manufacturer: '各品牌', manufacturerEn: 'Various Brands', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '155', name: '葱香牛轧饼', nameEn: 'Onion Nougat Cookie', category: '饼干', categoryEn: 'Cookies',
+    era: '00后', eraEn: 'Post-00s', flavor: ['甜', '咸', '葱香'], flavorEn: ['Sweet', 'Salty', 'Onion'],
+    description: '葱香饼干夹牛轧糖，咸甜结合，葱香四溢。', descriptionEn: 'Onion cookie with nougat filling, sweet and salty with onion aroma.',
+    memory: '葱香味很浓，和牛轧糖的甜味很搭。', memoryEn: 'Strong onion flavor pairs well with nougat sweetness.',
+    image: '/images/snacks/155.jpg', origin: '中国台湾', originEn: 'Taiwan, China',
+    manufacturer: '各品牌', manufacturerEn: 'Various Brands', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '156', name: '黑糖牛轧饼', nameEn: 'Brown Sugar Nougat Cookie', category: '饼干', categoryEn: 'Cookies',
+    era: '00后', eraEn: 'Post-00s', flavor: ['甜', '黑糖'], flavorEn: ['Sweet', 'Brown Sugar'],
+    description: '黑糖饼干夹牛轧糖，黑糖香浓郁，口感独特。', descriptionEn: 'Brown sugar cookie with nougat filling, rich brown sugar aroma.',
+    memory: '黑糖味很香，口感比普通牛轧饼更好。', memoryEn: 'Brown sugar flavor is fragrant, better texture than regular nougat cookies.',
+    image: '/images/snacks/156.jpg', origin: '中国台湾', originEn: 'Taiwan, China',
+    manufacturer: '各品牌', manufacturerEn: 'Various Brands', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '157', name: '凤梨牛轧饼', nameEn: 'Pineapple Nougat Cookie', category: '饼干', categoryEn: 'Cookies',
+    era: '00后', eraEn: 'Post-00s', flavor: ['甜', '凤梨'], flavorEn: ['Sweet', 'Pineapple'],
+    description: '凤梨味牛轧糖夹心饼干，果香浓郁。', descriptionEn: 'Pineapple nougat-filled cookie with rich fruity aroma.',
+    memory: '凤梨味很香，酸酸甜甜的。', memoryEn: 'Pineapple flavor is fragrant, sour and sweet.',
+    image: '/images/snacks/157.jpg', origin: '中国台湾', originEn: 'Taiwan, China',
+    manufacturer: '各品牌', manufacturerEn: 'Various Brands', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '158', name: '芒果牛轧糖', nameEn: 'Mango Nougat', category: '糖果', categoryEn: 'Candy',
+    era: '00后', eraEn: 'Post-00s', flavor: ['甜', '芒果'], flavorEn: ['Sweet', 'Mango'],
+    description: '芒果味牛轧糖，果香浓郁，口感软糯。', descriptionEn: 'Mango nougat with rich fruity aroma, soft texture.',
+    memory: '芒果控必试，芒果味很正宗。', memoryEn: 'Must-try for mango lovers, authentic mango flavor.',
+    image: '/images/snacks/158.jpg', origin: '中国台湾', originEn: 'Taiwan, China',
+    manufacturer: '各品牌', manufacturerEn: 'Various Brands', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '159', name: '抹茶牛轧糖', nameEn: 'Matcha Nougat', category: '糖果', categoryEn: 'Candy',
+    era: '00后', eraEn: 'Post-00s', flavor: ['甜', '抹茶'], flavorEn: ['Sweet', 'Matcha'],
+    description: '抹茶味牛轧糖，茶香浓郁，口感独特。', descriptionEn: 'Matcha nougat with rich tea aroma, unique taste.',
+    memory: '抹茶控必试，抹茶味很浓郁。', memoryEn: 'Must-try for matcha lovers, rich matcha flavor.',
+    image: '/images/snacks/159.jpg', origin: '中国台湾', originEn: 'Taiwan, China',
+    manufacturer: '各品牌', manufacturerEn: 'Various Brands', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '160', name: '巧克力牛轧糖', nameEn: 'Chocolate Nougat', category: '糖果', categoryEn: 'Candy',
+    era: '00后', eraEn: 'Post-00s', flavor: ['甜', '巧克力'], flavorEn: ['Sweet', 'Chocolate'],
+    description: '巧克力味牛轧糖，可可香浓郁，口感丰富。', descriptionEn: 'Chocolate nougat with rich cocoa aroma, rich texture.',
+    memory: '巧克力控必试，巧克力味很浓郁。', memoryEn: 'Must-try for chocolate lovers, rich chocolate flavor.',
+    image: '/images/snacks/160.jpg', origin: '中国台湾', originEn: 'Taiwan, China',
+    manufacturer: '各品牌', manufacturerEn: 'Various Brands', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '161', name: '咖啡牛轧糖', nameEn: 'Coffee Nougat', category: '糖果', categoryEn: 'Candy',
+    era: '00后', eraEn: 'Post-00s', flavor: ['甜', '咖啡'], flavorEn: ['Sweet', 'Coffee'],
+    description: '咖啡味牛轧糖，咖啡香浓郁，提神醒脑。', descriptionEn: 'Coffee nougat with rich coffee aroma, refreshing.',
+    memory: '咖啡控必试，咖啡味很正宗。', memoryEn: 'Must-try for coffee lovers, authentic coffee flavor.',
+    image: '/images/snacks/161.jpg', origin: '中国台湾', originEn: 'Taiwan, China',
+    manufacturer: '各品牌', manufacturerEn: 'Various Brands', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '162', name: '玫瑰牛轧糖', nameEn: 'Rose Nougat', category: '糖果', categoryEn: 'Candy',
+    era: '00后', eraEn: 'Post-00s', flavor: ['甜', '花香'], flavorEn: ['Sweet', 'Floral'],
+    description: '玫瑰味牛轧糖，花香浓郁，口感独特。', descriptionEn: 'Rose nougat with rich floral aroma, unique taste.',
+    memory: '玫瑰味很香，吃起来很有女人味。', memoryEn: 'Rose flavor is fragrant, very feminine.',
+    image: '/images/snacks/162.jpg', origin: '中国台湾', originEn: 'Taiwan, China',
+    manufacturer: '各品牌', manufacturerEn: 'Various Brands', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '163', name: '桂花牛轧糖', nameEn: 'Osmanthus Nougat', category: '糖果', categoryEn: 'Candy',
+    era: '00后', eraEn: 'Post-00s', flavor: ['甜', '花香'], flavorEn: ['Sweet', 'Floral'],
+    description: '桂花味牛轧糖，花香清雅，口感独特。', descriptionEn: 'Osmanthus nougat with elegant floral aroma, unique taste.',
+    memory: '桂花味很清雅，秋天吃很有感觉。', memoryEn: 'Osmanthus flavor is elegant, feels like autumn.',
+    image: '/images/snacks/163.jpg', origin: '中国台湾', originEn: 'Taiwan, China',
+    manufacturer: '各品牌', manufacturerEn: 'Various Brands', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '164', name: '芝麻牛轧糖', nameEn: 'Sesame Nougat', category: '糖果', categoryEn: 'Candy',
+    era: '80后', eraEn: 'Post-80s', flavor: ['甜', '芝麻'], flavorEn: ['Sweet', 'Sesame'],
+    description: '芝麻味牛轧糖，芝麻香浓郁，口感香脆。', descriptionEn: 'Sesame nougat with rich sesame aroma, crispy texture.',
+    memory: '芝麻味很香，吃起来很有营养。', memoryEn: 'Sesame flavor is fragrant, very nutritious.',
+    image: '/images/snacks/164.jpg', origin: '中国台湾', originEn: 'Taiwan, China',
+    manufacturer: '各品牌', manufacturerEn: 'Various Brands', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '165', name: '杏仁牛轧糖', nameEn: 'Almond Nougat', category: '糖果', categoryEn: 'Candy',
+    era: '00后', eraEn: 'Post-00s', flavor: ['甜', '杏仁'], flavorEn: ['Sweet', 'Almond'],
+    description: '杏仁味牛轧糖，杏仁香浓郁，口感香脆。', descriptionEn: 'Almond nougat with rich almond aroma, crispy texture.',
+    memory: '杏仁味很香，吃起来很有高级感。', memoryEn: 'Almond flavor is fragrant, very premium feel.',
+    image: '/images/snacks/165.jpg', origin: '中国台湾', originEn: 'Taiwan, China',
+    manufacturer: '各品牌', manufacturerEn: 'Various Brands', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '166', name: '开心果牛轧糖', nameEn: 'Pistachio Nougat', category: '糖果', categoryEn: 'Candy',
+    era: '00后', eraEn: 'Post-00s', flavor: ['甜', '坚果'], flavorEn: ['Sweet', 'Nutty'],
+    description: '开心果牛轧糖，开心果香浓郁，口感香脆。', descriptionEn: 'Pistachio nougat with rich pistachio aroma, crispy texture.',
+    memory: '开心果味很香，颜色也很好看。', memoryEn: 'Pistachio flavor is fragrant, color is also beautiful.',
+    image: '/images/snacks/166.jpg', origin: '中国台湾', originEn: 'Taiwan, China',
+    manufacturer: '各品牌', manufacturerEn: 'Various Brands', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '167', name: '核桃牛轧糖', nameEn: 'Walnut Nougat', category: '糖果', categoryEn: 'Candy',
+    era: '00后', eraEn: 'Post-00s', flavor: ['甜', '核桃'], flavorEn: ['Sweet', 'Walnut'],
+    description: '核桃牛轧糖，核桃香浓郁，补脑又美味。', descriptionEn: 'Walnut nougat with rich walnut aroma, brain-boosting and delicious.',
+    memory: '核桃味很香，吃起来很有营养。', memoryEn: 'Walnut flavor is fragrant, very nutritious.',
+    image: '/images/snacks/167.jpg', origin: '中国台湾', originEn: 'Taiwan, China',
+    manufacturer: '各品牌', manufacturerEn: 'Various Brands', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '168', name: '夏威夷果牛轧糖', nameEn: 'Macadamia Nougat', category: '糖果', categoryEn: 'Candy',
+    era: '00后', eraEn: 'Post-00s', flavor: ['甜', '坚果'], flavorEn: ['Sweet', 'Nutty'],
+    description: '夏威夷果牛轧糖，坚果香浓郁，口感香脆。', descriptionEn: 'Macadamia nougat with rich nut aroma, crispy texture.',
+    memory: '夏威夷果味很香，吃起来很有高级感。', memoryEn: 'Macadamia flavor is fragrant, very premium feel.',
+    image: '/images/snacks/168.jpg', origin: '中国台湾', originEn: 'Taiwan, China',
+    manufacturer: '各品牌', manufacturerEn: 'Various Brands', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '169', name: '腰果牛轧糖', nameEn: 'Cashew Nougat', category: '糖果', categoryEn: 'Candy',
+    era: '00后', eraEn: 'Post-00s', flavor: ['甜', '腰果'], flavorEn: ['Sweet', 'Cashew'],
+    description: '腰果牛轧糖，腰果香浓郁，口感香脆。', descriptionEn: 'Cashew nougat with rich cashew aroma, crispy texture.',
+    memory: '腰果味很香，吃起来很有营养。', memoryEn: 'Cashew flavor is fragrant, very nutritious.',
+    image: '/images/snacks/169.jpg', origin: '中国台湾', originEn: 'Taiwan, China',
+    manufacturer: '各品牌', manufacturerEn: 'Various Brands', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '170', name: '综合坚果牛轧糖', nameEn: 'Mixed Nut Nougat', category: '糖果', categoryEn: 'Candy',
+    era: '00后', eraEn: 'Post-00s', flavor: ['甜', '坚果'], flavorEn: ['Sweet', 'Nutty'],
+    description: '多种坚果牛轧糖，口感丰富，营养均衡。', descriptionEn: 'Mixed nut nougat with rich texture and balanced nutrition.',
+    memory: '各种坚果都有，口感很丰富。', memoryEn: 'Various nuts included, rich texture.',
+    image: '/images/snacks/170.jpg', origin: '中国台湾', originEn: 'Taiwan, China',
+    manufacturer: '各品牌', manufacturerEn: 'Various Brands', status: '在售', statusEn: 'Available'
+  },
+];
+
+// 继续添加果冻布丁、肉干海味、坚果炒货类零食
+export const moreSnacks3: Snack[] = [
+  // ===== 五、果冻布丁 (40种) =====
+  {
+    id: '171', name: '喜之郎果肉果冻', nameEn: 'Xizhilang Fruit Jelly', category: '果冻', categoryEn: 'Jelly',
+    era: '90后', eraEn: 'Post-90s', flavor: ['甜', '水果'], flavorEn: ['Sweet', 'Fruity'],
+    description: '大杯果肉果冻，内含真实水果块，口感Q弹。', descriptionEn: 'Large cup fruit jelly with real fruit chunks, bouncy texture.',
+    memory: '小时候最期待的零食，果肉很多很好吃。', memoryEn: 'Most anticipated snack as a child, lots of fruit flesh.',
+    image: '/images/snacks/171.jpg', origin: '中国', originEn: 'China',
+    manufacturer: '喜之郎', manufacturerEn: 'Xizhilang', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '172', name: '喜之郎吸吸果冻', nameEn: 'Xizhilang Suck Jelly', category: '果冻', categoryEn: 'Jelly',
+    era: '00后', eraEn: 'Post-00s', flavor: ['甜', '水果'], flavorEn: ['Sweet', 'Fruity'],
+    description: '袋装可吸果冻，方便携带，随时随地享用。', descriptionEn: 'Pouch suckable jelly, convenient to carry, enjoy anytime anywhere.',
+    memory: '可以吸着吃的果冻，很方便，不会弄脏手。', memoryEn: 'Jelly that can be sucked, very convenient, won\'t dirty hands.',
+    image: '/images/snacks/172.jpg', origin: '中国', originEn: 'China',
+    manufacturer: '喜之郎', manufacturerEn: 'Xizhilang', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '173', name: '喜之郎CiCi果冻', nameEn: 'Xizhilang CiCi Jelly', category: '果冻', categoryEn: 'Jelly',
+    era: '00后', eraEn: 'Post-00s', flavor: ['甜', '水果'], flavorEn: ['Sweet', 'Fruity'],
+    description: '儿童果冻，添加果汁，营养丰富。', descriptionEn: 'Children\'s jelly with added fruit juice, nutritious.',
+    memory: 'CiCi果冻，可以吸的果冻，很好玩。', memoryEn: 'CiCi jelly, jelly that can be sucked, very fun.',
+    image: '/images/snacks/173.jpg', origin: '中国', originEn: 'China',
+    manufacturer: '喜之郎', manufacturerEn: 'Xizhilang', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '174', name: '旺旺果冻', nameEn: 'Want Want Jelly', category: '果冻', categoryEn: 'Jelly',
+    era: '90后', eraEn: 'Post-90s', flavor: ['甜', '水果'], flavorEn: ['Sweet', 'Fruity'],
+    description: '旺旺品牌果冻，口感Q弹，果味浓郁。', descriptionEn: 'Want Want brand jelly, bouncy texture, rich fruit flavor.',
+    memory: '旺旺大礼包里总有果冻，很好吃。', memoryEn: 'Want Want gift pack always has jelly, very delicious.',
+    image: '/images/snacks/174.jpg', origin: '中国台湾', originEn: 'Taiwan, China',
+    manufacturer: '旺旺集团', manufacturerEn: 'Want Want', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '175', name: '旺旺摇滚冻', nameEn: 'Want Want Rock Jelly', category: '果冻', categoryEn: 'Jelly',
+    era: '90后', eraEn: 'Post-90s', flavor: ['甜', '水果'], flavorEn: ['Sweet', 'Fruity'],
+    description: '摇摇冻，吃法有趣，需要摇匀后食用。', descriptionEn: 'Rock jelly, fun way to eat, need to shake before eating.',
+    memory: '摇一摇沾粉吃的过程很有趣。', memoryEn: 'The process of shaking and dipping in powder is fun.',
+    image: '/images/snacks/175.jpg', origin: '中国台湾', originEn: 'Taiwan, China',
+    manufacturer: '旺旺集团', manufacturerEn: 'Want Want', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '176', name: '亲亲果冻', nameEn: 'Qinqin Jelly', category: '果冻', categoryEn: 'Jelly',
+    era: '90后', eraEn: 'Post-90s', flavor: ['甜', '水果'], flavorEn: ['Sweet', 'Fruity'],
+    description: '亲亲品牌果冻，口感细腻，果味纯正。', descriptionEn: 'Qinqin brand jelly, delicate texture, pure fruit flavor.',
+    memory: '亲亲果冻，亲亲我的宝贝。', memoryEn: 'Qinqin jelly, kiss my baby.',
+    image: '/images/snacks/176.jpg', origin: '中国', originEn: 'China',
+    manufacturer: '亲亲', manufacturerEn: 'Qinqin', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '177', name: '蜡笔小新果冻', nameEn: 'Crayon Shin-chan Jelly', category: '果冻', categoryEn: 'Jelly',
+    era: '00后', eraEn: 'Post-00s', flavor: ['甜', '水果'], flavorEn: ['Sweet', 'Fruity'],
+    description: '蜡笔小新联名果冻，包装可爱，深受儿童喜爱。', descriptionEn: 'Crayon Shin-chan联名 jelly, cute packaging, loved by children.',
+    memory: '蜡笔小新的包装很可爱，小朋友很喜欢。', memoryEn: 'Crayon Shin-chan packaging is cute, children love it.',
+    image: '/images/snacks/177.jpg', origin: '中国', originEn: 'China',
+    manufacturer: '蜡笔小新', manufacturerEn: 'Crayon Shin-chan', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '178', name: '布丁果冻', nameEn: 'Pudding Jelly', category: '果冻', categoryEn: 'Jelly',
+    era: '90后', eraEn: 'Post-90s', flavor: ['甜', '奶香'], flavorEn: ['Sweet', 'Milky'],
+    description: '布丁口感果冻，奶香浓郁，口感细腻。', descriptionEn: 'Pudding-textured jelly, rich milk aroma, delicate texture.',
+    memory: '布丁口感的果冻，奶香味很浓。', memoryEn: 'Pudding-textured jelly, strong milk aroma.',
+    image: '/images/snacks/178.jpg', origin: '中国', originEn: 'China',
+    manufacturer: '各品牌', manufacturerEn: 'Various Brands', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '179', name: '椰果果冻', nameEn: 'Coconut Jelly', category: '果冻', categoryEn: 'Jelly',
+    era: '90后', eraEn: 'Post-90s', flavor: ['甜', '椰香'], flavorEn: ['Sweet', 'Coconut'],
+    description: '内含椰果的果冻，口感Q弹有嚼劲。', descriptionEn: 'Jelly with coconut flesh inside, bouncy and chewy texture.',
+    memory: '椰果很有嚼劲，和果冻一起吃很搭。', memoryEn: 'Coconut flesh is chewy, goes well with jelly.',
+    image: '/images/snacks/179.jpg', origin: '中国', originEn: 'China',
+    manufacturer: '各品牌', manufacturerEn: 'Various Brands', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '180', name: '芦荟果冻', nameEn: 'Aloe Jelly', category: '果冻', categoryEn: 'Jelly',
+    era: '00后', eraEn: 'Post-00s', flavor: ['甜', '清新'], flavorEn: ['Sweet', 'Fresh'],
+    description: '内含芦荟粒的果冻，口感清新，美容养颜。', descriptionEn: 'Jelly with aloe pieces inside, fresh taste, beauty benefits.',
+    memory: '芦荟粒很爽口，吃起来很清新。', memoryEn: 'Aloe pieces are refreshing, very fresh to eat.',
+    image: '/images/snacks/180.jpg', origin: '中国', originEn: 'China',
+    manufacturer: '各品牌', manufacturerEn: 'Various Brands', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '181', name: '龟苓膏', nameEn: 'Guilinggao', category: '果冻', categoryEn: 'Jelly',
+    era: '80后', eraEn: 'Post-80s', flavor: ['苦', '甜'], flavorEn: ['Bitter', 'Sweet'],
+    description: '传统中式甜品，清热解毒，口感独特。', descriptionEn: 'Traditional Chinese dessert, clears heat and detoxifies, unique taste.',
+    memory: '夏天吃很解暑，可以加牛奶或蜂蜜。', memoryEn: 'Great for summer heat relief, can add milk or honey.',
+    image: '/images/snacks/181.jpg', origin: '广西', originEn: 'Guangxi',
+    manufacturer: '各品牌', manufacturerEn: 'Various Brands', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '182', name: '烧仙草', nameEn: 'Grass Jelly', category: '果冻', categoryEn: 'Jelly',
+    era: '90后', eraEn: 'Post-90s', flavor: ['甜', '清凉'], flavorEn: ['Sweet', 'Cool'],
+    description: '仙草制成的甜品，清凉解暑，口感Q弹。', descriptionEn: 'Dessert made from grass jelly, cool and heat-relieving, bouncy texture.',
+    memory: '夏天必吃的甜品，可以加很多配料。', memoryEn: 'Must-eat dessert in summer, can add many toppings.',
+    image: '/images/snacks/182.jpg', origin: '中国台湾', originEn: 'Taiwan, China',
+    manufacturer: '各品牌', manufacturerEn: 'Various Brands', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '183', name: '双皮奶', nameEn: 'Double Skin Milk', category: '果冻', categoryEn: 'Jelly',
+    era: '90后', eraEn: 'Post-90s', flavor: ['甜', '奶香'], flavorEn: ['Sweet', 'Milky'],
+    description: '广东传统甜品，奶香浓郁，口感细腻。', descriptionEn: 'Guangdong traditional dessert, rich milk aroma, delicate texture.',
+    memory: '去广东必吃的甜品，奶香味很浓。', memoryEn: 'Must-eat dessert in Guangdong, strong milk aroma.',
+    image: '/images/snacks/183.jpg', origin: '广东', originEn: 'Guangdong',
+    manufacturer: '各品牌', manufacturerEn: 'Various Brands', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '184', name: '姜撞奶', nameEn: 'Ginger Milk', category: '果冻', categoryEn: 'Jelly',
+    era: '90后', eraEn: 'Post-90s', flavor: ['甜', '辣'], flavorEn: ['Sweet', 'Spicy'],
+    description: '姜汁与牛奶碰撞而成的甜品，口感独特。', descriptionEn: 'Dessert made from ginger juice colliding with milk, unique taste.',
+    memory: '姜味很浓，冬天吃很暖身。', memoryEn: 'Strong ginger flavor, warms the body in winter.',
+    image: '/images/snacks/184.jpg', origin: '广东', originEn: 'Guangdong',
+    manufacturer: '各品牌', manufacturerEn: 'Various Brands', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '185', name: '杏仁豆腐', nameEn: 'Almond Tofu', category: '果冻', categoryEn: 'Jelly',
+    era: '90后', eraEn: 'Post-90s', flavor: ['甜', '杏仁'], flavorEn: ['Sweet', 'Almond'],
+    description: '杏仁味甜品，口感嫩滑，杏仁香浓郁。', descriptionEn: 'Almond-flavored dessert, smooth texture, rich almond aroma.',
+    memory: '杏仁味很香，口感像豆腐一样嫩滑。', memoryEn: 'Almond flavor is fragrant, texture as smooth as tofu.',
+    image: '/images/snacks/185.jpg', origin: '日本', originEn: 'Japan',
+    manufacturer: '各品牌', manufacturerEn: 'Various Brands', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '186', name: '椰奶冻', nameEn: 'Coconut Milk Pudding', category: '果冻', categoryEn: 'Jelly',
+    era: '00后', eraEn: 'Post-00s', flavor: ['甜', '椰香'], flavorEn: ['Sweet', 'Coconut'],
+    description: '椰奶制成的布丁，椰香浓郁，口感细腻。', descriptionEn: 'Pudding made from coconut milk, rich coconut aroma, delicate texture.',
+    memory: '椰香味很浓，夏天吃很解暑。', memoryEn: 'Strong coconut aroma, great for summer heat relief.',
+    image: '/images/snacks/186.jpg', origin: '中国', originEn: 'China',
+    manufacturer: '各品牌', manufacturerEn: 'Various Brands', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '187', name: '芒果布丁', nameEn: 'Mango Pudding', category: '果冻', categoryEn: 'Jelly',
+    era: '00后', eraEn: 'Post-00s', flavor: ['甜', '芒果'], flavorEn: ['Sweet', 'Mango'],
+    description: '芒果味布丁，芒果香浓郁，口感细腻。', descriptionEn: 'Mango-flavored pudding, rich mango aroma, delicate texture.',
+    memory: '芒果控必吃，芒果味很浓郁。', memoryEn: 'Must-eat for mango lovers, rich mango flavor.',
+    image: '/images/snacks/187.jpg', origin: '中国', originEn: 'China',
+    manufacturer: '各品牌', manufacturerEn: 'Various Brands', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '188', name: '草莓布丁', nameEn: 'Strawberry Pudding', category: '果冻', categoryEn: 'Jelly',
+    era: '00后', eraEn: 'Post-00s', flavor: ['甜', '草莓'], flavorEn: ['Sweet', 'Strawberry'],
+    description: '草莓味布丁，草莓香浓郁，口感细腻。', descriptionEn: 'Strawberry-flavored pudding, rich strawberry aroma, delicate texture.',
+    memory: '草莓味很香，颜色也很好看。', memoryEn: 'Strawberry flavor is fragrant, color is also beautiful.',
+    image: '/images/snacks/188.jpg', origin: '中国', originEn: 'China',
+    manufacturer: '各品牌', manufacturerEn: 'Various Brands', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '189', name: '巧克力布丁', nameEn: 'Chocolate Pudding', category: '果冻', categoryEn: 'Jelly',
+    era: '00后', eraEn: 'Post-00s', flavor: ['甜', '巧克力'], flavorEn: ['Sweet', 'Chocolate'],
+    description: '巧克力味布丁，巧克力香浓郁，口感细腻。', descriptionEn: 'Chocolate-flavored pudding, rich chocolate aroma, delicate texture.',
+    memory: '巧克力控必吃，巧克力味很浓郁。', memoryEn: 'Must-eat for chocolate lovers, rich chocolate flavor.',
+    image: '/images/snacks/189.jpg', origin: '中国', originEn: 'China',
+    manufacturer: '各品牌', manufacturerEn: 'Various Brands', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '190', name: '抹茶布丁', nameEn: 'Matcha Pudding', category: '果冻', categoryEn: 'Jelly',
+    era: '00后', eraEn: 'Post-00s', flavor: ['甜', '抹茶'], flavorEn: ['Sweet', 'Matcha'],
+    description: '抹茶味布丁，抹茶香浓郁，口感细腻。', descriptionEn: 'Matcha-flavored pudding, rich matcha aroma, delicate texture.',
+    memory: '抹茶控必吃，抹茶味很浓郁。', memoryEn: 'Must-eat for matcha lovers, rich matcha flavor.',
+    image: '/images/snacks/190.jpg', origin: '中国', originEn: 'China',
+    manufacturer: '各品牌', manufacturerEn: 'Various Brands', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '191', name: '焦糖布丁', nameEn: 'Caramel Pudding', category: '果冻', categoryEn: 'Jelly',
+    era: '00后', eraEn: 'Post-00s', flavor: ['甜', '焦糖'], flavorEn: ['Sweet', 'Caramel'],
+    description: '焦糖味布丁，焦糖香浓郁，口感细腻。', descriptionEn: 'Caramel-flavored pudding, rich caramel aroma, delicate texture.',
+    memory: '焦糖味很香，上面一层焦糖脆脆的。', memoryEn: 'Caramel flavor is fragrant, top layer of caramel is crispy.',
+    image: '/images/snacks/191.jpg', origin: '中国', originEn: 'China',
+    manufacturer: '各品牌', manufacturerEn: 'Various Brands', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '192', name: '鸡蛋布丁', nameEn: 'Egg Pudding', category: '果冻', categoryEn: 'Jelly',
+    era: '90后', eraEn: 'Post-90s', flavor: ['甜', '蛋香'], flavorEn: ['Sweet', 'Egg'],
+    description: '鸡蛋味布丁，蛋香浓郁，口感细腻。', descriptionEn: 'Egg-flavored pudding, rich egg aroma, delicate texture.',
+    memory: '蛋香味很浓，口感像蒸蛋一样嫩滑。', memoryEn: 'Strong egg aroma, texture as smooth as steamed egg.',
+    image: '/images/snacks/192.jpg', origin: '中国', originEn: 'China',
+    manufacturer: '各品牌', manufacturerEn: 'Various Brands', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '193', name: '奶茶布丁', nameEn: 'Milk Tea Pudding', category: '果冻', categoryEn: 'Jelly',
+    era: '00后', eraEn: 'Post-00s', flavor: ['甜', '奶茶'], flavorEn: ['Sweet', 'Milk Tea'],
+    description: '奶茶味布丁，奶茶香浓郁，口感细腻。', descriptionEn: 'Milk tea-flavored pudding, rich milk tea aroma, delicate texture.',
+    memory: '奶茶控必吃，奶茶味很浓郁。', memoryEn: 'Must-eat for milk tea lovers, rich milk tea flavor.',
+    image: '/images/snacks/193.jpg', origin: '中国', originEn: 'China',
+    manufacturer: '各品牌', manufacturerEn: 'Various Brands', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '194', name: '咖啡布丁', nameEn: 'Coffee Pudding', category: '果冻', categoryEn: 'Jelly',
+    era: '00后', eraEn: 'Post-00s', flavor: ['甜', '咖啡'], flavorEn: ['Sweet', 'Coffee'],
+    description: '咖啡味布丁，咖啡香浓郁，口感细腻。', descriptionEn: 'Coffee-flavored pudding, rich coffee aroma, delicate texture.',
+    memory: '咖啡控必吃，咖啡味很浓郁。', memoryEn: 'Must-eat for coffee lovers, rich coffee flavor.',
+    image: '/images/snacks/194.jpg', origin: '中国', originEn: 'China',
+    manufacturer: '各品牌', manufacturerEn: 'Various Brands', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '195', name: '榴莲布丁', nameEn: 'Durian Pudding', category: '果冻', categoryEn: 'Jelly',
+    era: '00后', eraEn: 'Post-00s', flavor: ['甜', '榴莲'], flavorEn: ['Sweet', 'Durian'],
+    description: '榴莲味布丁，榴莲香浓郁，口感细腻。', descriptionEn: 'Durian-flavored pudding, rich durian aroma, delicate texture.',
+    memory: '榴莲控必吃，榴莲味很浓郁。', memoryEn: 'Must-eat for durian lovers, rich durian flavor.',
+    image: '/images/snacks/195.jpg', origin: '中国', originEn: 'China',
+    manufacturer: '各品牌', manufacturerEn: 'Various Brands', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '196', name: '蜜豆布丁', nameEn: 'Honey Bean Pudding', category: '果冻', categoryEn: 'Jelly',
+    era: '00后', eraEn: 'Post-00s', flavor: ['甜', '豆香'], flavorEn: ['Sweet', 'Bean'],
+    description: '蜜豆布丁，豆香浓郁，口感细腻。', descriptionEn: 'Honey bean pudding, rich bean aroma, delicate texture.',
+    memory: '蜜豆很甜，和布丁一起吃很搭。', memoryEn: 'Honey beans are sweet, go well with pudding.',
+    image: '/images/snacks/196.jpg', origin: '中国', originEn: 'China',
+    manufacturer: '各品牌', manufacturerEn: 'Various Brands', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '197', name: '仙草冻', nameEn: 'Grass Jelly Cup', category: '果冻', categoryEn: 'Jelly',
+    era: '90后', eraEn: 'Post-90s', flavor: ['甜', '清凉'], flavorEn: ['Sweet', 'Cool'],
+    description: '杯装仙草冻，清凉解暑，口感Q弹。', descriptionEn: 'Cup grass jelly, cool and heat-relieving, bouncy texture.',
+    memory: '夏天必吃的甜品，可以加牛奶或奶茶。', memoryEn: 'Must-eat dessert in summer, can add milk or milk tea.',
+    image: '/images/snacks/197.jpg', origin: '中国台湾', originEn: 'Taiwan, China',
+    manufacturer: '各品牌', manufacturerEn: 'Various Brands', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '198', name: '爱玉冻', nameEn: 'Aiyu Jelly', category: '果冻', categoryEn: 'Jelly',
+    era: '90后', eraEn: 'Post-90s', flavor: ['甜', '清凉'], flavorEn: ['Sweet', 'Cool'],
+    description: '台湾特色甜品，爱玉子制成，清凉解暑。', descriptionEn: 'Taiwan specialty dessert made from aiyu seeds, cool and heat-relieving.',
+    memory: '去台湾必吃的甜品，口感很独特。', memoryEn: 'Must-eat dessert in Taiwan, unique texture.',
+    image: '/images/snacks/198.jpg', origin: '中国台湾', originEn: 'Taiwan, China',
+    manufacturer: '各品牌', manufacturerEn: 'Various Brands', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '199', name: '蒟蒻果冻', nameEn: 'Konjac Jelly', category: '果冻', categoryEn: 'Jelly',
+    era: '00后', eraEn: 'Post-00s', flavor: ['甜', '低卡'], flavorEn: ['Sweet', 'Low Calorie'],
+    description: '蒟蒻制成的果冻，低卡路里，健康零食。', descriptionEn: 'Jelly made from konjac, low calorie, healthy snack.',
+    memory: '减肥时也能吃的果冻，热量很低。', memoryEn: 'Jelly that can be eaten while dieting, very low calories.',
+    image: '/images/snacks/199.jpg', origin: '日本', originEn: 'Japan',
+    manufacturer: '各品牌', manufacturerEn: 'Various Brands', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '200', name: '果冻条', nameEn: 'Jelly Stick', category: '果冻', categoryEn: 'Jelly',
+    era: '90后', eraEn: 'Post-90s', flavor: ['甜', '水果'], flavorEn: ['Sweet', 'Fruity'],
+    description: '长条状果冻，方便食用，口感Q弹。', descriptionEn: 'Long strip jelly, convenient to eat, bouncy texture.',
+    memory: '可以一根根吃，很方便。', memoryEn: 'Can eat one by one, very convenient.',
+    image: '/images/snacks/200.jpg', origin: '中国', originEn: 'China',
+    manufacturer: '各品牌', manufacturerEn: 'Various Brands', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '201', name: '果冻杯', nameEn: 'Jelly Cup', category: '果冻', categoryEn: 'Jelly',
+    era: '90后', eraEn: 'Post-90s', flavor: ['甜', '水果'], flavorEn: ['Sweet', 'Fruity'],
+    description: '小杯装果冻，一口一个，方便分享。', descriptionEn: 'Small cup jelly, one bite at a time, easy to share.',
+    memory: '可以分给小伙伴，一人一个。', memoryEn: 'Can share with friends, one each.',
+    image: '/images/snacks/201.jpg', origin: '中国', originEn: 'China',
+    manufacturer: '各品牌', manufacturerEn: 'Various Brands', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '202', name: '果冻爽', nameEn: 'Jelly Drink', category: '果冻', categoryEn: 'Jelly',
+    era: '00后', eraEn: 'Post-00s', flavor: ['甜', '水果'], flavorEn: ['Sweet', 'Fruity'],
+    description: '可吸果冻饮料，口感Q弹，方便携带。', descriptionEn: 'Suckable jelly drink, bouncy texture, convenient to carry.',
+    memory: '可以当饮料喝，也可以当零食吃。', memoryEn: 'Can drink as beverage or eat as snack.',
+    image: '/images/snacks/202.jpg', origin: '中国', originEn: 'China',
+    manufacturer: '各品牌', manufacturerEn: 'Various Brands', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '203', name: '果冻粉', nameEn: 'Jelly Powder', category: '果冻', categoryEn: 'Jelly',
+    era: '90后', eraEn: 'Post-90s', flavor: ['甜', '水果'], flavorEn: ['Sweet', 'Fruity'],
+    description: '自制果冻粉，可以在家DIY各种口味果冻。', descriptionEn: 'DIY jelly powder, can make various flavors at home.',
+    memory: '小时候妈妈会做给我吃，很有成就感。', memoryEn: 'Mom made it for me as a child, very accomplished.',
+    image: '/images/snacks/203.jpg', origin: '中国', originEn: 'China',
+    manufacturer: '各品牌', manufacturerEn: 'Various Brands', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '204', name: '果冻粉圆', nameEn: 'Tapioca Pearl', category: '果冻', categoryEn: 'Jelly',
+    era: '00后', eraEn: 'Post-00s', flavor: ['甜', 'Q弹'], flavorEn: ['Sweet', 'Bouncy'],
+    description: '珍珠奶茶里的珍珠，口感Q弹有嚼劲。', descriptionEn: 'Pearls in bubble tea, bouncy and chewy texture.',
+    memory: '珍珠奶茶的灵魂，越嚼越香。', memoryEn: 'Soul of bubble tea, more fragrant the more you chew.',
+    image: '/images/snacks/204.jpg', origin: '中国台湾', originEn: 'Taiwan, China',
+    manufacturer: '各品牌', manufacturerEn: 'Various Brands', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '205', name: '椰果', nameEn: 'Coconut Jelly', category: '果冻', categoryEn: 'Jelly',
+    era: '90后', eraEn: 'Post-90s', flavor: ['甜', '椰香'], flavorEn: ['Sweet', 'Coconut'],
+    description: '奶茶配料，口感Q弹，椰香浓郁。', descriptionEn: 'Milk tea topping, bouncy texture, rich coconut aroma.',
+    memory: '奶茶里必加的配料，很好吃。', memoryEn: 'Must-add topping in milk tea, very delicious.',
+    image: '/images/snacks/205.jpg', origin: '中国', originEn: 'China',
+    manufacturer: '各品牌', manufacturerEn: 'Various Brands', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '206', name: '芋圆', nameEn: 'Taro Ball', category: '果冻', categoryEn: 'Jelly',
+    era: '00后', eraEn: 'Post-00s', flavor: ['甜', '芋香'], flavorEn: ['Sweet', 'Taro'],
+    description: '台湾特色甜品，芋头制成，口感Q弹。', descriptionEn: 'Taiwan specialty dessert made from taro, bouncy texture.',
+    memory: '去台湾必吃的甜品，芋香味很浓。', memoryEn: 'Must-eat dessert in Taiwan, strong taro aroma.',
+    image: '/images/snacks/206.jpg', origin: '中国台湾', originEn: 'Taiwan, China',
+    manufacturer: '各品牌', manufacturerEn: 'Various Brands', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '207', name: '地瓜圆', nameEn: 'Sweet Potato Ball', category: '果冻', categoryEn: 'Jelly',
+    era: '00后', eraEn: 'Post-00s', flavor: ['甜', '地瓜'], flavorEn: ['Sweet', 'Sweet Potato'],
+    description: '地瓜制成的甜品，口感Q弹，地瓜香浓郁。', descriptionEn: 'Dessert made from sweet potato, bouncy texture, rich sweet potato aroma.',
+    memory: '地瓜味很香，口感很Q弹。', memoryEn: 'Sweet potato flavor is fragrant, very bouncy texture.',
+    image: '/images/snacks/207.jpg', origin: '中国台湾', originEn: 'Taiwan, China',
+    manufacturer: '各品牌', manufacturerEn: 'Various Brands', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '208', name: '汤圆', nameEn: 'Tangyuan', category: '果冻', categoryEn: 'Jelly',
+    era: '80后', eraEn: 'Post-80s', flavor: ['甜', '糯米'], flavorEn: ['Sweet', 'Glutinous Rice'],
+    description: '传统节日食品，糯米制成，内含馅料。', descriptionEn: 'Traditional festival food made from glutinous rice with filling inside.',
+    memory: '元宵节必吃的传统食品，团团圆圆。', memoryEn: 'Must-eat traditional food during Lantern Festival, symbolizes reunion.',
+    image: '/images/snacks/208.jpg', origin: '中国', originEn: 'China',
+    manufacturer: '各品牌', manufacturerEn: 'Various Brands', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '209', name: '芝麻汤圆', nameEn: 'Sesame Tangyuan', category: '果冻', categoryEn: 'Jelly',
+    era: '80后', eraEn: 'Post-80s', flavor: ['甜', '芝麻'], flavorEn: ['Sweet', 'Sesame'],
+    description: '芝麻馅汤圆，芝麻香浓郁，口感软糯。', descriptionEn: 'Sesame-filled tangyuan, rich sesame aroma, soft texture.',
+    memory: '最经典的汤圆口味，芝麻馅很香。', memoryEn: 'Most classic tangyuan flavor, sesame filling is fragrant.',
+    image: '/images/snacks/209.jpg', origin: '中国', originEn: 'China',
+    manufacturer: '各品牌', manufacturerEn: 'Various Brands', status: '在售', statusEn: 'Available'
+  },
+  {
+    id: '210', name: '花生汤圆', nameEn: 'Peanut Tangyuan', category: '果冻', categoryEn: 'Jelly',
+    era: '80后', eraEn: 'Post-80s', flavor: ['甜', '花生'], flavorEn: ['Sweet', 'Peanut'],
+    description: '花生馅汤圆，花生香浓郁，口感软糯。', descriptionEn: 'Peanut-filled tangyuan, rich peanut aroma, soft texture.',
+    memory: '花生馅很香，口感很细腻。', memoryEn: 'Peanut filling is fragrant, very delicate texture.',
+    image: '/images/snacks/210.jpg', origin: '中国', originEn: 'China',
+    manufacturer: '各品牌', manufacturerEn: 'Various Brands', status: '在售', statusEn: 'Available'
+  },
+];
+
+// 更新导出
+export const allSnacks: Snack[] = [...snacks, ...moreSnacks, ...moreSnacks2, ...moreSnacks3];

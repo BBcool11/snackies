@@ -1,0 +1,236 @@
+[
+  {
+    "id": 7,
+    "name": "浪味仙老版",
+    "en_name": "Lonely God Classic",
+    "category": "膨化食品",
+    "status": "绝版",
+    "tags": [
+      "童年回忆",
+      "绝版",
+      "膨化"
+    ],
+    "image": "https://pic2.zhimg.com/v2-afd5fa1f9b3e4335b3217090108e9551_r.jpg",
+    "brand": "浪味仙",
+    "factual_desc": "旺旺集团经典田园蔬菜口味膨化，螺旋造型独特，咸甜交织的复合口味，是90年代高端零食的代表。",
+    "nostalgic_quote": "那螺旋状的造型总让我想起妈妈的卷发，咬一口，满嘴都是高级的味道。",
+    "price": 2.0,
+    "era": "90年代"
+  },
+  {
+    "id": 38,
+    "name": "单身狗粮",
+    "en_name": "Classic 单身狗粮",
+    "category": "膨化食品",
+    "status": "在售",
+    "tags": [
+      "童年回忆",
+      "在售",
+      "膨化"
+    ],
+    "image": "http://www.lingshimiyu.com/uploadfile/2018042620240921783.jpg",
+    "brand": "单身狗粮",
+    "factual_desc": "单身狗粮，咔滋与蓬松兼具的经典膨化食品，是无数人童年零食记忆的重要组成部分。",
+    "nostalgic_quote": "和小伙伴分着吃，你一片我一片，是最公平的分享。",
+    "price": 2.8,
+    "era": "90年代"
+  },
+  {
+    "id": 42,
+    "name": "苦荞片",
+    "en_name": "Classic 苦荞片",
+    "category": "膨化食品",
+    "status": "在售",
+    "tags": [
+      "童年回忆",
+      "在售",
+      "膨化"
+    ],
+    "image": "https://img.zcool.cn/community/01a9615e36664ca801216518d57ac6.jpg?x-oss-process=image/auto-orient,1/resize,m_lfit,w_1280,limit_1/sharpen,100",
+    "brand": "苦荞片",
+    "factual_desc": "苦荞片，油润与咔滋兼具的经典膨化食品，是无数人童年零食记忆的重要组成部分。",
+    "nostalgic_quote": "捏碎的声音在安静的课堂上格外响亮，是最刺激的心跳。",
+    "price": 2.3,
+    "era": "90年代"
+  },
+  {
+    "id": 67,
+    "name": "亚洲沙士早期版",
+    "en_name": "Classic 亚洲沙士版",
+    "category": "饮料汽水",
+    "status": "停产",
+    "tags": [
+      "童年回忆",
+      "停产",
+      "饮料汽水"
+    ],
+    "image": "https://cdn.clickme.net/Gallery/2016/05/23/2b6c26cf6719e4f578019348fcb032f5.jpg",
+    "brand": "亚洲沙士",
+    "factual_desc": "亚洲沙士早期版，沁人心脾与气泡兼具的经典饮料汽水，是无数人童年零食记忆的重要组成部分。",
+    "nostalgic_quote": "偷偷买一瓶藏在书包里，是童年最刺激的秘密。",
+    "price": 0.8,
+    "era": "80年代"
+  },
+  {
+    "id": 88,
+    "name": "统一阿萨姆",
+    "en_name": "Classic 统一阿萨姆",
+    "category": "饮料汽水",
+    "status": "在售",
+    "tags": [
+      "童年回忆",
+      "在售",
+      "饮料汽水"
+    ],
+    "image": "http://img.cndesign.com/Works/20230813/9686ded07e1649289722f94c51d76fa4.jpeg",
+    "brand": "统一阿萨姆",
+    "factual_desc": "统一阿萨姆，解渴与清爽兼具的经典饮料汽水，是无数人童年零食记忆的重要组成部分。",
+    "nostalgic_quote": "玻璃瓶要还给小卖部，但那口清凉值得跑一趟。",
+    "price": 4.3,
+    "era": "00年代"
+  },
+  {
+    "id": 101,
+    "name": "大白兔老包装",
+    "en_name": "Classic 大白兔老",
+    "category": "糖果巧克力",
+    "status": "绝版",
+    "tags": [
+      "童年回忆",
+      "绝版",
+      "糖果巧克力"
+    ],
+    "image": "https://img.zcool.cn/community/012jpcv25m2uypa1uln7dr3930.jpg?x-oss-process=image/auto-orient,1/resize,m_lfit,w_1280,limit_1/sharpen,100/quality,q_100",
+    "brand": "大白兔老",
+    "factual_desc": "大白兔老包装，香甜与浓郁兼具的经典糖果巧克力，是无数人童年零食记忆的重要组成部分。",
+    "nostalgic_quote": "和同桌分享最后一颗糖，是友谊最甜蜜的交换。",
+    "price": 1.4,
+    "era": "90年代"
+  },
+  {
+    "id": 190,
+    "name": "手指饼干早期版",
+    "en_name": "Classic 手指饼干版",
+    "category": "饼干糕点",
+    "status": "绝版",
+    "tags": [
+      "童年回忆",
+      "绝版",
+      "饼干糕点"
+    ],
+    "image": "http://i2.hdslb.com/bfs/archive/e8eddc0ef8e863df79bb03a7bd903d17f1faeb58.jpg",
+    "brand": "手指饼干",
+    "factual_desc": "手指饼干早期版，酥脆与香甜兼具的经典饼干糕点，是无数人童年零食记忆的重要组成部分。",
+    "nostalgic_quote": "咬一口酥皮掉渣，是最需要小心呵护的美味。",
+    "price": 1.0,
+    "era": "80年代"
+  },
+  {
+    "id": 210,
+    "name": "凤梨酥老版",
+    "en_name": "Pineapple Cake",
+    "category": "饼干糕点",
+    "status": "停产",
+    "tags": [
+      "童年回忆",
+      "停产",
+      "饼干糕点"
+    ],
+    "image": "https://img.zcool.cn/community/01071a5f34f125a80120a82154e6a8.jpg",
+    "brand": "凤梨酥",
+    "factual_desc": "台湾传统点心，酥皮包裹凤梨馅料，甜中带酸，是台湾最具代表性的伴手礼。",
+    "nostalgic_quote": "去台湾旅游必买的伴手礼，每一块都是宝岛的阳光味道。",
+    "price": 8.0,
+    "era": "90年代"
+  },
+  {
+    "id": 234,
+    "name": "南街村拌面早期",
+    "en_name": "Classic 南街村拌面",
+    "category": "蜜饯与速食",
+    "status": "绝版",
+    "tags": [
+      "童年回忆",
+      "绝版",
+      "蜜饯与速食"
+    ],
+    "image": "https://img.zcool.cn/community/016fb257fc5297a84a0e282bf3af20.jpg?x-oss-process=image/auto-orient,1/resize,m_lfit,w_1280,limit_1/sharpen,100/quality,q_100",
+    "brand": "南街村拌面",
+    "factual_desc": "南街村拌面早期，即食与入味兼具的经典蜜饯与速食，是无数人童年零食记忆的重要组成部分。",
+    "nostalgic_quote": "一包解决一顿饭，是学生党最经济的选择。",
+    "price": 0.3,
+    "era": "80年代"
+  },
+  {
+    "id": 260,
+    "name": "汤达人",
+    "en_name": "Classic 汤达人",
+    "category": "蜜饯与速食",
+    "status": "在售",
+    "tags": [
+      "童年回忆",
+      "在售",
+      "蜜饯与速食"
+    ],
+    "image": "https://img.zcool.cn/community/01cgsemhj3hmt4ry5hebqt3732.png?x-oss-process=image/auto-orient,1/resize,m_lfit,w_1280,limit_1/sharpen,100",
+    "brand": "汤达人",
+    "factual_desc": "汤达人，便捷与方便兼具的经典蜜饯与速食，是无数人童年零食记忆的重要组成部分。",
+    "nostalgic_quote": "开水一冲就能吃，是懒人最需要的便利。",
+    "price": 1.9,
+    "era": "00年代"
+  },
+  {
+    "id": 264,
+    "name": "螺蛳粉",
+    "en_name": "Liuzhou Luosifen",
+    "category": "蜜饯与速食",
+    "status": "在售",
+    "tags": [
+      "童年回忆",
+      "在售",
+      "蜜饯与速食"
+    ],
+    "image": "https://assets.puxiang.com/uploads/photo/image/4255219/609aa007ef0511bb5a5179a9fc545354.jpeg",
+    "brand": "螺蛳粉",
+    "factual_desc": "广西柳州特色小吃，酸笋的独特气味配合辣油与螺蛳汤，是近年来速食界的现象级网红产品。",
+    "nostalgic_quote": "虽然被室友嫌弃像厕所炸了，但嗦粉的快乐只有自己知道。",
+    "price": 10.0,
+    "era": "10年代"
+  },
+  {
+    "id": 265,
+    "name": "酸辣粉",
+    "en_name": "Hot and Sour Noodles",
+    "category": "蜜饯与速食",
+    "status": "在售",
+    "tags": [
+      "童年回忆",
+      "在售",
+      "蜜饯与速食"
+    ],
+    "image": "https://img.zcool.cn/community/01b6886152e8e211013f22cfcfa386.jpg",
+    "brand": "酸辣粉",
+    "factual_desc": "四川重庆特色粉条，红薯粉制成的粉条配上酸辣汤底，麻辣鲜香，是川渝小吃的代表。",
+    "nostalgic_quote": "辣到鼻涕直流却停不下来，是重庆人对于辣味最执着的追求。",
+    "price": 8.0,
+    "era": "90年代"
+  },
+  {
+    "id": 270,
+    "name": "李子柒螺蛳粉",
+    "en_name": "Liuzhou Luosifen",
+    "category": "蜜饯与速食",
+    "status": "在售",
+    "tags": [
+      "童年回忆",
+      "在售",
+      "蜜饯与速食"
+    ],
+    "image": "https://p4.taihuoniao.com/topic/210820/611f5d6f2025aa02fe4e9229-hd.jpg",
+    "brand": "李子柒螺蛳粉",
+    "factual_desc": "广西柳州特色小吃，酸笋的独特气味配合辣油与螺蛳汤，是近年来速食界的现象级网红产品。",
+    "nostalgic_quote": "虽然被室友嫌弃像厕所炸了，但嗦粉的快乐只有自己知道。",
+    "price": 10.0,
+    "era": "10年代"
+  }
+]

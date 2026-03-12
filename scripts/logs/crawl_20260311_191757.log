@@ -1,0 +1,580 @@
+2026-03-11 19:17:57,436 - INFO - ====== WebDriver manager ======
+2026-03-11 19:17:57,738 - INFO - Get LATEST chromedriver version for google-chrome
+2026-03-11 19:17:58,172 - INFO - Get LATEST chromedriver version for google-chrome
+2026-03-11 19:17:58,610 - INFO - Driver [/Users/zoe/.wdm/drivers/chromedriver/mac64/146.0.7680.72/chromedriver-mac-arm64/chromedriver] found in cache
+2026-03-11 19:17:59,750 - INFO - ✅ Chrome浏览器初始化成功
+2026-03-11 19:17:59,751 - INFO - 🔍 访问: https://image.baidu.com/search/index?tn=baiduimage&word=%E5%86%BB%E5%B9%B2%E8%8D...
+2026-03-11 19:18:08,765 - INFO - 📸 找到 538 个图片元素
+2026-03-11 19:18:08,793 - INFO - ✅ 提取到 5 个有效图片URL
+2026-03-11 19:18:09,074 - INFO - 💾 已保存: output/dried_fruit/冻干草莓脆/冻干草莓脆_01.jpg (500x500)
+2026-03-11 19:18:09,152 - INFO - 💾 已保存: output/dried_fruit/冻干草莓脆/冻干草莓脆_02.jpg (500x500)
+2026-03-11 19:18:09,234 - INFO - 💾 已保存: output/dried_fruit/冻干草莓脆/冻干草莓脆_03.jpg (500x500)
+2026-03-11 19:18:12,922 - INFO - 🔍 访问: https://image.baidu.com/search/index?tn=baiduimage&word=%E5%86%BB%E5%B9%B2%E6%A6...
+2026-03-11 19:18:20,602 - INFO - 📸 找到 544 个图片元素
+2026-03-11 19:18:20,638 - INFO - ✅ 提取到 5 个有效图片URL
+2026-03-11 19:18:20,828 - INFO - 💾 已保存: output/dried_fruit/冻干榴莲干/冻干榴莲干_01.jpg (500x500)
+2026-03-11 19:18:20,983 - INFO - 💾 已保存: output/dried_fruit/冻干榴莲干/冻干榴莲干_02.jpg (500x500)
+2026-03-11 19:18:21,071 - INFO - 💾 已保存: output/dried_fruit/冻干榴莲干/冻干榴莲干_03.jpg (500x500)
+2026-03-11 19:18:24,734 - INFO - 🔍 访问: https://image.baidu.com/search/index?tn=baiduimage&word=%E5%86%BB%E5%B9%B2%E8%8A...
+2026-03-11 19:18:32,633 - INFO - 📸 找到 561 个图片元素
+2026-03-11 19:18:32,662 - INFO - ✅ 提取到 5 个有效图片URL
+2026-03-11 19:18:32,811 - INFO - 💾 已保存: output/dried_fruit/冻干芒果脆/冻干芒果脆_01.jpg (500x500)
+2026-03-11 19:18:32,874 - INFO - 💾 已保存: output/dried_fruit/冻干芒果脆/冻干芒果脆_02.jpg (375x500)
+2026-03-11 19:18:33,025 - INFO - 💾 已保存: output/dried_fruit/冻干芒果脆/冻干芒果脆_03.jpg (375x500)
+2026-03-11 19:18:35,472 - INFO - 🔍 访问: https://image.baidu.com/search/index?tn=baiduimage&word=%E5%86%BB%E5%B9%B2%E9%85...
+2026-03-11 19:18:43,965 - INFO - 📸 找到 590 个图片元素
+2026-03-11 19:18:43,989 - INFO - ✅ 提取到 5 个有效图片URL
+2026-03-11 19:18:44,293 - INFO - 💾 已保存: output/dairy/冻干酸奶块/冻干酸奶块_01.jpg (500x758)
+2026-03-11 19:18:46,367 - INFO - 💾 已保存: output/dairy/冻干酸奶块/冻干酸奶块_02.jpg (500x500)
+2026-03-11 19:18:46,445 - INFO - 💾 已保存: output/dairy/冻干酸奶块/冻干酸奶块_03.jpg (500x500)
+2026-03-11 19:18:49,881 - INFO - 🔍 访问: https://image.baidu.com/search/index?tn=baiduimage&word=%E7%9B%8A%E7%94%9F%E8%8F...
+2026-03-11 19:18:58,503 - INFO - 📸 找到 661 个图片元素
+2026-03-11 19:18:58,531 - INFO - ✅ 提取到 5 个有效图片URL
+2026-03-11 19:18:58,784 - INFO - 💾 已保存: output/dairy/益生菌冻干奶酪块/益生菌冻干奶酪块_01.jpg (1036x584)
+2026-03-11 19:18:58,854 - INFO - 💾 已保存: output/dairy/益生菌冻干奶酪块/益生菌冻干奶酪块_02.jpg (500x500)
+2026-03-11 19:18:58,929 - INFO - 💾 已保存: output/dairy/益生菌冻干奶酪块/益生菌冻干奶酪块_03.jpg (500x500)
+2026-03-11 19:19:01,970 - INFO - 🔍 访问: https://image.baidu.com/search/index?tn=baiduimage&word=%E9%AD%94%E8%8A%8B%E7%88...
+2026-03-11 19:19:10,280 - INFO - 📸 找到 549 个图片元素
+2026-03-11 19:19:10,312 - INFO - ✅ 提取到 5 个有效图片URL
+2026-03-11 19:19:10,582 - INFO - 💾 已保存: output/spicy_strips/魔芋爽香辣味/魔芋爽香辣味_01.jpg (500x667)
+2026-03-11 19:19:10,894 - INFO - 💾 已保存: output/spicy_strips/魔芋爽香辣味/魔芋爽香辣味_02.jpg (667x500)
+2026-03-11 19:19:10,999 - INFO - 💾 已保存: output/spicy_strips/魔芋爽香辣味/魔芋爽香辣味_03.jpg (667x500)
+2026-03-11 19:19:13,853 - INFO - 🔍 访问: https://image.baidu.com/search/index?tn=baiduimage&word=%E9%AD%94%E8%8A%8B%E7%88...
+2026-03-11 19:19:20,722 - INFO - 📸 找到 682 个图片元素
+2026-03-11 19:19:20,757 - INFO - ✅ 提取到 5 个有效图片URL
+2026-03-11 19:19:20,962 - INFO - 💾 已保存: output/spicy_strips/魔芋爽酸辣味/魔芋爽酸辣味_01.jpg (500x667)
+2026-03-11 19:19:21,067 - INFO - 💾 已保存: output/spicy_strips/魔芋爽酸辣味/魔芋爽酸辣味_02.jpg (667x500)
+2026-03-11 19:19:21,237 - INFO - 💾 已保存: output/spicy_strips/魔芋爽酸辣味/魔芋爽酸辣味_03.jpg (667x500)
+2026-03-11 19:19:25,059 - INFO - 🔍 访问: https://image.baidu.com/search/index?tn=baiduimage&word=%E9%AD%94%E8%8A%8B%E7%B4...
+2026-03-11 19:19:32,682 - INFO - 📸 找到 593 个图片元素
+2026-03-11 19:19:32,706 - INFO - ✅ 提取到 5 个有效图片URL
+2026-03-11 19:19:33,011 - INFO - 💾 已保存: output/spicy_strips/魔芋素毛肚/魔芋素毛肚_01.jpg (666x500)
+2026-03-11 19:19:33,319 - INFO - 💾 已保存: output/spicy_strips/魔芋素毛肚/魔芋素毛肚_02.jpg (508x500)
+2026-03-11 19:19:33,399 - INFO - 💾 已保存: output/spicy_strips/魔芋素毛肚/魔芋素毛肚_03.jpg (500x609)
+2026-03-11 19:19:36,837 - INFO - 🔍 访问: https://image.baidu.com/search/index?tn=baiduimage&word=%E4%BD%8E%E5%8D%A1%E9%AD...
+2026-03-11 19:19:44,265 - INFO - 📸 找到 728 个图片元素
+2026-03-11 19:19:44,291 - INFO - ✅ 提取到 5 个有效图片URL
+2026-03-11 19:19:44,556 - INFO - 💾 已保存: output/jelly/低卡魔芋果冻/低卡魔芋果冻_01.jpg (500x500)
+2026-03-11 19:19:44,731 - INFO - 💾 已保存: output/jelly/低卡魔芋果冻/低卡魔芋果冻_02.jpg (500x653)
+2026-03-11 19:19:45,419 - INFO - 💾 已保存: output/jelly/低卡魔芋果冻/低卡魔芋果冻_03.jpg (500x661)
+2026-03-11 19:19:48,963 - INFO - 🔍 访问: https://image.baidu.com/search/index?tn=baiduimage&word=%E9%AD%94%E8%8A%8B%E8%9B...
+2026-03-11 19:19:56,796 - INFO - 📸 找到 660 个图片元素
+2026-03-11 19:19:56,824 - INFO - ✅ 提取到 5 个有效图片URL
+2026-03-11 19:19:57,056 - INFO - 💾 已保存: output/pastry/魔芋蛋糕/魔芋蛋糕_01.jpg (800x450)
+2026-03-11 19:19:57,140 - INFO - 💾 已保存: output/pastry/魔芋蛋糕/魔芋蛋糕_02.jpg (1036x584)
+2026-03-11 19:19:57,230 - INFO - 💾 已保存: output/pastry/魔芋蛋糕/魔芋蛋糕_03.jpg (1036x584)
+2026-03-11 19:20:00,550 - INFO - 🔍 访问: https://image.baidu.com/search/index?tn=baiduimage&word=Royce%E7%94%9F%E5%B7%A7%...
+2026-03-11 19:20:07,419 - INFO - 📸 找到 539 个图片元素
+2026-03-11 19:20:07,455 - INFO - ✅ 提取到 5 个有效图片URL
+2026-03-11 19:20:07,716 - INFO - 💾 已保存: output/chocolate/Royce生巧克力/Royce生巧克力_01.jpg (822x800)
+2026-03-11 19:20:07,978 - INFO - 💾 已保存: output/chocolate/Royce生巧克力/Royce生巧克力_02.jpg (500x652)
+2026-03-11 19:20:08,198 - INFO - 💾 已保存: output/chocolate/Royce生巧克力/Royce生巧克力_03.jpg (500x653)
+2026-03-11 19:20:10,953 - INFO - 🔍 访问: https://image.baidu.com/search/index?tn=baiduimage&word=%E6%AF%8F%E6%97%A5%E9%BB...
+2026-03-11 19:20:17,569 - INFO - 📸 找到 488 个图片元素
+2026-03-11 19:20:17,604 - INFO - ✅ 提取到 5 个有效图片URL
+2026-03-11 19:20:17,880 - INFO - 💾 已保存: output/chocolate/每日黑巧/每日黑巧_01.jpg (500x667)
+2026-03-11 19:20:17,984 - INFO - 💾 已保存: output/chocolate/每日黑巧/每日黑巧_02.jpg (500x667)
+2026-03-11 19:20:18,082 - INFO - 💾 已保存: output/chocolate/每日黑巧/每日黑巧_03.jpg (500x667)
+2026-03-11 19:20:20,521 - INFO - 🔍 访问: https://image.baidu.com/search/index?tn=baiduimage&word=%E8%AF%BA%E6%A2%B5%E6%9D...
+2026-03-11 19:22:20,524 - ERROR - ❌ 搜索失败: HTTPConnectionPool(host='localhost', port=49892): Read timed out. (read timeout=120)
+2026-03-11 19:22:20,525 - INFO - 🔍 访问: https://image.baidu.com/search/index?tn=baiduimage&word=%E8%AF%BA%E6%A2%B5%E6%9D...
+2026-03-11 19:23:23,592 - INFO - 📸 找到 500 个图片元素
+2026-03-11 19:23:23,625 - INFO - ✅ 提取到 5 个有效图片URL
+2026-03-11 19:23:24,131 - INFO - 💾 已保存: output/chocolate/诺梵松露巧克力/诺梵松露巧克力_01.jpg (800x1069)
+2026-03-11 19:23:24,312 - INFO - 💾 已保存: output/chocolate/诺梵松露巧克力/诺梵松露巧克力_02.jpg (800x1069)
+2026-03-11 19:23:24,514 - INFO - 💾 已保存: output/chocolate/诺梵松露巧克力/诺梵松露巧克力_03.jpg (800x1069)
+2026-03-11 19:23:27,870 - INFO - 🔍 访问: https://image.baidu.com/search/index?tn=baiduimage&word=%E7%94%9F%E5%B7%A7%E7%86...
+2026-03-11 19:23:35,424 - INFO - 📸 找到 726 个图片元素
+2026-03-11 19:23:35,453 - INFO - ✅ 提取到 5 个有效图片URL
+2026-03-11 19:23:35,688 - INFO - 💾 已保存: output/pastry/生巧熔岩蛋糕/生巧熔岩蛋糕_01.jpg (800x450)
+2026-03-11 19:23:35,771 - INFO - 💾 已保存: output/pastry/生巧熔岩蛋糕/生巧熔岩蛋糕_02.jpg (1036x584)
+2026-03-11 19:23:35,895 - INFO - 💾 已保存: output/pastry/生巧熔岩蛋糕/生巧熔岩蛋糕_03.jpg (1036x584)
+2026-03-11 19:23:38,176 - INFO - 🔍 访问: https://image.baidu.com/search/index?tn=baiduimage&word=%E5%86%B0%E5%B1%B1%E7%86...
+2026-03-11 19:23:45,072 - INFO - 📸 找到 669 个图片元素
+2026-03-11 19:23:45,103 - INFO - ✅ 提取到 5 个有效图片URL
+2026-03-11 19:23:45,504 - INFO - 💾 已保存: output/chocolate/冰山熔岩巧克力/冰山熔岩巧克力_01.jpg (514x500)
+2026-03-11 19:23:45,601 - INFO - 💾 已保存: output/chocolate/冰山熔岩巧克力/冰山熔岩巧克力_02.jpg (514x500)
+2026-03-11 19:23:45,670 - INFO - 💾 已保存: output/chocolate/冰山熔岩巧克力/冰山熔岩巧克力_03.jpg (514x500)
+2026-03-11 19:23:48,979 - INFO - 🔍 访问: https://image.baidu.com/search/index?tn=baiduimage&word=%E7%88%86%E6%B5%86%E6%9B...
+2026-03-11 19:23:56,193 - INFO - 📸 找到 579 个图片元素
+2026-03-11 19:23:56,225 - INFO - ✅ 提取到 5 个有效图片URL
+2026-03-11 19:23:56,511 - INFO - 💾 已保存: output/cookies/爆浆曲奇/爆浆曲奇_01.jpg (500x500)
+2026-03-11 19:23:56,613 - INFO - 💾 已保存: output/cookies/爆浆曲奇/爆浆曲奇_02.jpg (515x500)
+2026-03-11 19:23:56,707 - INFO - 💾 已保存: output/cookies/爆浆曲奇/爆浆曲奇_03.jpg (515x500)
+2026-03-11 19:24:00,266 - INFO - 🔍 访问: https://image.baidu.com/search/index?tn=baiduimage&word=%E6%B5%81%E5%BF%83%E5%A5...
+2026-03-11 19:24:07,596 - INFO - 📸 找到 564 个图片元素
+2026-03-11 19:24:07,626 - INFO - ✅ 提取到 5 个有效图片URL
+2026-03-11 19:24:07,839 - INFO - 💾 已保存: output/pastry/流心奶黄月饼/流心奶黄月饼_01.jpg (800x450)
+2026-03-11 19:24:08,031 - INFO - 💾 已保存: output/pastry/流心奶黄月饼/流心奶黄月饼_02.jpg (500x659)
+2026-03-11 19:24:08,147 - INFO - 💾 已保存: output/pastry/流心奶黄月饼/流心奶黄月饼_03.jpg (500x746)
+2026-03-11 19:24:11,889 - INFO - 🔍 访问: https://image.baidu.com/search/index?tn=baiduimage&word=%E7%88%86%E6%B5%86%E8%BD...
+2026-03-11 19:24:19,714 - INFO - 📸 找到 537 个图片元素
+2026-03-11 19:24:19,747 - INFO - ✅ 提取到 5 个有效图片URL
+2026-03-11 19:24:20,101 - INFO - 💾 已保存: output/candy/爆浆软糖/爆浆软糖_01.jpg (500x682)
+2026-03-11 19:24:20,218 - INFO - 💾 已保存: output/candy/爆浆软糖/爆浆软糖_02.jpg (500x666)
+2026-03-11 19:24:20,325 - INFO - 💾 已保存: output/candy/爆浆软糖/爆浆软糖_03.jpg (500x666)
+2026-03-11 19:24:23,163 - INFO - 🔍 访问: https://image.baidu.com/search/index?tn=baiduimage&word=%E7%88%86%E6%B5%86%E5%B0...
+2026-03-11 19:24:29,956 - INFO - 📸 找到 585 个图片元素
+2026-03-11 19:24:29,980 - INFO - ✅ 提取到 5 个有效图片URL
+2026-03-11 19:24:30,344 - INFO - 💾 已保存: output/chocolate/爆浆小丸子/爆浆小丸子_01.jpg (500x644)
+2026-03-11 19:24:32,296 - INFO - 💾 已保存: output/chocolate/爆浆小丸子/爆浆小丸子_02.jpg (500x500)
+2026-03-11 19:24:32,387 - INFO - 💾 已保存: output/chocolate/爆浆小丸子/爆浆小丸子_03.jpg (500x500)
+2026-03-11 19:24:35,301 - INFO - 🔍 访问: https://image.baidu.com/search/index?tn=baiduimage&word=%E8%8A%9D%E5%A3%AB%E7%88...
+2026-03-11 19:24:43,081 - INFO - 📸 找到 700 个图片元素
+2026-03-11 19:24:43,105 - INFO - ✅ 提取到 5 个有效图片URL
+2026-03-11 19:24:43,322 - INFO - 💾 已保存: output/seafood/芝士爆浆鱼蛋/芝士爆浆鱼蛋_01.jpg (500x500)
+2026-03-11 19:24:43,404 - INFO - 💾 已保存: output/seafood/芝士爆浆鱼蛋/芝士爆浆鱼蛋_02.jpg (500x500)
+2026-03-11 19:24:43,477 - INFO - 💾 已保存: output/seafood/芝士爆浆鱼蛋/芝士爆浆鱼蛋_03.jpg (500x500)
+2026-03-11 19:24:45,513 - INFO - 🔍 访问: https://image.baidu.com/search/index?tn=baiduimage&word=%E5%8E%9A%E5%88%87%E7%82...
+2026-03-11 19:24:53,622 - INFO - 📸 找到 725 个图片元素
+2026-03-11 19:24:53,650 - INFO - ✅ 提取到 5 个有效图片URL
+2026-03-11 19:24:53,944 - INFO - 💾 已保存: output/dairy/厚切炒酸奶块/厚切炒酸奶块_01.jpg (508x500)
+2026-03-11 19:24:54,027 - INFO - 💾 已保存: output/dairy/厚切炒酸奶块/厚切炒酸奶块_02.jpg (508x500)
+2026-03-11 19:24:54,195 - INFO - 💾 已保存: output/dairy/厚切炒酸奶块/厚切炒酸奶块_03.jpg (508x500)
+2026-03-11 19:24:56,400 - INFO - 🔍 访问: https://image.baidu.com/search/index?tn=baiduimage&word=%E5%8E%9A%E5%88%87%E8%8A...
+2026-03-11 19:25:04,180 - INFO - 📸 找到 588 个图片元素
+2026-03-11 19:25:04,214 - INFO - ✅ 提取到 5 个有效图片URL
+2026-03-11 19:25:04,680 - INFO - 💾 已保存: output/dried_fruit/厚切芒果干/厚切芒果干_01.jpg (800x1067)
+2026-03-11 19:25:04,782 - INFO - 💾 已保存: output/dried_fruit/厚切芒果干/厚切芒果干_02.jpg (800x1067)
+2026-03-11 19:25:04,888 - INFO - 💾 已保存: output/dried_fruit/厚切芒果干/厚切芒果干_03.jpg (800x1067)
+2026-03-11 19:25:07,013 - INFO - 🔍 访问: https://image.baidu.com/search/index?tn=baiduimage&word=%E5%8E%9A%E5%88%87%E7%89...
+2026-03-11 19:25:14,611 - INFO - 📸 找到 563 个图片元素
+2026-03-11 19:25:14,640 - INFO - ✅ 提取到 5 个有效图片URL
+2026-03-11 19:25:14,893 - INFO - 💾 已保存: output/meat/厚切牛肉干/厚切牛肉干_01.jpg (500x500)
+2026-03-11 19:25:15,255 - INFO - 💾 已保存: output/meat/厚切牛肉干/厚切牛肉干_02.jpg (800x1067)
+2026-03-11 19:25:15,320 - INFO - 💾 已保存: output/meat/厚切牛肉干/厚切牛肉干_03.jpg (500x500)
+2026-03-11 19:25:17,366 - INFO - 🔍 访问: https://image.baidu.com/search/index?tn=baiduimage&word=%E5%8E%9A%E5%88%87%E7%8C...
+2026-03-11 19:25:24,535 - INFO - 📸 找到 509 个图片元素
+2026-03-11 19:25:24,562 - INFO - ✅ 提取到 5 个有效图片URL
+2026-03-11 19:25:25,231 - INFO - 💾 已保存: output/meat/厚切猪肉脯/厚切猪肉脯_01.jpg (500x667)
+2026-03-11 19:25:25,307 - INFO - 💾 已保存: output/meat/厚切猪肉脯/厚切猪肉脯_02.jpg (500x500)
+2026-03-11 19:25:25,385 - INFO - 💾 已保存: output/meat/厚切猪肉脯/厚切猪肉脯_03.jpg (500x500)
+2026-03-11 19:25:28,366 - INFO - 🔍 访问: https://image.baidu.com/search/index?tn=baiduimage&word=%E5%8E%9A%E5%88%87%E5%90...
+2026-03-11 19:25:36,060 - INFO - 📸 找到 608 个图片元素
+2026-03-11 19:25:36,089 - INFO - ✅ 提取到 5 个有效图片URL
+2026-03-11 19:25:36,634 - INFO - 💾 已保存: output/pastry/厚切吐司/厚切吐司_01.jpg (800x1069)
+2026-03-11 19:25:36,987 - INFO - 💾 已保存: output/pastry/厚切吐司/厚切吐司_02.jpg (800x1069)
+2026-03-11 19:25:37,176 - INFO - 💾 已保存: output/pastry/厚切吐司/厚切吐司_03.jpg (800x1069)
+2026-03-11 19:25:39,934 - INFO - 🔍 访问: https://image.baidu.com/search/index?tn=baiduimage&word=%E5%B7%B4%E6%97%A6%E6%9C...
+2026-03-11 19:25:47,589 - INFO - 📸 找到 527 个图片元素
+2026-03-11 19:25:47,614 - INFO - ✅ 提取到 5 个有效图片URL
+2026-03-11 19:25:47,864 - INFO - 💾 已保存: output/nuts/巴旦木夹心奶枣/巴旦木夹心奶枣_01.jpg (824x800)
+2026-03-11 19:25:47,968 - INFO - 💾 已保存: output/nuts/巴旦木夹心奶枣/巴旦木夹心奶枣_02.jpg (819x800)
+2026-03-11 19:25:48,186 - INFO - 💾 已保存: output/nuts/巴旦木夹心奶枣/巴旦木夹心奶枣_03.jpg (824x800)
+2026-03-11 19:25:51,560 - INFO - 🔍 访问: https://image.baidu.com/search/index?tn=baiduimage&word=%E8%8A%9D%E5%A3%AB%E5%A5...
+2026-03-11 19:25:58,496 - INFO - 📸 找到 637 个图片元素
+2026-03-11 19:25:58,528 - INFO - ✅ 提取到 5 个有效图片URL
+2026-03-11 19:25:58,765 - INFO - 💾 已保存: output/nuts/芝士奶枣/芝士奶枣_01.jpg (500x500)
+2026-03-11 19:25:58,953 - INFO - 💾 已保存: output/nuts/芝士奶枣/芝士奶枣_02.jpg (500x657)
+2026-03-11 19:25:59,028 - INFO - 💾 已保存: output/nuts/芝士奶枣/芝士奶枣_03.jpg (500x500)
+2026-03-11 19:26:01,999 - INFO - 🔍 访问: https://image.baidu.com/search/index?tn=baiduimage&word=%E6%8A%B9%E8%8C%B6%E5%A5...
+2026-03-11 19:26:09,146 - INFO - 📸 找到 618 个图片元素
+2026-03-11 19:26:09,176 - INFO - ✅ 提取到 5 个有效图片URL
+2026-03-11 19:26:09,437 - INFO - 💾 已保存: output/nuts/抹茶奶枣/抹茶奶枣_01.jpg (380x380)
+2026-03-11 19:26:09,513 - INFO - 💾 已保存: output/nuts/抹茶奶枣/抹茶奶枣_02.jpg (500x500)
+2026-03-11 19:26:09,676 - INFO - 💾 已保存: output/nuts/抹茶奶枣/抹茶奶枣_03.jpg (500x500)
+2026-03-11 19:26:11,873 - INFO - 🔍 访问: https://image.baidu.com/search/index?tn=baiduimage&word=%E5%8E%9F%E5%91%B3%E5%A5...
+2026-03-11 19:26:18,915 - INFO - 📸 找到 637 个图片元素
+2026-03-11 19:26:18,948 - INFO - ✅ 提取到 5 个有效图片URL
+2026-03-11 19:26:19,193 - INFO - 💾 已保存: output/nuts/原味奶枣/原味奶枣_01.jpg (500x500)
+2026-03-11 19:26:19,260 - INFO - 💾 已保存: output/nuts/原味奶枣/原味奶枣_02.jpg (500x500)
+2026-03-11 19:26:19,440 - INFO - 💾 已保存: output/nuts/原味奶枣/原味奶枣_03.jpg (500x500)
+2026-03-11 19:26:22,761 - INFO - 🔍 访问: https://image.baidu.com/search/index?tn=baiduimage&word=%E9%85%B8%E5%A5%B6%E5%B1...
+2026-03-11 19:26:29,787 - INFO - 📸 找到 496 个图片元素
+2026-03-11 19:26:29,819 - INFO - ✅ 提取到 5 个有效图片URL
+2026-03-11 19:26:30,119 - INFO - 💾 已保存: output/nuts/酸奶山楂奶枣/酸奶山楂奶枣_01.jpg (475x475)
+2026-03-11 19:26:30,219 - INFO - 💾 已保存: output/nuts/酸奶山楂奶枣/酸奶山楂奶枣_02.jpg (500x500)
+2026-03-11 19:26:30,367 - INFO - 💾 已保存: output/nuts/酸奶山楂奶枣/酸奶山楂奶枣_03.jpg (500x660)
+2026-03-11 19:26:32,426 - INFO - 🔍 访问: https://image.baidu.com/search/index?tn=baiduimage&word=%E5%92%96%E5%95%A1%E9%A5...
+2026-03-11 19:26:39,604 - INFO - 📸 找到 607 个图片元素
+2026-03-11 19:26:39,652 - INFO - ✅ 提取到 5 个有效图片URL
+2026-03-11 19:26:39,919 - INFO - 💾 已保存: output/cookies/咖啡饼干/咖啡饼干_01.jpg (500x889)
+2026-03-11 19:26:40,094 - INFO - 💾 已保存: output/cookies/咖啡饼干/咖啡饼干_02.jpg (500x500)
+2026-03-11 19:26:40,168 - INFO - 💾 已保存: output/cookies/咖啡饼干/咖啡饼干_03.jpg (500x500)
+2026-03-11 19:26:42,658 - INFO - 🔍 访问: https://image.baidu.com/search/index?tn=baiduimage&word=%E7%94%9F%E6%A4%B0%E6%8B...
+2026-03-11 19:26:53,215 - INFO - 📸 找到 753 个图片元素
+2026-03-11 19:26:53,243 - INFO - ✅ 提取到 5 个有效图片URL
+2026-03-11 19:26:53,556 - INFO - 💾 已保存: output/cookies/生椰拿铁曲奇/生椰拿铁曲奇_01.jpg (500x500)
+2026-03-11 19:26:53,917 - INFO - 💾 已保存: output/cookies/生椰拿铁曲奇/生椰拿铁曲奇_02.jpg (500x500)
+2026-03-11 19:26:54,256 - INFO - 💾 已保存: output/cookies/生椰拿铁曲奇/生椰拿铁曲奇_03.jpg (500x500)
+2026-03-11 19:26:57,374 - INFO - 🔍 访问: https://image.baidu.com/search/index?tn=baiduimage&word=%E6%8A%B9%E8%8C%B6%E6%8B...
+2026-03-11 19:27:04,433 - INFO - 📸 找到 380 个图片元素
+2026-03-11 19:27:04,459 - INFO - ✅ 提取到 5 个有效图片URL
+2026-03-11 19:27:04,752 - INFO - 💾 已保存: output/cookies/抹茶拿铁威化/抹茶拿铁威化_01.jpg (500x500)
+2026-03-11 19:27:04,880 - INFO - 💾 已保存: output/cookies/抹茶拿铁威化/抹茶拿铁威化_02.jpg (500x653)
+2026-03-11 19:27:04,972 - INFO - 💾 已保存: output/cookies/抹茶拿铁威化/抹茶拿铁威化_03.jpg (500x653)
+2026-03-11 19:27:07,464 - INFO - 🔍 访问: https://image.baidu.com/search/index?tn=baiduimage&word=%E7%99%BD%E6%A1%83%E4%B9...
+2026-03-11 19:27:14,867 - INFO - 📸 找到 574 个图片元素
+2026-03-11 19:27:14,897 - INFO - ✅ 提取到 5 个有效图片URL
+2026-03-11 19:27:15,217 - INFO - 💾 已保存: output/tea/白桃乌龙茶包/白桃乌龙茶包_01.jpg (536x500)
+2026-03-11 19:27:15,300 - INFO - 💾 已保存: output/tea/白桃乌龙茶包/白桃乌龙茶包_02.jpg (515x500)
+2026-03-11 19:27:15,386 - INFO - 💾 已保存: output/tea/白桃乌龙茶包/白桃乌龙茶包_03.jpg (515x500)
+2026-03-11 19:27:17,431 - INFO - 🔍 访问: https://image.baidu.com/search/index?tn=baiduimage&word=%E6%A1%82%E8%8A%B1%E4%B9...
+2026-03-11 19:27:23,506 - INFO - 📸 找到 632 个图片元素
+2026-03-11 19:27:23,537 - INFO - ✅ 提取到 5 个有效图片URL
+2026-03-11 19:27:23,918 - INFO - 💾 已保存: output/tea/桂花乌龙茶/桂花乌龙茶_01.jpg (500x666)
+2026-03-11 19:27:24,115 - INFO - 💾 已保存: output/tea/桂花乌龙茶/桂花乌龙茶_02.jpg (500x666)
+2026-03-11 19:27:24,218 - INFO - 💾 已保存: output/tea/桂花乌龙茶/桂花乌龙茶_03.jpg (500x666)
+2026-03-11 19:27:26,230 - INFO - 🔍 访问: https://image.baidu.com/search/index?tn=baiduimage&word=%E9%B8%A1%E8%83%B8%E8%82...
+2026-03-11 19:27:33,393 - INFO - 📸 找到 579 个图片元素
+2026-03-11 19:27:33,427 - INFO - ✅ 提取到 5 个有效图片URL
+2026-03-11 19:27:33,653 - INFO - 💾 已保存: output/meat/鸡胸肉肠/鸡胸肉肠_01.jpg (500x500)
+2026-03-11 19:27:33,731 - INFO - 💾 已保存: output/meat/鸡胸肉肠/鸡胸肉肠_02.jpg (500x500)
+2026-03-11 19:27:33,804 - INFO - 💾 已保存: output/meat/鸡胸肉肠/鸡胸肉肠_03.jpg (500x500)
+2026-03-11 19:27:36,622 - INFO - 🔍 访问: https://image.baidu.com/search/index?tn=baiduimage&word=0%E7%B3%96%E5%A5%A5%E5%8...
+2026-03-11 19:27:44,198 - INFO - 📸 找到 679 个图片元素
+2026-03-11 19:27:44,229 - INFO - ✅ 提取到 5 个有效图片URL
+2026-03-11 19:27:44,744 - INFO - 💾 已保存: output/cookies/0糖奥利奥/0糖奥利奥_01.jpg (500x667)
+2026-03-11 19:27:44,858 - INFO - 💾 已保存: output/cookies/0糖奥利奥/0糖奥利奥_02.jpg (500x667)
+2026-03-11 19:27:44,952 - INFO - 💾 已保存: output/cookies/0糖奥利奥/0糖奥利奥_03.jpg (500x667)
+2026-03-11 19:27:47,732 - INFO - 🔍 访问: https://image.baidu.com/search/index?tn=baiduimage&word=%E5%85%A8%E9%BA%A6%E6%AC...
+2026-03-11 19:27:53,890 - INFO - 📸 找到 541 个图片元素
+2026-03-11 19:27:53,919 - INFO - ✅ 提取到 5 个有效图片URL
+2026-03-11 19:27:54,338 - INFO - 💾 已保存: output/pastry/全麦欧包/全麦欧包_01.jpg (800x1067)
+2026-03-11 19:27:54,410 - INFO - 💾 已保存: output/pastry/全麦欧包/全麦欧包_02.jpg (500x500)
+2026-03-11 19:27:54,728 - INFO - 💾 已保存: output/pastry/全麦欧包/全麦欧包_03.jpg (750x500)
+2026-03-11 19:27:57,749 - INFO - 🔍 访问: https://image.baidu.com/search/index?tn=baiduimage&word=%E9%AD%94%E8%8A%8B%E7%88...
+2026-03-11 19:28:04,330 - INFO - 📸 找到 582 个图片元素
+2026-03-11 19:28:04,360 - INFO - ✅ 提取到 5 个有效图片URL
+2026-03-11 19:28:04,640 - INFO - 💾 已保存: output/spicy_strips/魔芋爽素毛肚/魔芋爽素毛肚_01.jpg (500x643)
+2026-03-11 19:28:04,761 - INFO - 💾 已保存: output/spicy_strips/魔芋爽素毛肚/魔芋爽素毛肚_02.jpg (500x641)
+2026-03-11 19:28:04,881 - INFO - 💾 已保存: output/spicy_strips/魔芋爽素毛肚/魔芋爽素毛肚_03.jpg (500x643)
+2026-03-11 19:28:07,128 - INFO - 🔍 访问: https://image.baidu.com/search/index?tn=baiduimage&word=%E6%97%A0%E7%B3%96%E9%85...
+2026-03-11 19:28:14,385 - INFO - 📸 找到 824 个图片元素
+2026-03-11 19:28:14,410 - INFO - ✅ 提取到 5 个有效图片URL
+2026-03-11 19:28:15,718 - INFO - 💾 已保存: output/dairy/无糖酸奶/无糖酸奶_01.jpg (500x667)
+2026-03-11 19:28:15,810 - INFO - 💾 已保存: output/dairy/无糖酸奶/无糖酸奶_02.jpg (500x667)
+2026-03-11 19:28:15,900 - INFO - 💾 已保存: output/dairy/无糖酸奶/无糖酸奶_03.jpg (500x667)
+2026-03-11 19:28:18,121 - INFO - 🔍 访问: https://image.baidu.com/search/index?tn=baiduimage&word=%E7%99%BD%E8%89%B2%E6%81...
+2026-03-11 19:28:24,835 - INFO - 📸 找到 606 个图片元素
+2026-03-11 19:28:24,863 - INFO - ✅ 提取到 5 个有效图片URL
+2026-03-11 19:28:25,162 - INFO - 💾 已保存: output/cookies/白色恋人饼干/白色恋人饼干_01.jpg (514x500)
+2026-03-11 19:28:25,262 - INFO - 💾 已保存: output/cookies/白色恋人饼干/白色恋人饼干_02.jpg (514x500)
+2026-03-11 19:28:25,358 - INFO - 💾 已保存: output/cookies/白色恋人饼干/白色恋人饼干_03.jpg (514x500)
+2026-03-11 19:28:29,303 - INFO - 🔍 访问: https://image.baidu.com/search/index?tn=baiduimage&word=%E8%96%AF%E6%9D%A1%E4%B8...
+2026-03-11 19:28:35,833 - INFO - 📸 找到 503 个图片元素
+2026-03-11 19:28:35,863 - INFO - ✅ 提取到 5 个有效图片URL
+2026-03-11 19:28:36,110 - INFO - 💾 已保存: output/puffed/薯条三兄弟/薯条三兄弟_01.jpg (500x500)
+2026-03-11 19:28:36,184 - INFO - 💾 已保存: output/puffed/薯条三兄弟/薯条三兄弟_02.jpg (500x500)
+2026-03-11 19:28:36,259 - INFO - 💾 已保存: output/puffed/薯条三兄弟/薯条三兄弟_03.jpg (500x500)
+2026-03-11 19:28:38,835 - INFO - 🔍 访问: https://image.baidu.com/search/index?tn=baiduimage&word=%E7%99%BD%E8%89%B2%E5%B7...
+2026-03-11 19:28:45,287 - INFO - 📸 找到 663 个图片元素
+2026-03-11 19:28:45,313 - INFO - ✅ 提取到 5 个有效图片URL
+2026-03-11 19:28:45,565 - INFO - 💾 已保存: output/chocolate/白色巧克力草莓/白色巧克力草莓_01.jpg (500x500)
+2026-03-11 19:28:45,652 - INFO - 💾 已保存: output/chocolate/白色巧克力草莓/白色巧克力草莓_02.jpg (500x500)
+2026-03-11 19:28:45,742 - INFO - 💾 已保存: output/chocolate/白色巧克力草莓/白色巧克力草莓_03.jpg (500x500)
+2026-03-11 19:28:47,965 - INFO - 🔍 访问: https://image.baidu.com/search/index?tn=baiduimage&word=%E8%9C%82%E8%9C%9C%E9%BB...
+2026-03-11 19:28:55,375 - INFO - 📸 找到 521 个图片元素
+2026-03-11 19:28:55,409 - INFO - ✅ 提取到 5 个有效图片URL
+2026-03-11 19:28:55,768 - INFO - 💾 已保存: output/nuts/蜂蜜黄油杏仁/蜂蜜黄油杏仁_01.jpg (500x500)
+2026-03-11 19:28:55,941 - INFO - 💾 已保存: output/nuts/蜂蜜黄油杏仁/蜂蜜黄油杏仁_02.jpg (500x500)
+2026-03-11 19:28:56,027 - INFO - 💾 已保存: output/nuts/蜂蜜黄油杏仁/蜂蜜黄油杏仁_03.jpg (498x500)
+2026-03-11 19:28:58,754 - INFO - 🔍 访问: https://image.baidu.com/search/index?tn=baiduimage&word=%E9%A6%99%E8%95%89%E7%89...
+2026-03-11 19:29:06,255 - INFO - 📸 找到 681 个图片元素
+2026-03-11 19:29:06,286 - INFO - ✅ 提取到 5 个有效图片URL
+2026-03-11 19:29:06,517 - INFO - 💾 已保存: output/beverage/香蕉牛奶/香蕉牛奶_01.jpg (500x500)
+2026-03-11 19:29:06,646 - INFO - 💾 已保存: output/beverage/香蕉牛奶/香蕉牛奶_02.jpg (800x1065)
+2026-03-11 19:29:06,780 - INFO - 💾 已保存: output/beverage/香蕉牛奶/香蕉牛奶_03.jpg (800x1064)
+2026-03-11 19:29:09,583 - INFO - 🔍 访问: https://image.baidu.com/search/index?tn=baiduimage&word=%E8%9E%BA%E8%9B%B3%E7%B2...
+2026-03-11 19:29:17,490 - INFO - 📸 找到 615 个图片元素
+2026-03-11 19:29:17,520 - INFO - ✅ 提取到 5 个有效图片URL
+2026-03-11 19:29:17,901 - INFO - 💾 已保存: output/instant_noodle/螺蛳粉/螺蛳粉_01.jpg (800x800)
+2026-03-11 19:29:18,095 - INFO - 💾 已保存: output/instant_noodle/螺蛳粉/螺蛳粉_02.jpg (800x800)
+2026-03-11 19:29:18,257 - INFO - 💾 已保存: output/instant_noodle/螺蛳粉/螺蛳粉_03.jpg (800x800)
+2026-03-11 19:29:20,546 - INFO - 🔍 访问: https://image.baidu.com/search/index?tn=baiduimage&word=%E8%87%AA%E7%83%AD%E7%81...
+2026-03-11 19:29:27,492 - INFO - 📸 找到 589 个图片元素
+2026-03-11 19:29:27,518 - INFO - ✅ 提取到 5 个有效图片URL
+2026-03-11 19:29:27,879 - INFO - 💾 已保存: output/self_heating/自热火锅/自热火锅_01.jpg (500x774)
+2026-03-11 19:29:27,964 - INFO - 💾 已保存: output/self_heating/自热火锅/自热火锅_02.jpg (500x500)
+2026-03-11 19:29:28,047 - INFO - 💾 已保存: output/self_heating/自热火锅/自热火锅_03.jpg (500x500)
+2026-03-11 19:29:31,499 - INFO - 🔍 访问: https://image.baidu.com/search/index?tn=baiduimage&word=%E8%87%AA%E7%83%AD%E7%B1...
+2026-03-11 19:29:38,727 - INFO - 📸 找到 581 个图片元素
+2026-03-11 19:29:38,757 - INFO - ✅ 提取到 5 个有效图片URL
+2026-03-11 19:29:39,075 - INFO - 💾 已保存: output/self_heating/自热米饭/自热米饭_01.jpg (500x647)
+2026-03-11 19:29:41,271 - INFO - 💾 已保存: output/self_heating/自热米饭/自热米饭_02.jpg (500x647)
+2026-03-11 19:29:41,478 - INFO - 💾 已保存: output/self_heating/自热米饭/自热米饭_03.jpg (500x647)
+2026-03-11 19:29:44,243 - INFO - 🔍 访问: https://image.baidu.com/search/index?tn=baiduimage&word=%E6%A6%B4%E8%8E%B2%E5%8D...
+2026-03-11 19:29:50,376 - INFO - 📸 找到 593 个图片元素
+2026-03-11 19:29:50,414 - INFO - ✅ 提取到 5 个有效图片URL
+2026-03-11 19:29:50,607 - INFO - 💾 已保存: output/pastry/榴莲千层/榴莲千层_01.jpg (1036x584)
+2026-03-11 19:29:50,733 - INFO - 💾 已保存: output/pastry/榴莲千层/榴莲千层_02.jpg (667x500)
+2026-03-11 19:29:50,953 - INFO - 💾 已保存: output/pastry/榴莲千层/榴莲千层_03.jpg (800x1067)
+2026-03-11 19:29:53,839 - INFO - 🔍 访问: https://image.baidu.com/search/index?tn=baiduimage&word=%E5%8D%8A%E7%86%9F%E8%8A...
+2026-03-11 19:30:00,890 - INFO - 📸 找到 585 个图片元素
+2026-03-11 19:30:00,936 - INFO - ✅ 提取到 5 个有效图片URL
+2026-03-11 19:30:01,129 - INFO - 💾 已保存: output/pastry/半熟芝士/半熟芝士_01.jpg (750x500)
+2026-03-11 19:30:01,240 - INFO - 💾 已保存: output/pastry/半熟芝士/半熟芝士_02.jpg (800x941)
+2026-03-11 19:30:01,418 - INFO - 💾 已保存: output/pastry/半熟芝士/半熟芝士_03.jpg (800x961)
+2026-03-11 19:30:04,993 - INFO - 🔍 访问: https://image.baidu.com/search/index?tn=baiduimage&word=%E7%86%94%E5%B2%A9%E8%8A...
+2026-03-11 19:30:12,435 - INFO - 📸 找到 705 个图片元素
+2026-03-11 19:30:12,470 - INFO - ✅ 提取到 5 个有效图片URL
+2026-03-11 19:30:12,701 - INFO - 💾 已保存: output/pastry/熔岩芝士蛋糕/熔岩芝士蛋糕_01.jpg (1036x584)
+2026-03-11 19:30:12,782 - INFO - 💾 已保存: output/pastry/熔岩芝士蛋糕/熔岩芝士蛋糕_02.jpg (1036x584)
+2026-03-11 19:30:12,952 - INFO - 💾 已保存: output/pastry/熔岩芝士蛋糕/熔岩芝士蛋糕_03.jpg (1036x584)
+2026-03-11 19:30:16,226 - INFO - 🔍 访问: https://image.baidu.com/search/index?tn=baiduimage&word=%E5%86%B0%E5%B1%B1%E7%86...
+2026-03-11 19:30:23,573 - INFO - 📸 找到 651 个图片元素
+2026-03-11 19:30:23,602 - INFO - ✅ 提取到 5 个有效图片URL
+2026-03-11 19:30:23,824 - INFO - 💾 已保存: output/chocolate/冰山熔岩/冰山熔岩_01.jpg (500x500)
+2026-03-11 19:30:24,025 - INFO - 💾 已保存: output/chocolate/冰山熔岩/冰山熔岩_02.jpg (500x500)
+2026-03-11 19:30:24,098 - INFO - 💾 已保存: output/chocolate/冰山熔岩/冰山熔岩_03.jpg (500x500)
+2026-03-11 19:30:27,784 - INFO - 🔍 访问: https://image.baidu.com/search/index?tn=baiduimage&word=%E7%A9%BA%E6%B0%94%E5%B7...
+2026-03-11 19:30:35,372 - INFO - 📸 找到 609 个图片元素
+2026-03-11 19:30:35,398 - INFO - ✅ 提取到 5 个有效图片URL
+2026-03-11 19:30:35,885 - INFO - 💾 已保存: output/chocolate/空气巧克力/空气巧克力_01.jpg (800x1069)
+2026-03-11 19:30:36,110 - INFO - 💾 已保存: output/chocolate/空气巧克力/空气巧克力_02.jpg (800x1069)
+2026-03-11 19:30:36,243 - INFO - 💾 已保存: output/chocolate/空气巧克力/空气巧克力_03.jpg (800x1069)
+2026-03-11 19:30:40,189 - INFO - 🔍 访问: https://image.baidu.com/search/index?tn=baiduimage&word=%E8%92%B2%E5%85%AC%E8%8B...
+2026-03-11 19:30:47,197 - INFO - 📸 找到 527 个图片元素
+2026-03-11 19:30:47,239 - INFO - ✅ 提取到 5 个有效图片URL
+2026-03-11 19:30:47,667 - INFO - 💾 已保存: output/chocolate/蒲公英巧克力/蒲公英巧克力_01.jpg (667x500)
+2026-03-11 19:30:47,853 - INFO - 💾 已保存: output/chocolate/蒲公英巧克力/蒲公英巧克力_02.jpg (500x955)
+2026-03-11 19:30:47,932 - INFO - 💾 已保存: output/chocolate/蒲公英巧克力/蒲公英巧克力_03.jpg (500x500)
+2026-03-11 19:30:51,742 - INFO - 🔍 访问: https://image.baidu.com/search/index?tn=baiduimage&word=%E9%BB%84%E6%B2%B9%E5%95...
+2026-03-11 19:30:59,474 - INFO - 📸 找到 666 个图片元素
+2026-03-11 19:30:59,516 - INFO - ✅ 提取到 5 个有效图片URL
+2026-03-11 19:31:00,312 - INFO - 💾 已保存: output/beverage/黄油啤酒/黄油啤酒_01.jpg (500x500)
+2026-03-11 19:31:00,449 - INFO - 💾 已保存: output/beverage/黄油啤酒/黄油啤酒_02.jpg (500x500)
+2026-03-11 19:31:00,649 - INFO - 💾 已保存: output/beverage/黄油啤酒/黄油啤酒_03.jpg (500x500)
+2026-03-11 19:31:04,110 - INFO - 🔍 访问: https://image.baidu.com/search/index?tn=baiduimage&word=%E8%84%8F%E8%84%8F%E5%8C...
+2026-03-11 19:31:11,556 - INFO - 📸 找到 561 个图片元素
+2026-03-11 19:31:11,585 - INFO - ✅ 提取到 5 个有效图片URL
+2026-03-11 19:31:11,850 - INFO - 💾 已保存: output/pastry/脏脏包/脏脏包_01.jpg (500x667)
+2026-03-11 19:31:11,924 - INFO - 💾 已保存: output/pastry/脏脏包/脏脏包_02.jpg (581x500)
+2026-03-11 19:31:12,008 - INFO - 💾 已保存: output/pastry/脏脏包/脏脏包_03.jpg (500x572)
+2026-03-11 19:31:14,216 - INFO - 🔍 访问: https://image.baidu.com/search/index?tn=baiduimage&word=%E5%92%B8%E8%9B%8B%E9%BB...
+2026-03-11 19:31:21,746 - INFO - 📸 找到 587 个图片元素
+2026-03-11 19:31:21,773 - INFO - ✅ 提取到 5 个有效图片URL
+2026-03-11 19:31:21,989 - INFO - 💾 已保存: output/pastry/咸蛋黄肉松青团/咸蛋黄肉松青团_01.jpg (667x500)
+2026-03-11 19:31:22,143 - INFO - 💾 已保存: output/pastry/咸蛋黄肉松青团/咸蛋黄肉松青团_02.jpg (500x625)
+2026-03-11 19:31:22,300 - INFO - 💾 已保存: output/pastry/咸蛋黄肉松青团/咸蛋黄肉松青团_03.jpg (750x500)
+2026-03-11 19:31:25,055 - INFO - 🔍 访问: https://image.baidu.com/search/index?tn=baiduimage&word=%E8%8A%9D%E5%A3%AB%E6%8B...
+2026-03-11 19:31:32,754 - INFO - 📸 找到 664 个图片元素
+2026-03-11 19:31:32,789 - INFO - ✅ 提取到 5 个有效图片URL
+2026-03-11 19:31:33,054 - INFO - 💾 已保存: output/frozen/芝士拉丝热狗棒/芝士拉丝热狗棒_01.jpg (500x652)
+2026-03-11 19:31:33,230 - INFO - 💾 已保存: output/frozen/芝士拉丝热狗棒/芝士拉丝热狗棒_02.jpg (500x652)
+2026-03-11 19:31:33,331 - INFO - 💾 已保存: output/frozen/芝士拉丝热狗棒/芝士拉丝热狗棒_03.jpg (500x656)
+2026-03-11 19:31:37,071 - INFO - 🔍 访问: https://image.baidu.com/search/index?tn=baiduimage&word=%E9%9F%A9%E5%BC%8F%E7%82...
+2026-03-11 19:31:45,759 - INFO - 📸 找到 710 个图片元素
+2026-03-11 19:31:45,792 - INFO - ✅ 提取到 5 个有效图片URL
+2026-03-11 19:31:46,103 - INFO - 💾 已保存: output/frozen/韩式炸鸡/韩式炸鸡_01.jpg (500x667)
+2026-03-11 19:31:46,287 - INFO - 💾 已保存: output/frozen/韩式炸鸡/韩式炸鸡_02.jpg (500x667)
+2026-03-11 19:31:46,412 - INFO - 💾 已保存: output/frozen/韩式炸鸡/韩式炸鸡_03.jpg (500x667)
+2026-03-11 19:31:48,494 - INFO - 🔍 访问: https://image.baidu.com/search/index?tn=baiduimage&word=%E8%9B%8B%E6%8C%9E%E7%9A...
+2026-03-11 19:31:56,838 - INFO - 📸 找到 509 个图片元素
+2026-03-11 19:31:56,867 - INFO - ✅ 提取到 5 个有效图片URL
+2026-03-11 19:31:57,329 - INFO - 💾 已保存: output/frozen/蛋挞皮/蛋挞皮_01.jpg (800x1069)
+2026-03-11 19:31:57,476 - INFO - 💾 已保存: output/frozen/蛋挞皮/蛋挞皮_02.jpg (800x1067)
+2026-03-11 19:31:57,666 - INFO - 💾 已保存: output/frozen/蛋挞皮/蛋挞皮_03.jpg (800x1067)
+2026-03-11 19:32:00,435 - INFO - 🔍 访问: https://image.baidu.com/search/index?tn=baiduimage&word=%E5%A5%B6%E7%9B%96%E8%9B...
+2026-03-11 19:32:07,802 - INFO - 📸 找到 600 个图片元素
+2026-03-11 19:32:07,831 - INFO - ✅ 提取到 5 个有效图片URL
+2026-03-11 19:32:08,003 - INFO - 💾 已保存: output/pastry/奶盖蛋糕/奶盖蛋糕_01.jpg (800x450)
+2026-03-11 19:32:08,089 - INFO - 💾 已保存: output/pastry/奶盖蛋糕/奶盖蛋糕_02.jpg (1036x584)
+2026-03-11 19:32:08,176 - INFO - 💾 已保存: output/pastry/奶盖蛋糕/奶盖蛋糕_03.jpg (1036x584)
+2026-03-11 19:32:10,232 - INFO - 🔍 访问: https://image.baidu.com/search/index?tn=baiduimage&word=%E6%AC%A7%E5%8C%85+%E9%9...
+2026-03-11 19:32:16,722 - INFO - 📸 找到 549 个图片元素
+2026-03-11 19:32:16,760 - INFO - ✅ 提取到 5 个有效图片URL
+2026-03-11 19:32:17,207 - INFO - 💾 已保存: output/pastry/欧包/欧包_01.jpg (500x666)
+2026-03-11 19:32:17,317 - INFO - 💾 已保存: output/pastry/欧包/欧包_02.jpg (500x666)
+2026-03-11 19:32:17,416 - INFO - 💾 已保存: output/pastry/欧包/欧包_03.jpg (500x666)
+2026-03-11 19:32:21,238 - INFO - 🔍 访问: https://image.baidu.com/search/index?tn=baiduimage&word=%E8%BD%AF%E6%AC%A7%E5%8C...
+2026-03-11 19:32:29,281 - INFO - 📸 找到 579 个图片元素
+2026-03-11 19:32:29,313 - INFO - ✅ 提取到 5 个有效图片URL
+2026-03-11 19:32:29,845 - INFO - 💾 已保存: output/pastry/软欧包/软欧包_01.jpg (800x1067)
+2026-03-11 19:32:30,029 - INFO - 💾 已保存: output/pastry/软欧包/软欧包_02.jpg (800x1067)
+2026-03-11 19:32:30,190 - INFO - 💾 已保存: output/pastry/软欧包/软欧包_03.jpg (800x1067)
+2026-03-11 19:32:32,268 - INFO - 🔍 访问: https://image.baidu.com/search/index?tn=baiduimage&word=%E8%8A%8B%E6%B3%A5%E6%B3...
+2026-03-11 19:32:39,863 - INFO - 📸 找到 573 个图片元素
+2026-03-11 19:32:39,891 - INFO - ✅ 提取到 5 个有效图片URL
+2026-03-11 19:32:40,298 - INFO - 💾 已保存: output/beverage/芋泥波波/芋泥波波_01.jpg (800x1177)
+2026-03-11 19:32:40,640 - INFO - 💾 已保存: output/beverage/芋泥波波/芋泥波波_02.jpg (500x667)
+2026-03-11 19:32:40,961 - INFO - 💾 已保存: output/beverage/芋泥波波/芋泥波波_03.jpg (500x660)
+2026-03-11 19:32:43,799 - INFO - 🔍 访问: https://image.baidu.com/search/index?tn=baiduimage&word=%E5%A4%9A%E8%82%89%E8%91...
+2026-03-11 19:32:51,606 - INFO - 📸 找到 682 个图片元素
+2026-03-11 19:32:51,635 - INFO - ✅ 提取到 5 个有效图片URL
+2026-03-11 19:32:51,901 - INFO - 💾 已保存: output/beverage/多肉葡萄/多肉葡萄_01.jpg (500x500)
+2026-03-11 19:32:51,970 - INFO - 💾 已保存: output/beverage/多肉葡萄/多肉葡萄_02.jpg (500x500)
+2026-03-11 19:32:52,133 - INFO - 💾 已保存: output/beverage/多肉葡萄/多肉葡萄_03.jpg (500x500)
+2026-03-11 19:32:55,257 - INFO - 🔍 访问: https://image.baidu.com/search/index?tn=baiduimage&word=%E8%92%9F%E8%92%BB%E6%9E...
+2026-03-11 19:33:02,610 - INFO - 📸 找到 634 个图片元素
+2026-03-11 19:33:02,635 - INFO - ✅ 提取到 5 个有效图片URL
+2026-03-11 19:33:03,019 - INFO - 💾 已保存: output/jelly/蒟蒻果冻/蒟蒻果冻_01.jpg (800x1044)
+2026-03-11 19:33:03,191 - INFO - 💾 已保存: output/jelly/蒟蒻果冻/蒟蒻果冻_02.jpg (500x666)
+2026-03-11 19:33:03,439 - INFO - 💾 已保存: output/jelly/蒟蒻果冻/蒟蒻果冻_03.jpg (500x667)
+2026-03-11 19:33:07,094 - INFO - 🔍 访问: https://image.baidu.com/search/index?tn=baiduimage&word=%E6%9E%9C%E5%86%BB%E5%B8...
+2026-03-11 19:33:13,991 - INFO - 📸 找到 508 个图片元素
+2026-03-11 19:33:14,017 - INFO - ✅ 提取到 5 个有效图片URL
+2026-03-11 19:33:14,341 - INFO - 💾 已保存: output/jelly/果冻布丁/果冻布丁_01.jpg (500x667)
+2026-03-11 19:33:14,497 - INFO - 💾 已保存: output/jelly/果冻布丁/果冻布丁_02.jpg (800x1067)
+2026-03-11 19:33:14,634 - INFO - 💾 已保存: output/jelly/果冻布丁/果冻布丁_03.jpg (800x1067)
+2026-03-11 19:33:17,837 - INFO - 🔍 访问: https://image.baidu.com/search/index?tn=baiduimage&word=%E6%A4%B0%E6%9E%9C%E7%BD...
+2026-03-11 19:33:24,998 - INFO - 📸 找到 600 个图片元素
+2026-03-11 19:33:25,026 - INFO - ✅ 提取到 5 个有效图片URL
+2026-03-11 19:33:25,350 - INFO - 💾 已保存: output/canned/椰果罐头/椰果罐头_01.jpg (500x653)
+2026-03-11 19:33:25,487 - INFO - 💾 已保存: output/canned/椰果罐头/椰果罐头_02.jpg (500x653)
+2026-03-11 19:33:25,646 - INFO - 💾 已保存: output/canned/椰果罐头/椰果罐头_03.jpg (500x653)
+2026-03-11 19:33:29,528 - INFO - 🔍 访问: https://image.baidu.com/search/index?tn=baiduimage&word=%E9%BB%84%E6%A1%83%E7%BD...
+2026-03-11 19:33:37,243 - INFO - 📸 找到 827 个图片元素
+2026-03-11 19:33:37,274 - INFO - ✅ 提取到 5 个有效图片URL
+2026-03-11 19:33:37,798 - INFO - 💾 已保存: output/canned/黄桃罐头/黄桃罐头_01.jpg (800x1067)
+2026-03-11 19:33:38,010 - INFO - 💾 已保存: output/canned/黄桃罐头/黄桃罐头_02.jpg (800x1067)
+2026-03-11 19:33:38,191 - INFO - 💾 已保存: output/canned/黄桃罐头/黄桃罐头_03.jpg (800x1067)
+2026-03-11 19:33:41,181 - INFO - 🔍 访问: https://image.baidu.com/search/index?tn=baiduimage&word=%E5%85%AB%E5%AE%9D%E7%B2...
+2026-03-11 19:33:49,107 - INFO - 📸 找到 632 个图片元素
+2026-03-11 19:33:49,149 - INFO - ✅ 提取到 5 个有效图片URL
+2026-03-11 19:33:49,342 - INFO - 💾 已保存: output/canned/八宝粥/八宝粥_01.jpg (500x667)
+2026-03-11 19:33:50,301 - INFO - 💾 已保存: output/canned/八宝粥/八宝粥_02.jpg (500x667)
+2026-03-11 19:33:50,400 - INFO - 💾 已保存: output/canned/八宝粥/八宝粥_03.jpg (500x667)
+2026-03-11 19:33:53,641 - INFO - 🔍 访问: https://image.baidu.com/search/index?tn=baiduimage&word=%E6%AF%8F%E6%97%A5%E5%9D...
+2026-03-11 19:34:01,171 - INFO - 📸 找到 553 个图片元素
+2026-03-11 19:34:01,205 - INFO - ✅ 提取到 5 个有效图片URL
+2026-03-11 19:34:01,417 - INFO - 💾 已保存: output/nuts/每日坚果/每日坚果_01.jpg (500x606)
+2026-03-11 19:34:01,600 - INFO - 💾 已保存: output/nuts/每日坚果/每日坚果_02.jpg (500x598)
+2026-03-11 19:34:01,702 - INFO - 💾 已保存: output/nuts/每日坚果/每日坚果_03.jpg (509x500)
+2026-03-11 19:34:05,069 - INFO - 🔍 访问: https://image.baidu.com/search/index?tn=baiduimage&word=%E6%B7%B7%E5%90%88%E5%9D...
+2026-03-11 19:34:12,160 - INFO - 📸 找到 554 个图片元素
+2026-03-11 19:34:12,190 - INFO - ✅ 提取到 5 个有效图片URL
+2026-03-11 19:34:12,357 - INFO - 💾 已保存: output/nuts/混合坚果/混合坚果_01.jpg (500x500)
+2026-03-11 19:34:12,440 - INFO - 💾 已保存: output/nuts/混合坚果/混合坚果_02.jpg (500x500)
+2026-03-11 19:34:12,630 - INFO - 💾 已保存: output/nuts/混合坚果/混合坚果_03.jpg (500x500)
+2026-03-11 19:34:16,387 - INFO - 🔍 访问: https://image.baidu.com/search/index?tn=baiduimage&word=%E5%A4%8F%E5%A8%81%E5%A4...
+2026-03-11 19:34:23,758 - INFO - 📸 找到 532 个图片元素
+2026-03-11 19:34:23,793 - INFO - ✅ 提取到 5 个有效图片URL
+2026-03-11 19:34:24,108 - INFO - 💾 已保存: output/nuts/夏威夷果/夏威夷果_01.jpg (800x1067)
+2026-03-11 19:34:24,190 - INFO - 💾 已保存: output/nuts/夏威夷果/夏威夷果_02.jpg (800x1067)
+2026-03-11 19:34:25,012 - INFO - 💾 已保存: output/nuts/夏威夷果/夏威夷果_03.jpg (800x1067)
+2026-03-11 19:34:28,019 - INFO - 🔍 访问: https://image.baidu.com/search/index?tn=baiduimage&word=%E7%A2%A7%E6%A0%B9%E6%9E...
+2026-03-11 19:34:35,790 - INFO - 📸 找到 553 个图片元素
+2026-03-11 19:34:35,817 - INFO - ✅ 提取到 5 个有效图片URL
+2026-03-11 19:34:36,442 - INFO - 💾 已保存: output/nuts/碧根果/碧根果_01.jpg (500x1275)
+2026-03-11 19:34:36,721 - INFO - 💾 已保存: output/nuts/碧根果/碧根果_02.jpg (800x1069)
+2026-03-11 19:34:36,874 - INFO - 💾 已保存: output/nuts/碧根果/碧根果_03.jpg (800x1067)
+2026-03-11 19:34:40,795 - INFO - 🔍 访问: https://image.baidu.com/search/index?tn=baiduimage&word=%E5%BC%80%E5%BF%83%E6%9E...
+2026-03-11 19:34:48,236 - INFO - 📸 找到 574 个图片元素
+2026-03-11 19:34:48,269 - INFO - ✅ 提取到 5 个有效图片URL
+2026-03-11 19:34:48,740 - INFO - 💾 已保存: output/nuts/开心果/开心果_01.jpg (500x888)
+2026-03-11 19:34:48,947 - INFO - 💾 已保存: output/nuts/开心果/开心果_02.jpg (500x888)
+2026-03-11 19:34:49,280 - INFO - 💾 已保存: output/nuts/开心果/开心果_03.jpg (500x888)
+2026-03-11 19:34:52,436 - INFO - 🔍 访问: https://image.baidu.com/search/index?tn=baiduimage&word=%E9%B3%95%E9%B1%BC%E7%89...
+2026-03-11 19:34:59,572 - INFO - 📸 找到 498 个图片元素
+2026-03-11 19:34:59,599 - INFO - ✅ 提取到 5 个有效图片URL
+2026-03-11 19:35:00,308 - INFO - 💾 已保存: output/seafood/鳕鱼片/鳕鱼片_01.jpg (500x621)
+2026-03-11 19:35:00,397 - INFO - 💾 已保存: output/seafood/鳕鱼片/鳕鱼片_02.jpg (500x621)
+2026-03-11 19:35:00,601 - INFO - 💾 已保存: output/seafood/鳕鱼片/鳕鱼片_03.jpg (500x621)
+2026-03-11 19:35:03,993 - INFO - 🔍 访问: https://image.baidu.com/search/index?tn=baiduimage&word=%E9%B1%BF%E9%B1%BC%E4%B8...
+2026-03-11 19:35:11,814 - INFO - 📸 找到 664 个图片元素
+2026-03-11 19:35:11,847 - INFO - ✅ 提取到 5 个有效图片URL
+2026-03-11 19:35:12,313 - INFO - 💾 已保存: output/seafood/鱿鱼丝/鱿鱼丝_01.jpg (1067x800)
+2026-03-11 19:35:12,432 - INFO - 💾 已保存: output/seafood/鱿鱼丝/鱿鱼丝_02.jpg (800x1422)
+2026-03-11 19:35:12,609 - INFO - 💾 已保存: output/seafood/鱿鱼丝/鱿鱼丝_03.jpg (800x1422)
+2026-03-11 19:35:15,945 - INFO - 🔍 访问: https://image.baidu.com/search/index?tn=baiduimage&word=%E6%B5%B7%E8%8B%94%E8%84...
+2026-03-11 19:35:23,228 - INFO - 📸 找到 587 个图片元素
+2026-03-11 19:35:23,255 - INFO - ✅ 提取到 5 个有效图片URL
+2026-03-11 19:35:23,588 - INFO - 💾 已保存: output/seafood/海苔脆/海苔脆_01.jpg (500x649)
+2026-03-11 19:35:23,710 - INFO - 💾 已保存: output/seafood/海苔脆/海苔脆_02.jpg (500x651)
+2026-03-11 19:35:23,885 - INFO - 💾 已保存: output/seafood/海苔脆/海苔脆_03.jpg (475x484)
+2026-03-11 19:35:26,565 - INFO - 🔍 访问: https://image.baidu.com/search/index?tn=baiduimage&word=%E9%B1%BC%E8%B1%86%E8%85...
+2026-03-11 19:35:33,330 - INFO - 📸 找到 500 个图片元素
+2026-03-11 19:35:33,359 - INFO - ✅ 提取到 5 个有效图片URL
+2026-03-11 19:35:33,545 - INFO - 💾 已保存: output/seafood/鱼豆腐/鱼豆腐_01.jpg (1036x584)
+2026-03-11 19:35:35,185 - INFO - 💾 已保存: output/seafood/鱼豆腐/鱼豆腐_02.jpg (800x800)
+2026-03-11 19:35:35,284 - INFO - 💾 已保存: output/seafood/鱼豆腐/鱼豆腐_03.jpg (800x1422)
+2026-03-11 19:35:37,874 - INFO - 🔍 访问: https://image.baidu.com/search/index?tn=baiduimage&word=%E9%B1%BC%E8%82%A0+%E9%9...
+2026-03-11 19:35:45,260 - INFO - 📸 找到 621 个图片元素
+2026-03-11 19:35:45,285 - INFO - ✅ 提取到 5 个有效图片URL
+2026-03-11 19:35:45,521 - INFO - 💾 已保存: output/seafood/鱼肠/鱼肠_01.jpg (500x500)
+2026-03-11 19:35:45,614 - INFO - 💾 已保存: output/seafood/鱼肠/鱼肠_02.jpg (500x500)
+2026-03-11 19:35:45,708 - INFO - 💾 已保存: output/seafood/鱼肠/鱼肠_03.jpg (500x500)
+2026-03-11 19:35:49,432 - INFO - 🔍 访问: https://image.baidu.com/search/index?tn=baiduimage&word=%E7%8C%AA%E8%82%89%E8%84...
+2026-03-11 19:35:57,558 - INFO - 📸 找到 499 个图片元素
+2026-03-11 19:35:57,608 - INFO - ✅ 提取到 5 个有效图片URL
+2026-03-11 19:35:57,950 - INFO - 💾 已保存: output/meat/猪肉脯/猪肉脯_01.jpg (500x667)
+2026-03-11 19:35:58,114 - INFO - 💾 已保存: output/meat/猪肉脯/猪肉脯_02.jpg (500x694)
+2026-03-11 19:35:58,276 - INFO - 💾 已保存: output/meat/猪肉脯/猪肉脯_03.jpg (500x683)
+2026-03-11 19:36:01,658 - INFO - 🔍 访问: https://image.baidu.com/search/index?tn=baiduimage&word=%E7%89%9B%E8%82%89%E7%B2...
+2026-03-11 19:36:23,499 - INFO - 📸 找到 623 个图片元素
+2026-03-11 19:36:23,532 - INFO - ✅ 提取到 5 个有效图片URL
+2026-03-11 19:36:23,789 - INFO - 💾 已保存: output/meat/牛肉粒/牛肉粒_01.jpg (1036x584)
+2026-03-11 19:36:26,020 - INFO - 💾 已保存: output/meat/牛肉粒/牛肉粒_02.jpg (800x1067)
+2026-03-11 19:36:26,263 - INFO - 💾 已保存: output/meat/牛肉粒/牛肉粒_03.jpg (800x1067)
+2026-03-11 19:36:29,052 - INFO - 🔍 访问: https://image.baidu.com/search/index?tn=baiduimage&word=%E9%B8%AD%E8%84%96+%E9%9...
+2026-03-11 19:36:36,773 - INFO - 📸 找到 627 个图片元素
+2026-03-11 19:36:36,807 - INFO - ✅ 提取到 5 个有效图片URL
+2026-03-11 19:36:37,011 - INFO - 💾 已保存: output/meat/鸭脖/鸭脖_01.jpg (500x500)
+2026-03-11 19:36:37,096 - INFO - 💾 已保存: output/meat/鸭脖/鸭脖_02.jpg (500x500)
+2026-03-11 19:36:37,257 - INFO - 💾 已保存: output/meat/鸭脖/鸭脖_03.jpg (500x500)
+2026-03-11 19:36:40,210 - INFO - 🔍 访问: https://image.baidu.com/search/index?tn=baiduimage&word=%E5%87%A4%E7%88%AA+%E9%9...
+2026-03-11 19:36:47,158 - INFO - 📸 找到 486 个图片元素
+2026-03-11 19:36:47,184 - INFO - ✅ 提取到 5 个有效图片URL
+2026-03-11 19:36:47,583 - INFO - 💾 已保存: output/meat/凤爪/凤爪_01.jpg (800x1067)
+2026-03-11 19:36:47,849 - INFO - 💾 已保存: output/meat/凤爪/凤爪_02.jpg (800x1067)
+2026-03-11 19:36:48,329 - INFO - 💾 已保存: output/meat/凤爪/凤爪_03.jpg (800x1067)
+2026-03-11 19:36:51,444 - INFO - 🔍 访问: https://image.baidu.com/search/index?tn=baiduimage&word=%E9%B8%A1%E7%BF%85+%E9%9...
+2026-03-11 19:36:58,633 - INFO - 📸 找到 550 个图片元素
+2026-03-11 19:36:58,662 - INFO - ✅ 提取到 5 个有效图片URL
+2026-03-11 19:36:59,028 - INFO - 💾 已保存: output/meat/鸡翅/鸡翅_01.jpg (500x971)
+2026-03-11 19:36:59,268 - INFO - 💾 已保存: output/meat/鸡翅/鸡翅_02.jpg (800x1067)
+2026-03-11 19:36:59,344 - INFO - 💾 已保存: output/meat/鸡翅/鸡翅_03.jpg (500x500)
+2026-03-11 19:37:02,340 - INFO - 🔍 访问: https://image.baidu.com/search/index?tn=baiduimage&word=%E8%9B%8B%E9%BB%84%E9%85...
+2026-03-11 19:37:09,752 - INFO - 📸 找到 575 个图片元素
+2026-03-11 19:37:09,782 - INFO - ✅ 提取到 5 个有效图片URL
+2026-03-11 19:37:10,044 - INFO - 💾 已保存: output/pastry/蛋黄酥/蛋黄酥_01.jpg (500x500)
+2026-03-11 19:37:10,305 - INFO - 💾 已保存: output/pastry/蛋黄酥/蛋黄酥_02.jpg (800x1070)
+2026-03-11 19:37:10,448 - INFO - 💾 已保存: output/pastry/蛋黄酥/蛋黄酥_03.jpg (800x1068)
+2026-03-11 19:37:12,503 - INFO - 🔍 访问: https://image.baidu.com/search/index?tn=baiduimage&word=%E5%87%A4%E6%A2%A8%E9%85...
+2026-03-11 19:37:19,513 - INFO - 📸 找到 613 个图片元素
+2026-03-11 19:37:19,545 - INFO - ✅ 提取到 5 个有效图片URL
+2026-03-11 19:37:19,888 - INFO - 💾 已保存: output/pastry/凤梨酥/凤梨酥_01.jpg (500x750)
+2026-03-11 19:37:19,966 - INFO - 💾 已保存: output/pastry/凤梨酥/凤梨酥_02.jpg (500x750)
+2026-03-11 19:37:20,045 - INFO - 💾 已保存: output/pastry/凤梨酥/凤梨酥_03.jpg (500x667)
+2026-03-11 19:37:22,133 - INFO - 🔍 访问: https://image.baidu.com/search/index?tn=baiduimage&word=%E7%BB%BF%E8%B1%86%E7%B3...
+2026-03-11 19:37:29,476 - INFO - 📸 找到 587 个图片元素
+2026-03-11 19:37:29,505 - INFO - ✅ 提取到 5 个有效图片URL
+2026-03-11 19:37:29,872 - INFO - 💾 已保存: output/pastry/绿豆糕/绿豆糕_01.jpg (800x1067)
+2026-03-11 19:37:29,993 - INFO - 💾 已保存: output/pastry/绿豆糕/绿豆糕_02.jpg (800x1067)
+2026-03-11 19:37:30,089 - INFO - 💾 已保存: output/pastry/绿豆糕/绿豆糕_03.jpg (800x1067)
+2026-03-11 19:37:32,718 - INFO - 🔍 访问: https://image.baidu.com/search/index?tn=baiduimage&word=%E4%BA%91%E7%89%87%E7%B3...
+2026-03-11 19:37:40,117 - INFO - 📸 找到 604 个图片元素
+2026-03-11 19:37:40,143 - INFO - ✅ 提取到 5 个有效图片URL
+2026-03-11 19:37:40,335 - INFO - 💾 已保存: output/pastry/云片糕/云片糕_01.jpg (500x500)
+2026-03-11 19:37:44,118 - INFO - 🔍 访问: https://image.baidu.com/search/index?tn=baiduimage&word=%E4%BA%91%E7%89%87%E7%B3...
+2026-03-11 19:37:50,325 - INFO - 📸 找到 603 个图片元素
+2026-03-11 19:37:50,356 - INFO - ✅ 提取到 5 个有效图片URL
+2026-03-11 19:37:50,649 - INFO - 💾 已保存: output/pastry/云片糕/云片糕_02.jpg (500x667)
+2026-03-11 19:37:50,727 - INFO - 💾 已保存: output/pastry/云片糕/云片糕_03.jpg (500x667)
+2026-03-11 19:37:54,238 - INFO - 🔍 访问: https://image.baidu.com/search/index?tn=baiduimage&word=%E9%BA%BB%E8%8A%B1+%E9%9...
+2026-03-11 19:38:01,822 - INFO - 📸 找到 530 个图片元素
+2026-03-11 19:38:01,850 - INFO - ✅ 提取到 5 个有效图片URL
+2026-03-11 19:38:02,188 - INFO - 💾 已保存: output/pastry/麻花/麻花_01.jpg (800x800)
+2026-03-11 19:38:02,285 - INFO - 💾 已保存: output/pastry/麻花/麻花_02.jpg (890x800)
+2026-03-11 19:38:02,385 - INFO - 💾 已保存: output/pastry/麻花/麻花_03.jpg (800x800)
+2026-03-11 19:38:04,730 - INFO - 🔍 访问: https://image.baidu.com/search/index?tn=baiduimage&word=%E9%9B%AA%E8%8A%B1%E9%85...
+2026-03-11 19:38:12,839 - INFO - 📸 找到 719 个图片元素
+2026-03-11 19:38:12,871 - INFO - ✅ 提取到 5 个有效图片URL
+2026-03-11 19:38:13,345 - INFO - 💾 已保存: output/pastry/雪花酥/雪花酥_01.jpg (500x653)
+2026-03-11 19:38:13,449 - INFO - 💾 已保存: output/pastry/雪花酥/雪花酥_02.jpg (500x653)
+2026-03-11 19:38:13,530 - INFO - 💾 已保存: output/pastry/雪花酥/雪花酥_03.jpg (500x656)
+2026-03-11 19:38:16,383 - INFO - 🔍 访问: https://image.baidu.com/search/index?tn=baiduimage&word=%E7%89%9B%E8%BD%A7%E7%B3...
+2026-03-11 19:38:23,928 - INFO - 📸 找到 652 个图片元素
+2026-03-11 19:38:23,955 - INFO - ✅ 提取到 5 个有效图片URL
+2026-03-11 19:38:24,299 - INFO - 💾 已保存: output/candy/牛轧糖/牛轧糖_01.jpg (800x1765)
+2026-03-11 19:38:24,399 - INFO - 💾 已保存: output/candy/牛轧糖/牛轧糖_02.jpg (800x1765)
+2026-03-11 19:38:24,531 - INFO - 💾 已保存: output/candy/牛轧糖/牛轧糖_03.jpg (800x1765)
+2026-03-11 19:38:28,044 - INFO - 🔍 访问: https://image.baidu.com/search/index?tn=baiduimage&word=%E9%AB%98%E7%B2%B1%E9%A5...
+2026-03-11 19:38:36,239 - INFO - 📸 找到 550 个图片元素
+2026-03-11 19:38:36,271 - INFO - ✅ 提取到 5 个有效图片URL
+2026-03-11 19:38:36,607 - INFO - 💾 已保存: output/candy/高粱饴/高粱饴_01.jpg (500x667)
+2026-03-11 19:38:36,805 - INFO - 💾 已保存: output/candy/高粱饴/高粱饴_02.jpg (500x667)
+2026-03-11 19:38:36,902 - INFO - 💾 已保存: output/candy/高粱饴/高粱饴_03.jpg (500x667)
+2026-03-11 19:38:40,607 - INFO - 🔍 访问: https://image.baidu.com/search/index?tn=baiduimage&word=%E5%A4%A7%E7%99%BD%E5%85...
+2026-03-11 19:38:46,668 - INFO - 📸 找到 585 个图片元素
+2026-03-11 19:38:46,694 - INFO - ✅ 提取到 5 个有效图片URL
+2026-03-11 19:38:46,981 - INFO - 💾 已保存: output/candy/大白兔/大白兔_01.jpg (541x500)
+2026-03-11 19:38:47,077 - INFO - 💾 已保存: output/candy/大白兔/大白兔_02.jpg (527x500)
+2026-03-11 19:38:47,181 - INFO - 💾 已保存: output/candy/大白兔/大白兔_03.jpg (530x500)
+2026-03-11 19:38:49,847 - INFO - 🔍 访问: https://image.baidu.com/search/index?tn=baiduimage&word=%E9%98%BF%E5%B0%94%E5%8D...
+2026-03-11 19:38:57,379 - INFO - 📸 找到 678 个图片元素
+2026-03-11 19:38:57,408 - INFO - ✅ 提取到 5 个有效图片URL
+2026-03-11 19:38:57,852 - INFO - 💾 已保存: output/candy/阿尔卑斯/阿尔卑斯_01.jpg (800x1163)
+2026-03-11 19:38:57,972 - INFO - 💾 已保存: output/candy/阿尔卑斯/阿尔卑斯_02.jpg (524x759)
+2026-03-11 19:38:58,076 - INFO - 💾 已保存: output/candy/阿尔卑斯/阿尔卑斯_03.jpg (524x759)

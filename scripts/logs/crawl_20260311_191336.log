@@ -1,0 +1,23 @@
+2026-03-11 19:13:36,424 - INFO - ====== WebDriver manager ======
+2026-03-11 19:13:36,764 - INFO - Get LATEST chromedriver version for google-chrome
+2026-03-11 19:13:37,214 - INFO - Get LATEST chromedriver version for google-chrome
+2026-03-11 19:13:37,828 - INFO - Driver [/Users/zoe/.wdm/drivers/chromedriver/mac64/146.0.7680.72/chromedriver-mac-arm64/chromedriver] found in cache
+2026-03-11 19:13:39,007 - INFO - ✅ Chrome浏览器初始化成功
+2026-03-11 19:13:39,009 - INFO - 🔍 访问: https://image.baidu.com/search/index?tn=baiduimage&word=%E5%8D%AB%E9%BE%99%E8%BE...
+2026-03-11 19:13:48,648 - INFO - 📸 找到 576 个图片元素
+2026-03-11 19:13:48,693 - INFO - ✅ 提取到 0 个有效图片URL
+2026-03-11 19:13:48,693 - INFO - 🔍 访问: https://image.baidu.com/search/index?tn=baiduimage&word=%E5%8D%AB%E9%BE%99%E8%BE...
+2026-03-11 19:13:54,283 - INFO - 📸 找到 498 个图片元素
+2026-03-11 19:13:54,330 - INFO - ✅ 提取到 0 个有效图片URL
+2026-03-11 19:13:54,330 - INFO - 🔍 访问: https://image.baidu.com/search/index?tn=baiduimage&word=%E5%A4%A7%E7%99%BD%E5%85...
+2026-03-11 19:14:03,738 - INFO - 📸 找到 534 个图片元素
+2026-03-11 19:14:03,803 - INFO - ✅ 提取到 0 个有效图片URL
+2026-03-11 19:14:03,803 - INFO - 🔍 访问: https://image.baidu.com/search/index?tn=baiduimage&word=%E5%A4%A7%E7%99%BD%E5%85...
+2026-03-11 19:14:11,182 - INFO - 📸 找到 562 个图片元素
+2026-03-11 19:14:11,229 - INFO - ✅ 提取到 0 个有效图片URL
+2026-03-11 19:14:11,229 - INFO - 🔍 访问: https://image.baidu.com/search/index?tn=baiduimage&word=%E4%B9%90%E4%BA%8B%E8%96...
+2026-03-11 19:14:18,676 - INFO - 📸 找到 639 个图片元素
+2026-03-11 19:14:18,714 - INFO - ✅ 提取到 0 个有效图片URL
+2026-03-11 19:14:18,714 - INFO - 🔍 访问: https://image.baidu.com/search/index?tn=baiduimage&word=%E4%B9%90%E4%BA%8B%E8%96...
+2026-03-11 19:14:25,248 - INFO - 📸 找到 685 个图片元素
+2026-03-11 19:14:25,293 - INFO - ✅ 提取到 0 个有效图片URL

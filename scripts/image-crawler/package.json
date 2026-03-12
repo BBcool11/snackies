@@ -1,0 +1,19 @@
+{
+  "name": "snackies-image-crawler",
+  "version": "1.0.0",
+  "description": "零食图片爬虫系统 - 确保图文匹配",
+  "type": "module",
+  "scripts": {
+    "crawl": "node crawler.js",
+    "validate": "node validator.js",
+    "download": "node downloader.js"
+  },
+  "dependencies": {
+    "puppeteer": "^21.6.0",
+    "axios": "^1.6.2",
+    "cheerio": "^1.0.0-rc.12",
+    "sharp": "^0.33.1",
+    "tesseract.js": "^5.0.4",
+    "node-fetch": "^3.3.2"
+  }
+}

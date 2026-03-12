@@ -1,0 +1,41 @@
+[
+  {
+    "name": "卫龙辣条",
+    "category": "辣条",
+    "queries": [
+      "卫龙辣条 零食 实拍",
+      "卫龙辣条 零食 实拍图",
+      "卫龙辣条 零食",
+      "卫龙辣条"
+    ],
+    "candidates": [],
+    "downloaded": [],
+    "success": false
+  },
+  {
+    "name": "大白兔奶糖",
+    "category": "糖果",
+    "queries": [
+      "大白兔奶糖 零食 实拍",
+      "大白兔奶糖 零食 实拍图",
+      "大白兔奶糖 零食",
+      "大白兔奶糖"
+    ],
+    "candidates": [],
+    "downloaded": [],
+    "success": false
+  },
+  {
+    "name": "乐事薯片",
+    "category": "膨化食品",
+    "queries": [
+      "乐事薯片 零食 实拍",
+      "乐事薯片 零食 实拍图",
+      "乐事薯片 零食",
+      "乐事薯片"
+    ],
+    "candidates": [],
+    "downloaded": [],
+    "success": false
+  }
+]
