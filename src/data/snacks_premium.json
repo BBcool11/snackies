@@ -1246,34 +1246,6 @@
     "curations": []
   },
   {
-    "id": 42,
-    "name": "苦荞片",
-    "en_name": "Classic 苦荞片",
-    "category": "other",
-    "status": "on_sale",
-    "tags": [
-      "童年回忆",
-      "在售",
-      "膨化"
-    ],
-    "image": "/snack-images/42.jpg",
-    "brand": "苦荞",
-    "factual_desc": "苦荞片，油润与咔滋兼具的经典膨化食品，是无数人童年零食记忆的重要组成部分。",
-    "nostalgic_quote": "捏碎的声音在安静的课堂上格外响亮，是最刺激的心跳。",
-    "price": 10.0,
-    "era": "90年代",
-    "flavor_category": "sweet",
-    "missing_image": false,
-    "image_valid": true,
-    "flavor_tags": [
-      "savory"
-    ],
-    "scene_tags": [],
-    "origin_region": "Mainland",
-    "era_tags": [],
-    "curations": []
-  },
-  {
     "id": 43,
     "name": "花椒锅巴",
     "en_name": "Classic 花椒锅巴",
@@ -2581,34 +2553,6 @@
     ],
     "scene_tags": [],
     "origin_region": "Mainland",
-    "era_tags": [],
-    "curations": []
-  },
-  {
-    "id": 88,
-    "name": "统一阿萨姆",
-    "en_name": "Classic 统一阿萨姆",
-    "category": "other",
-    "status": "on_sale",
-    "tags": [
-      "童年回忆",
-      "在售",
-      "饮料汽水"
-    ],
-    "image": "/snack-images/88.jpg",
-    "brand": "统一",
-    "factual_desc": "统一阿萨姆，解渴与清爽兼具的经典饮料汽水，是无数人童年零食记忆的重要组成部分。",
-    "nostalgic_quote": "玻璃瓶要还给小卖部，但那口清凉值得跑一趟。",
-    "price": 4.0,
-    "era": "00年代",
-    "flavor_category": "sweet",
-    "missing_image": false,
-    "image_valid": true,
-    "flavor_tags": [
-      "savory"
-    ],
-    "scene_tags": [],
-    "origin_region": "Taiwan",
     "era_tags": [],
     "curations": []
   },
@@ -5721,38 +5665,6 @@
     "curations": []
   },
   {
-    "id": 190,
-    "name": "手指饼干早期版",
-    "en_name": "Classic 手指饼干版",
-    "category": "biscuit",
-    "status": "discontinued",
-    "tags": [
-      "童年回忆",
-      "绝版",
-      "饼干糕点"
-    ],
-    "image": "/snack-images/190.jpg",
-    "brand": "手指饼干",
-    "factual_desc": "手指饼干早期版，酥脆与香甜兼具的经典饼干糕点，是无数人童年零食记忆的重要组成部分。",
-    "nostalgic_quote": "咬一口酥皮掉渣，是最需要小心呵护的美味。",
-    "price": 10.0,
-    "era": "80年代",
-    "flavor_category": "sweet",
-    "missing_image": false,
-    "image_valid": true,
-    "flavor_tags": [
-      "savory"
-    ],
-    "scene_tags": [
-      "office"
-    ],
-    "origin_region": "Mainland",
-    "era_tags": [
-      "childhood_80s"
-    ],
-    "curations": []
-  },
-  {
     "id": 191,
     "name": "闲趣饼干老版",
     "en_name": "Tuc Crackers",
@@ -6314,36 +6226,6 @@
     "nostalgic_quote": "咬一口酥皮掉渣，咸蛋黄的油香在嘴里化开，是中式点心最精致的表达。",
     "price": 10.0,
     "era": "10年代",
-    "flavor_category": "sweet",
-    "missing_image": false,
-    "image_valid": true,
-    "flavor_tags": [
-      "savory"
-    ],
-    "scene_tags": [],
-    "origin_region": "Mainland",
-    "era_tags": [
-      "childhood_80s"
-    ],
-    "curations": []
-  },
-  {
-    "id": 210,
-    "name": "凤梨酥老版",
-    "en_name": "Pineapple Cake",
-    "category": "pastry",
-    "status": "discontinued",
-    "tags": [
-      "童年回忆",
-      "停产",
-      "饼干糕点"
-    ],
-    "image": "/snack-images/210.jpg",
-    "brand": "徐福记",
-    "factual_desc": "台湾传统点心，酥皮包裹凤梨馅料，甜中带酸，是台湾最具代表性的伴手礼。",
-    "nostalgic_quote": "去台湾旅游必买的伴手礼，每一块都是宝岛的阳光味道。",
-    "price": 10.0,
-    "era": "90年代",
     "flavor_category": "sweet",
     "missing_image": false,
     "image_valid": true,
@@ -7037,36 +6919,6 @@
     "curations": [
       "2"
     ]
-  },
-  {
-    "id": 234,
-    "name": "南街村拌面早期",
-    "en_name": "Classic 南街村拌面",
-    "category": "other",
-    "status": "discontinued",
-    "tags": [
-      "童年回忆",
-      "绝版",
-      "蜜饯与速食"
-    ],
-    "image": "/snack-images/234.jpg",
-    "brand": "南街村",
-    "factual_desc": "南街村拌面早期，即食与入味兼具的经典蜜饯与速食，是无数人童年零食记忆的重要组成部分。",
-    "nostalgic_quote": "一包解决一顿饭，是学生党最经济的选择。",
-    "price": 1.5,
-    "era": "80年代",
-    "flavor_category": "sweet",
-    "missing_image": false,
-    "image_valid": true,
-    "flavor_tags": [
-      "savory"
-    ],
-    "scene_tags": [],
-    "origin_region": "Mainland",
-    "era_tags": [
-      "childhood_80s"
-    ],
-    "curations": []
   },
   {
     "id": 235,
@@ -7795,36 +7647,6 @@
     ]
   },
   {
-    "id": 260,
-    "name": "汤达人",
-    "en_name": "Classic 汤达人",
-    "category": "other",
-    "status": "on_sale",
-    "tags": [
-      "童年回忆",
-      "在售",
-      "蜜饯与速食"
-    ],
-    "image": "/snack-images/260.jpg",
-    "brand": "统一",
-    "factual_desc": "汤达人，便捷与方便兼具的经典蜜饯与速食，是无数人童年零食记忆的重要组成部分。",
-    "nostalgic_quote": "开水一冲就能吃，是懒人最需要的便利。",
-    "price": 5.5,
-    "era": "00年代",
-    "flavor_category": "sweet",
-    "missing_image": false,
-    "image_valid": true,
-    "flavor_tags": [
-      "savory"
-    ],
-    "scene_tags": [],
-    "origin_region": "Taiwan",
-    "era_tags": [],
-    "curations": [
-      "2"
-    ]
-  },
-  {
     "id": 261,
     "name": "辛拉面",
     "en_name": "Classic 辛拉面",
@@ -7947,37 +7769,6 @@
     "era_tags": [],
     "curations": [
       "6"
-    ]
-  },
-  {
-    "id": 265,
-    "name": "酸辣粉",
-    "en_name": "Hot and Sour Noodles",
-    "category": "other",
-    "status": "on_sale",
-    "tags": [
-      "童年回忆",
-      "在售",
-      "蜜饯与速食"
-    ],
-    "image": "/snack-images/265.jpg",
-    "brand": "酸辣",
-    "factual_desc": "四川重庆特色粉条，红薯粉制成的粉条配上酸辣汤底，麻辣鲜香，是川渝小吃的代表。",
-    "nostalgic_quote": "辣到鼻涕直流却停不下来，是重庆人对于辣味最执着的追求。",
-    "price": 4.5,
-    "era": "90年代",
-    "flavor_category": "spicy",
-    "missing_image": false,
-    "image_valid": true,
-    "flavor_tags": [
-      "sour",
-      "spicy"
-    ],
-    "scene_tags": [],
-    "origin_region": "Mainland",
-    "era_tags": [],
-    "curations": [
-      "4"
     ]
   },
   {
