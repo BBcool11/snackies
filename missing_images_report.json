@@ -1,0 +1,524 @@
+[
+  {
+    "id": "HOT_2026_001",
+    "name": "冻干草莓脆",
+    "image": "/snack-images-v2/hot_001_o8zezu6h.jpg",
+    "type": "hot"
+  },
+  {
+    "id": "HOT_2026_002",
+    "name": "冻干榴莲干",
+    "image": "/snack-images-v2/hot_002_erl6hhsp.jpg",
+    "type": "hot"
+  },
+  {
+    "id": "HOT_2026_003",
+    "name": "冻干芒果脆",
+    "image": "/snack-images-v2/hot_003_p4dwbck8.jpg",
+    "type": "hot"
+  },
+  {
+    "id": "HOT_2026_004",
+    "name": "冻干酸奶块",
+    "image": "/snack-images-v2/hot_004_f63a2w45.jpg",
+    "type": "hot"
+  },
+  {
+    "id": "HOT_2026_005",
+    "name": "益生菌冻干奶酪块",
+    "image": "/snack-images-v2/hot_005_ogkemcgq.jpg",
+    "type": "hot"
+  },
+  {
+    "id": "HOT_2026_007",
+    "name": "魔芋爽酸辣味",
+    "image": "/snack-images-v2/hot_007_t1jt2kcn.jpg",
+    "type": "hot"
+  },
+  {
+    "id": "HOT_2026_008",
+    "name": "魔芋素毛肚",
+    "image": "/snack-images-v2/hot_008_j12w8nip.jpg",
+    "type": "hot"
+  },
+  {
+    "id": "HOT_2026_009",
+    "name": "低卡魔芋果冻",
+    "image": "/snack-images-v2/hot_009_6qc26sco.jpg",
+    "type": "hot"
+  },
+  {
+    "id": "HOT_2026_011",
+    "name": "Royce生巧克力",
+    "image": "/snack-images-v2/hot_011_ht6268p0.jpg",
+    "type": "hot"
+  },
+  {
+    "id": "HOT_2026_012",
+    "name": "每日黑巧",
+    "image": "/snack-images-v2/hot_012_638cdkvh.jpg",
+    "type": "hot"
+  },
+  {
+    "id": "HOT_2026_013",
+    "name": "诺梵松露巧克力",
+    "image": "/snack-images-v2/hot_013_redr0lxn.jpg",
+    "type": "hot"
+  },
+  {
+    "id": "HOT_2026_014",
+    "name": "生巧熔岩蛋糕",
+    "image": "/snack-images-v2/hot_014_n4zs8muj.jpg",
+    "type": "hot"
+  },
+  {
+    "id": "HOT_2026_015",
+    "name": "冰山熔岩巧克力",
+    "image": "/snack-images-v2/hot_015_j6mv4xsn.jpg",
+    "type": "hot"
+  },
+  {
+    "id": "HOT_2026_016",
+    "name": "爆浆曲奇",
+    "image": "/snack-images-v2/hot_016_jldnb4b9.jpg",
+    "type": "hot"
+  },
+  {
+    "id": "HOT_2026_017",
+    "name": "流心奶黄月饼",
+    "image": "/snack-images-v2/hot_017_m5goc6dr.jpg",
+    "type": "hot"
+  },
+  {
+    "id": "HOT_2026_018",
+    "name": "爆浆软糖",
+    "image": "/snack-images-v2/hot_018_3qejy78c.jpg",
+    "type": "hot"
+  },
+  {
+    "id": "HOT_2026_019",
+    "name": "爆浆小丸子",
+    "image": "/snack-images-v2/hot_019_tizd9rnr.jpg",
+    "type": "hot"
+  },
+  {
+    "id": "HOT_2026_020",
+    "name": "芝士爆浆鱼蛋",
+    "image": "/snack-images-v2/hot_020_p76f84wd.jpg",
+    "type": "hot"
+  },
+  {
+    "id": "HOT_2026_021",
+    "name": "厚切炒酸奶块",
+    "image": "/snack-images-v2/hot_021_5m2m2gf4.jpg",
+    "type": "hot"
+  },
+  {
+    "id": "HOT_2026_022",
+    "name": "厚切芒果干",
+    "image": "/snack-images-v2/hot_022_pu307n99.jpg",
+    "type": "hot"
+  },
+  {
+    "id": "HOT_2026_023",
+    "name": "厚切牛肉干",
+    "image": "/snack-images-v2/hot_023_h46o30mw.jpg",
+    "type": "hot"
+  },
+  {
+    "id": "HOT_2026_024",
+    "name": "厚切猪肉脯",
+    "image": "/snack-images-v2/hot_024_y95jduct.jpg",
+    "type": "hot"
+  },
+  {
+    "id": "HOT_2026_025",
+    "name": "厚切吐司",
+    "image": "/snack-images-v2/hot_025_iie541jt.jpg",
+    "type": "hot"
+  },
+  {
+    "id": "HOT_2026_026",
+    "name": "巴旦木夹心奶枣",
+    "image": "/snack-images-v2/hot_026_e61xlq6r.jpg",
+    "type": "hot"
+  },
+  {
+    "id": "HOT_2026_027",
+    "name": "芝士奶枣",
+    "image": "/snack-images-v2/hot_027_yi8sp56z.jpg",
+    "type": "hot"
+  },
+  {
+    "id": "HOT_2026_028",
+    "name": "抹茶奶枣",
+    "image": "/snack-images-v2/hot_028_qkicsuzu.jpg",
+    "type": "hot"
+  },
+  {
+    "id": "HOT_2026_029",
+    "name": "原味奶枣",
+    "image": "/snack-images-v2/hot_029_syvvo6os.jpg",
+    "type": "hot"
+  },
+  {
+    "id": "HOT_2026_030",
+    "name": "酸奶山楂奶枣",
+    "image": "/snack-images-v2/hot_030_g6fxqs3r.jpg",
+    "type": "hot"
+  },
+  {
+    "id": "HOT_2026_031",
+    "name": "咖啡饼干",
+    "image": "/snack-images-v2/hot_031_zephcbe9.jpg",
+    "type": "hot"
+  },
+  {
+    "id": "HOT_2026_032",
+    "name": "生椰拿铁曲奇",
+    "image": "/snack-images-v2/hot_032_yn6qhq90.jpg",
+    "type": "hot"
+  },
+  {
+    "id": "HOT_2026_033",
+    "name": "抹茶拿铁威化",
+    "image": "/snack-images-v2/hot_033_kryd5c6l.jpg",
+    "type": "hot"
+  },
+  {
+    "id": "HOT_2026_034",
+    "name": "白桃乌龙茶包",
+    "image": "/snack-images-v2/hot_034_xzxd1kdx.jpg",
+    "type": "hot"
+  },
+  {
+    "id": "HOT_2026_035",
+    "name": "桂花乌龙茶",
+    "image": "/snack-images-v2/hot_035_pqkqev0q.jpg",
+    "type": "hot"
+  },
+  {
+    "id": "HOT_2026_036",
+    "name": "鸡胸肉肠",
+    "image": "/snack-images-v2/hot_036_aooewi1y.jpg",
+    "type": "hot"
+  },
+  {
+    "id": "HOT_2026_037",
+    "name": "0糖奥利奥",
+    "image": "/snack-images-v2/hot_037_xs5lw86w.jpg",
+    "type": "hot"
+  },
+  {
+    "id": "HOT_2026_038",
+    "name": "全麦欧包",
+    "image": "/snack-images-v2/hot_038_q1b6j0ue.jpg",
+    "type": "hot"
+  },
+  {
+    "id": "HOT_2026_039",
+    "name": "魔芋爽素毛肚",
+    "image": "/snack-images-v2/hot_039_wd8ghlpd.jpg",
+    "type": "hot"
+  },
+  {
+    "id": "HOT_2026_040",
+    "name": "无糖酸奶",
+    "image": "/snack-images-v2/hot_040_o5u6y2s2.jpg",
+    "type": "hot"
+  },
+  {
+    "id": "HOT_2026_041",
+    "name": "白色恋人饼干",
+    "image": "/snack-images-v2/hot_041_3r8dtic8.jpg",
+    "type": "hot"
+  },
+  {
+    "id": "HOT_2026_042",
+    "name": "薯条三兄弟",
+    "image": "/snack-images-v2/hot_042_qbab7ciw.jpg",
+    "type": "hot"
+  },
+  {
+    "id": "HOT_2026_043",
+    "name": "白色巧克力草莓",
+    "image": "/snack-images-v2/hot_043_z5yypyxx.jpg",
+    "type": "hot"
+  },
+  {
+    "id": "HOT_2026_044",
+    "name": "蜂蜜黄油杏仁",
+    "image": "/snack-images-v2/hot_044_gb6ftc61.jpg",
+    "type": "hot"
+  },
+  {
+    "id": "HOT_2026_049",
+    "name": "榴莲千层",
+    "image": "/snack-images-v2/hot_049_7vheu5ai.jpg",
+    "type": "hot"
+  },
+  {
+    "id": "HOT_2026_050",
+    "name": "半熟芝士",
+    "image": "/snack-images-v2/hot_050_spunhxgk.jpg",
+    "type": "hot"
+  },
+  {
+    "id": "HOT_2026_051",
+    "name": "熔岩芝士蛋糕",
+    "image": "/snack-images-v2/hot_051_affbt4pj.jpg",
+    "type": "hot"
+  },
+  {
+    "id": "HOT_2026_052",
+    "name": "冰山熔岩",
+    "image": "/snack-images-v2/hot_052_fwvaigtn.jpg",
+    "type": "hot"
+  },
+  {
+    "id": "HOT_2026_053",
+    "name": "空气巧克力",
+    "image": "/snack-images-v2/hot_053_qc3nijx3.jpg",
+    "type": "hot"
+  },
+  {
+    "id": "HOT_2026_054",
+    "name": "蒲公英巧克力",
+    "image": "/snack-images-v2/hot_054_9k495nik.jpg",
+    "type": "hot"
+  },
+  {
+    "id": "HOT_2026_055",
+    "name": "黄油啤酒",
+    "image": "/snack-images-v2/hot_055_bumkqf1l.jpg",
+    "type": "hot"
+  },
+  {
+    "id": "HOT_2026_056",
+    "name": "脏脏包",
+    "image": "/snack-images-v2/hot_056_lfgp0smz.jpg",
+    "type": "hot"
+  },
+  {
+    "id": "HOT_2026_057",
+    "name": "咸蛋黄肉松青团",
+    "image": "/snack-images-v2/hot_057_kkozfgr2.jpg",
+    "type": "hot"
+  },
+  {
+    "id": "HOT_2026_058",
+    "name": "芝士拉丝热狗棒",
+    "image": "/snack-images-v2/hot_058_fabzqpz4.jpg",
+    "type": "hot"
+  },
+  {
+    "id": "HOT_2026_059",
+    "name": "韩式炸鸡",
+    "image": "/snack-images-v2/hot_059_3ijhjywz.jpg",
+    "type": "hot"
+  },
+  {
+    "id": "HOT_2026_060",
+    "name": "蛋挞皮",
+    "image": "/snack-images-v2/hot_060_ss7suczx.jpg",
+    "type": "hot"
+  },
+  {
+    "id": "HOT_2026_061",
+    "name": "奶盖蛋糕",
+    "image": "/snack-images-v2/hot_061_w20hpnu2.jpg",
+    "type": "hot"
+  },
+  {
+    "id": "HOT_2026_062",
+    "name": "欧包",
+    "image": "/snack-images-v2/hot_062_9ehi6cp1.jpg",
+    "type": "hot"
+  },
+  {
+    "id": "HOT_2026_063",
+    "name": "软欧包",
+    "image": "/snack-images-v2/hot_063_v0rcs2li.jpg",
+    "type": "hot"
+  },
+  {
+    "id": "HOT_2026_064",
+    "name": "芋泥波波",
+    "image": "/snack-images-v2/hot_064_jurp3z6l.jpg",
+    "type": "hot"
+  },
+  {
+    "id": "HOT_2026_065",
+    "name": "多肉葡萄",
+    "image": "/snack-images-v2/hot_065_oflrly7x.jpg",
+    "type": "hot"
+  },
+  {
+    "id": "HOT_2026_066",
+    "name": "蒟蒻果冻",
+    "image": "/snack-images-v2/hot_066_r5bowyt4.jpg",
+    "type": "hot"
+  },
+  {
+    "id": "HOT_2026_067",
+    "name": "果冻布丁",
+    "image": "/snack-images-v2/hot_067_0iw485to.jpg",
+    "type": "hot"
+  },
+  {
+    "id": "HOT_2026_068",
+    "name": "椰果罐头",
+    "image": "/snack-images-v2/hot_068_qhmbmm21.jpg",
+    "type": "hot"
+  },
+  {
+    "id": "HOT_2026_069",
+    "name": "黄桃罐头",
+    "image": "/snack-images-v2/hot_069_99flm86v.jpg",
+    "type": "hot"
+  },
+  {
+    "id": "HOT_2026_070",
+    "name": "八宝粥",
+    "image": "/snack-images-v2/hot_070_j6f6qp4m.jpg",
+    "type": "hot"
+  },
+  {
+    "id": "HOT_2026_071",
+    "name": "每日坚果",
+    "image": "/snack-images-v2/hot_071_ecyqe4xc.jpg",
+    "type": "hot"
+  },
+  {
+    "id": "HOT_2026_072",
+    "name": "混合坚果",
+    "image": "/snack-images-v2/hot_072_rygvlhem.jpg",
+    "type": "hot"
+  },
+  {
+    "id": "HOT_2026_073",
+    "name": "夏威夷果",
+    "image": "/snack-images-v2/hot_073_y8p0g43k.jpg",
+    "type": "hot"
+  },
+  {
+    "id": "HOT_2026_074",
+    "name": "碧根果",
+    "image": "/snack-images-v2/hot_074_bl5oif3d.jpg",
+    "type": "hot"
+  },
+  {
+    "id": "HOT_2026_075",
+    "name": "开心果",
+    "image": "/snack-images-v2/hot_075_kx02fj98.jpg",
+    "type": "hot"
+  },
+  {
+    "id": "HOT_2026_076",
+    "name": "鳕鱼片",
+    "image": "/snack-images-v2/hot_076_8ea3mv4m.jpg",
+    "type": "hot"
+  },
+  {
+    "id": "HOT_2026_077",
+    "name": "鱿鱼丝",
+    "image": "/snack-images-v2/hot_077_i1jyb749.jpg",
+    "type": "hot"
+  },
+  {
+    "id": "HOT_2026_078",
+    "name": "海苔脆",
+    "image": "/snack-images-v2/hot_078_s5wknn0y.jpg",
+    "type": "hot"
+  },
+  {
+    "id": "HOT_2026_079",
+    "name": "鱼豆腐",
+    "image": "/snack-images-v2/hot_079_ny9syj15.jpg",
+    "type": "hot"
+  },
+  {
+    "id": "HOT_2026_081",
+    "name": "猪肉脯",
+    "image": "/snack-images-v2/hot_081_mgiqfkqw.jpg",
+    "type": "hot"
+  },
+  {
+    "id": "HOT_2026_082",
+    "name": "牛肉粒",
+    "image": "/snack-images-v2/hot_082_a93v43ao.jpg",
+    "type": "hot"
+  },
+  {
+    "id": "HOT_2026_083",
+    "name": "鸭脖",
+    "image": "/snack-images-v2/hot_083_ktah3vzz.jpg",
+    "type": "hot"
+  },
+  {
+    "id": "HOT_2026_084",
+    "name": "凤爪",
+    "image": "/snack-images-v2/hot_084_ppp49bnh.jpg",
+    "type": "hot"
+  },
+  {
+    "id": "HOT_2026_085",
+    "name": "鸡翅",
+    "image": "/snack-images-v2/hot_085_vwqh6ix7.jpg",
+    "type": "hot"
+  },
+  {
+    "id": "HOT_2026_086",
+    "name": "蛋黄酥",
+    "image": "/snack-images-v2/hot_086_x2655gfv.jpg",
+    "type": "hot"
+  },
+  {
+    "id": "HOT_2026_088",
+    "name": "绿豆糕",
+    "image": "/snack-images-v2/hot_088_o28t6v2p.jpg",
+    "type": "hot"
+  },
+  {
+    "id": "HOT_2026_089",
+    "name": "云片糕",
+    "image": "/snack-images-v2/hot_089_p4nkbmdu.jpg",
+    "type": "hot"
+  },
+  {
+    "id": "HOT_2026_090",
+    "name": "麻花",
+    "image": "/snack-images-v2/hot_090_3oqryc2i.jpg",
+    "type": "hot"
+  },
+  {
+    "id": "HOT_2026_091",
+    "name": "雪花酥",
+    "image": "/snack-images-v2/hot_091_elbskd15.jpg",
+    "type": "hot"
+  },
+  {
+    "id": "HOT_2026_092",
+    "name": "牛轧糖",
+    "image": "/snack-images-v2/hot_092_iqz07zww.jpg",
+    "type": "hot"
+  },
+  {
+    "id": "HOT_2026_093",
+    "name": "高粱饴",
+    "image": "/snack-images-v2/hot_093_erxq8qgx.jpg",
+    "type": "hot"
+  },
+  {
+    "id": "HOT_2026_094",
+    "name": "大白兔",
+    "image": "/snack-images-v2/hot_094_fxi0u476.jpg",
+    "type": "hot"
+  },
+  {
+    "id": "HOT_2026_095",
+    "name": "阿尔卑斯",
+    "image": "/snack-images-v2/hot_095_9hryttl6.jpg",
+    "type": "hot"
+  }
+]
