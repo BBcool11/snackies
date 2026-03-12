@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <rect fill="#F5F5F5" width="200" height="200"/>
+  <rect x="50" y="60" width="100" height="80" rx="4" fill="none" stroke="#CCCCCC" stroke-width="2" stroke-dasharray="4,2"/>
+  <text x="100" y="105" font-family="system-ui, sans-serif" font-size="12" fill="#999999" text-anchor="middle">暂无图片</text>
+  <text x="100" y="120" font-family="system-ui, sans-serif" font-size="10" fill="#BBBBBB" text-anchor="middle">COMING SOON</text>
+  <text x="100" y="165" font-family="system-ui, sans-serif" font-size="9" fill="#CCCCCC" text-anchor="middle">暂时没找到这款零食的高清图</text>
+  <text x="100" y="178" font-family="system-ui, sans-serif" font-size="9" fill="#CCCCCC" text-anchor="middle">后续会补齐</text>
+</svg>
